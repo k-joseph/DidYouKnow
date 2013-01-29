@@ -1,0 +1,10 @@
+Installing git and accessing it through the 	original command prompt on windows.
+
+Download a git package, which may be zip file from any of your most trusted sites,
+Unzip the zipped folder containing git[] = new {git bash, git gui}
+Notice that by installing git via running the setup, you will have access to git bash which is a command prompt view of git where you can knowmally run git commands, while using that, i noticed that git bash complies to terminal commands mostly, which is good for linux users than window's
+
+Now if you want to be able to run your git commands from the cmd, on windows, you will need to add the path to git  bin, forexample: c:/program files/git/bin    to your environmental variables, under path so that you can have something like: 
+ 
+C:\Program Files\java\jdk1.7.0\bin;C:\Program Files\maven\apache-maven-3.0.4\bin;C:\Program Files\Git\bin;  in Variable name:
+notice that C:\Program Files\java\jdk1.7.0\bin is path for my jdk, C:\Program Files\maven\apache-maven-3.0.4\bin is path for maven and finally C:\Program Files\Git\bin  which is path for git, we seperate the different paths with a semicolon, and put a semicolon at the end of the path so that we can keep on adding another path if any.
