@@ -1,0 +1,233 @@
+ C:\>cd Users\kaweesi joseph\AppData\Local\Android\android-sdk\platform-tools
+
+C:\Users\kaweesi joseph\AppData\Local\Android\android-sdk\platform-tools>adb ins
+tall OpenMRS-PlanetUpdates_v1.0Signed.apk
+ 
+ 
+ show databases;
+ 
+ use openmrs;
+ 
+  show columns from patient;
+  
+  create database Gitoh;
+  
+  use gitoh;
+  
+  create database if not exists gitoh;
+  
+  mysql> create table patient (
+    -> first_name char(20),
+    ->  second_name char(20),
+    -> telephone_number integer,
+    -> diagonosis char(16)
+    -> );
+	
+	show tables;
+	
+	show columns from patient;
+	
+	insert into patient values ('kaweesi', 'joseph','0791763663', 'malaria');
+	
+	select * from patient;
+	
+	
+mysql> create table doctor (
+    ->  first_name char(20),
+    -> second_name char(20),
+    -> telephone_number integer
+    -> ,
+    -> salary DOUBLE(16,4)
+    -> );
+	
+	insert into doctor values ('Ben', 'Carson', '643373645342', '50000');
+	
+	mysql> create table sample (
+    -> some_value VARCHAR(25)
+    -> );
+	
+	drop table sample;
+	 
+	 /**blob means binaryy large object, almost ==text*/
+	 
+	 mysql> create table sample (
+    -> col1 char(20),
+    -> col2 varchar(20),
+    -> col3 text,
+    -> col4 tinytext,
+    -> col5 mediumtext,
+    -> col6 longtext,
+    -> col7 blob);
+	
+	
+	select * from patient, doctor;
+	
+	
+	/** unsigned means dont include negative numbers*/
+	
+	/** zerofill will fill up our column and the space thats (before the value)left infront of the column with zeros */
+	
+	mysql> create table numbers (
+    -> i int,
+    -> t tinyint,
+    -> s smallint,
+    -> m mediumint,
+    -> b bigint,
+    -> tu tinyint unsigned,
+    -> z int zerofill,
+    -> n int not null);
+	
+	
+	 insert into numbers values (300, 0126, 300, 300, 300, 30, 300, 300);
+	 
+	  insert into numbers (n) values (20);
+	  
+	  select * from numbers;
+	  
+	  mysql> create table maths (
+    -> f float,
+    -> d double
+    -> );
+	
+	insert into maths values (123, 123);
+	select * from maths;
+	
+	insert into maths (12323233232232, 23313443424324123)
+	select * from maths;
+	
+	mysql> insert into maths values (123232332322325463434534324242, 355234342452342
+341321412411434431423543440);
+select * from maths;
+
+mysql> create table pricelist (
+    -> price decimal(8,2));
+	
+	
+insert into pricelist values (3);
+select * from pricelist;
+
+
+ insert into pricelist values (3.555555555555);
+ select * from pricelist;
+	
+	select patient_id, date_created, date_voided, void_reason, voided_by from patient;
+	
+	insert into fruits values ('apple', 'green');
+	
+	select recipeID, name from recipes where name like 'roast';
+	
+	
+	/****************BE  CARE FULL WHILE USING**********************/
+	_____________________________________________________
+	UPDATE fruits SET color =  'blue' WHERE name =  'apple';
+	
+	alter table copy rename fruits;
+	
+	alter table fruits add shape char(20) default 'round';  //adds a column called with values round for all
+	
+	alter table fruits drop shape;    // deletes the previously created column
+	alter table fruits change color size tinyint;
+	
+			CREATE TABLE people(
+		personId SMALLINT NOT NULL AUTO_INCREMENT ,
+		nameCHAR( 20 ) NOT NULL ,
+		PRIMARY KEY ( personId )
+		);
+		
+	insert into people (name) values ("John"), ("Joseph"), ("Jackie"), ("Junior");
+
+			SELECT * 
+		FROM  `people` 
+		LIMIT 0 , 30;
+	________________________________________________________________
+	Numeric Comparision operators
+	~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+	select 5 = 5.0;    gives 1 or true // boolean
+	select 5 = 5.1;     gievs 0 or false
+	select 5 <5 ;  =====0
+	select 5<=5;  ===== 1
+	select 5 !=3; = ====1
+	select 5 <> 5; =====0
+	select 7 = null;   = ====NULL
+	select 7 <=> null; =====0
+	select null <=> null; =====1
+	select null = null; =====NULL
+	select 3 is null; =====0
+	select null is null;
+	select null is not null; =====0
+	select "good";  =====good
+	 select "good" is "good";  //error
+	 select 3 is 3; //error
+	 
+	 _________________________________
+	 String comparison operators
+	 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+	 select 'hello' = 'hello';  =====1
+	 select 'hello' like 'hi';   ======0
+	 select 'hello' = '_ello';  ======1  //world card character
+	 select 'hello' = '_____';  =====1    //world card character
+	 select 'hello' like  '_____'; ====1
+	 select 'hello' like '%o';    0
+	 select 'hello' like '%e%; 1
+	 select name from food.recipes where name like '%curry%';   // % is any thing at all
+	 
+	 _________________________________
+	 Logical comparison operators
+	 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+	 select 3 = 3 or 3 = 4;     1 // returns true if either of the expressions is true
+	 select 2=4 or 3=5;     0
+	 select 3 = 3 || = 3 = 4;    1//   ||  is the same as or
+	 select 3 = 3 and 3=4;   0//returns true if all of the expressions are true
+	 select 3 = 3 && 4 = 4;  1 // &&  is the same as and
+	 select 3+3 = 6 %% 4*3 = 12;   1
+	 select not (3 = 3);  0
+	 select not (3 = 4); 1
+	 select ! (3 = 3)      0      //!  = bang key
+	select name from food.recipes where (name like '%%veg%' or name like '%%carrot%'
+		or name like '%cabbage%' andm not (name like '%coconut%');
+	_______________________________
+	Binary  operators
+	~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+	select 1 | 3;   3 // request mysql to look at all the operands as seperate
+	select 1 &3;   1
+	select 1 & 2;  0
+	select 1 | 2;    3
+	select  1 << 1;    2 //left bit wise shift operator
+	select  16 >> 6;   0 //left bit wise shift operator
+	
+	__________________________________
+	Regular expressions
+	~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+	select 'hello' regexp 'hell';   1
+	select 'hello' regexp 'h | l';   1// look for letters h and k in 'hello'
+	select 'hello' regexp 'hello| goodbye';   1
+	select 'hello' regexp '^h';  1//just at the beginning of the string 'hello'
+	select 'hello' regexp 'o$';  1//just at the end of the string 'hello'
+	select 'hello' regexp '^ho$';   0
+	select 'hello' regexp '^hello$';   1
+	select 'hello' regexp '^h...$';  1// ...  stand for ell
+	select 'helloJoseph' regexp '^h...$';   0
+	select 'helloJoseph' regexp '^h.+.$';  1
+	select 'hssso' regexp '^hs{3}o$';   1
+	select 'hssssssso' regexp '^hs{3}o$';    0
+	
+	
+	select 'hello' regexp '^h[el]+o$';   1
+     // * inside a regular expression means  ??????
+	select 'hssso' regexp '^[a-z]+$';    1
+	//^m     with in []   tell mysql to look for any character ecexpt m
+	select 'The Gospel os St Luke' regexp 'Matthew|Mark|Luke|John';    1
+	select 'josh@mirtec.net'  regexp '[A-Za-z0-9_]+@[A-Za-z0-9\-]+\.[A-Za-z0-9.\-]+$';   1
+	
+							mysql> select 'kaweesi.joseph2012@gmail.com'  regexp '[A-Za-z0-9_]+@[A-Za-z0-9\-
+						]+\.[A-Za-z0-9.\-]+$';
+						+-------------------------------------------------------------------------------
+						----------+
+						| 'kaweesi.joseph2012@gmail.com'  regexp '[A-Za-z0-9_]+@[A-Za-z0-9\-]+\.[A-Za-z0
+						-9.\-]+$' |
+						+-------------------------------------------------------------------------------
+						----------+
+						|
+								1 |
+	select name from food.recipes where regexp 'veg|carrot|cabbage' and name not regexp 'coconut';					
+	

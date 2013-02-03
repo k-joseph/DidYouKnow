@@ -1,0 +1,551 @@
+
+	________________________________________
+	24-jan
+	____________________________________________
+	[14:52] <k-joseph> hi, i need your assistance so i can solve this problem am, it is standing a blocker,  
+[14:53] <k-joseph> i think before-->> this.location.getName().equalsIgnoreCase(locationId))   was used to set location, ?
+[15:03] <k-joseph> dkayiwa: hi
+[15:04] <dkayiwa> k-joseph:  hi
+[15:04] <k-joseph> [14:52] <k-joseph> hi, i need your assistance so ican solve this problem am, it is standing a blocker,  
+[15:04] <k-joseph> [14:53] <k-joseph> i think before-->>this.location.getName().equalsIgnoreCase(locationId))   was used to set location, ?
+[15:04] <k-joseph> [15:03] <k-joseph> dkayiwa: hi
+[15:04] <dkayiwa> k-joseph:  do you know what this method does? equalsIgnoreCase()
+[15:05] <k-joseph> Compares this String to another String, ignoring case considerations.
+[15:07] <dkayiwa> can you start by pasting the other comment we were discussing?
+[15:08] <k-joseph> checking for it
+[15:12] <k-joseph> not seeing that, was it the last question about what i understand by if (this.locationId == null || !this.locationId.getId().equalsIgnoreCase(locationId)) {  ??
+[15:13] <dkayiwa> there was a comment before that line
+[15:22] <k-joseph> dkayiwa: failing to remember that now, was it  what are you trying to accomplish by this statement? !this.locationId.getClass().getName().equalsIgnoreCase(locationId)
+[15:23] <k-joseph> ?
+[15:23] <dkayiwa> start with the comment which was before that line. just paste it here
+[15:23] <k-joseph> the compiler should be your first reviewer before you send me. unless you fail to fix the compiler error
+[15:24] <dkayiwa> i mean the comment in the code
+[15:25] <k-joseph>                     //only go ahead if it has actually changed OR if wasn't set before
+[15:25] <dkayiwa> so do let us examine that statement
+[15:25] <dkayiwa> can you break it into two parts?
+[15:27] <k-joseph> if(has actually changed || wasn't set before)
+[15:27] <dkayiwa> excellent
+[15:28] <dkayiwa> so can you do each part in relation to locationId? and paste here?
+[15:35] <k-joseph> if (this.location == null || !this.location.getName().equalsIgnoreCase(locationId)), some how challanged by this logic/code:-(
+[15:35] <dkayiwa> does it compile?
+[15:36] <k-joseph> it doesn't, ,just pasted the previous line of code, which works with {Object}Location location;
+[15:37] <dkayiwa> can you fix the compiler error?
+[15:38] <k-joseph> i have tried for several times and still failed that is where my problem is, i ressolved that line of code to if (this.locationId == null ||!this.locationId.getId().equalsIgnoreCase(locationId)) {, and my problem now is fixing that error, from yesturday
+[15:38] <dkayiwa> what is the compiler error message?
+[15:39] <k-joseph> The method getId() is undefined for the type Integer
+[15:39] <dkayiwa> do you understand what the error message means?
+[15:39] <k-joseph> yes, i do
+[15:39] <dkayiwa> what does it mean?
+[15:40] <k-joseph> it requires defining getId(), with Integer object
+[15:41] <dkayiwa> so then why do you call a method which does not exist?
+[15:43] <k-joseph> does that mean i should have called getName(), in its place, i gives the same identical error message
+[15:44] <dkayiwa> what is the class of the object you are dealing with?
+[15:48] <k-joseph> not getting that clearly = (Integer ? Integer : beg your pardon)
+[15:49] <dkayiwa> what is the class of the object on which yo
+[15:50] <k-joseph> UserContext
+[15:50] <k-joseph> is the class name where am calliing it from
+[15:50] <k-joseph> and the object is
+[15:51] <dkayiwa> can you paste here how you are calling the getId() method on an object of that class?
+[15:51] <k-joseph> this.locationId.getId()
+[15:52] <dkayiwa> and you say that the class of the object on which you are calling the getId method is UserContext?
+[15:53] <k-joseph> that is Integer, in that case
+[15:53] <dkayiwa> and does the Integer class have a getId method?
+[15:56] <k-joseph> it does not have getId()
+[15:56] <dkayiwa> so then why are you calling that method when you know it does not have it?
+[15:58] <k-joseph> am just getting that logic now, that i should always call the method, on an object that, it is cotained in?
+[15:58] <dkayiwa> yes
+[15:58] <k-joseph> ok, thanks for that
+[15:58] <dkayiwa> so can you now do it again?
+[15:59] <k-joseph> trying that again,
+[16:17] <k-joseph> is using toString() better, that is what i have in mind, now having gone through Integer class components, 
+[16:19] <dkayiwa> k-joseph:  what do you exactly want to use it for
+[16:20] <k-joseph> replacement  of getName() / getId()
+[16:21] <dkayiwa> what i mean is what are you exactly trying to do?
+[16:22] <dkayiwa> for instance of i do sqrt(2) i can say am getting the sqaue root of the number 2
+[16:22] <dkayiwa> so what are you trying to do?
+[16:23] <k-joseph> this.locationId.toString()   trying to Return a String object representing this Integer's value.
+[16:24] <dkayiwa> i mean what are you trying to do in relation to the comment in the code before that line?
+[16:27] <k-joseph> trying to, ressolve if was not set before, by, !this.locationId.toString().equalsIgnoreCase(locationId)) ??? ?
+[16:28] <dkayiwa> and then for the other part of the comment? how do you plan to do it?
+[16:31] <k-joseph> was planning to leave the first part as it is, but i think this may not help me get what i want, 
+[16:31] <dkayiwa> k-joseph:  what do you mean by leave it as it is?
+[16:33] <k-joseph> was meaning having this,                     if (this.locationId == null || !this.locationId.toString().equalsIgnoreCase(locationId)) {, it looks already disqualified, so i think it should be done by a diifferent way!!
+[16:34] <dkayiwa> the first part is fine and fits in one of the two parts of the comment
+[16:34] <dkayiwa> how do you tell if an object's value has been set?
+[16:35] <k-joseph> not sure
+[16:35] <dkayiwa> can you google it?
+[16:35] <k-joseph> doing that
+[16:36] <dkayiwa> in otherwards, when you declare an object, what value does it start with?
+[16:46] <k-joseph> i think it starts with a default value, like, null, 0, or false,  
+[16:47] <dkayiwa> does it start with all the three that you have given?
+[16:48] <k-joseph> no, null for objects, false is for boolean variable, and 0 or -0, for int
+[16:49] <dkayiwa> so for our case, what value does it start with?
+[16:49] <k-joseph>  null
+[16:50] <k-joseph>   will be back very soon please, 
+[16:50] <dkayiwa> ok tell me when back
+[16:50] <k-joseph> will do that 
+[16:50] <k-joseph>   will be back very soon please, 
+[16:50] <dkayiwa> ok tell me when back
+[16:50] <k-joseph> will do that 
+[17:30] <k-joseph> we can continue pease, 
+[17:30] <dkayiwa> ok
+[17:31] <dkayiwa> so what value does our object start with automatically (without us having to give it a value)
+[17:31] <dkayiwa> ?
+[17:31] <k-joseph> null
+[17:31] <dkayiwa> so how do we tell if its value is not set?
+[17:32] <k-joseph> when it has a null value
+[17:33] <dkayiwa> and how would that look like code wise?
+[17:35] <k-joseph> If(locationId == null ? //value not set : //value set), which 
+[17:36] <k-joseph> does value not set represent changed, ??
+[17:36] <dkayiwa> which of the above two comments should i take?
+[17:36] ->> value :Unknown command
+[17:37] <k-joseph> value not set for the true side
+[17:37] <dkayiwa> value not set means it has not changed
+[17:38] <dkayiwa> value not set means it has not changed from the value which was initially automatically assigned by the compiler
+[17:38] <dkayiwa> does that make sense?
+[17:39] <k-joseph> it does, like null in this case?
+[17:39] <dkayiwa> yes
+[17:39] <k-joseph> ok, gotten that part, 
+[17:40] <dkayiwa> so what is the remaining part of the comment?
+[17:40] <k-joseph> if was not set
+[17:40] <dkayiwa> paste the comment again here
+[17:40] <k-joseph>                     //only go ahead if it has actually changed OR if wasn't set before
+[17:41] <dkayiwa> how do we tell if the value was not set?
+[17:42] <dkayiwa> or how do we tell if value was set
+[17:42] <k-joseph> if it equal to null or a value, then was set, and the opposite is true
+[17:43] <dkayiwa> can you put it in code to show how we tell if value wasn't set before?
+[17:46] <k-joseph> first here, this.location == null // you said, null represents value was set? are we taking this that at first value wasn't null, so that we can say it has been set to null
+[17:46] <k-joseph> originally by compiler
+[17:47] <dkayiwa> the comment above whenever it talks of value being set, it means being set by user instead of compiler
+[17:47] <dkayiwa> does that make things clearer?
+[17:48] <k-joseph> yes it does, then i understand that 
+[17:48] <dkayiwa> so can you now put it in code to show how we tell if value wasn't set before?
+[17:54] <k-joseph> am not yet well versed with (his.location == null , according to the comment what then was the value that has now changed, this is still confusing me, but am very well interested in answering that question, 
+[17:56] <dkayiwa> if location == null, is the value set or not?
+[17:57] <k-joseph> i think it is not, or you mean that not being set would be location == ""
+[17:57] <k-joseph> ?
+[17:58] <k-joseph> for at first it is set to null, while instanciation
+[17:58] <dkayiwa> how does the location get a value of "" ?
+[17:58] <dkayiwa> how does the location get a value of "" ?
+[17:59] <dkayiwa> when we talk of being set we are not refering to the compiler
+[17:59] <dkayiwa> i told you that above
+[17:59] <dkayiwa> are we together on this?
+[18:00] <k-joseph> yes, you did, so at first, nothing is set, right, and now at that line set to null?? ok got that
+[18:01] <dkayiwa> so can you now put it in code to show how we tell if value wasn't set before?
+[18:04] <k-joseph> !(this.location)
+[18:05] <dkayiwa> what does that mean?
+[18:06] <k-joseph> means that it is not equal to the current value of location
+[18:07] <dkayiwa> whats the current value of location?
+[18:07] <k-joseph> null
+[18:09] <dkayiwa> so you are comparing the value stored in location and null?
+[18:11] <k-joseph> yes, at first location is initialised to null, 
+[18:13] <dkayiwa> so can you do the codewise comparison which shows that you are actually comparing the two values?
+[18:23] ->> Attempting to join #freeconferencing
+[18:56] * dkayiwa (~dkayiwa@41.210.129.3) Quit ( Ping timeout: 252 seconds )
+
+
+[12:51] <dkayiwa> so how do we tell if locationId has changed?
+[12:51] ->> dkayiwa is ~dkayiwa@41.210.129.78 (Daniel Kayiwa)
+[12:51] ->> dkayiwa is on: #openmrs
+[12:51] ->> dkayiwa using kornbluth.freenode.net (Frankfurt, Germany)
+[12:51] ->> dkayiwa :End of /WHOIS list.
+[12:52] <k-joseph> dkayiwa: we tell if locationId has changed when it is allocated a value, bby the user, thus not null value
+[12:53] <dkayiwa> k-joseph:  how would that look like in code
+[12:54] <k-joseph> this.locationId != null
+[12:55] <dkayiwa> so when locationId is not equal to null, it means it was changed?
+[12:55] <k-joseph> that is what i think
+[12:55] <dkayiwa> ok
+[12:56] <dkayiwa> and if it was not changed, what would the code be testing like?
+[12:56] <k-joseph> this.locationId == null
+[12:56] <dkayiwa> ok
+[12:57] <dkayiwa> so thats the part which deals with the portion of the comment which states like: "OR if wasn't set before"
+[12:57] <dkayiwa> the remaining being this: "if it has actually changed"
+[12:59] <dkayiwa> so we have "this.locationId" and the one which has been got from: this.user.getUserProperty(OpenmrsConstants.USER_PROPERTY_DEFAULT _LOCATION)
+[12:59] <dkayiwa> do you see those two?
+[13:00] <k-joseph> yes i do
+[13:02] <dkayiwa> so do you know how to compare those two values?
+[13:03] <k-joseph> tricky for me, like/
+[13:04] <dkayiwa> k-joseph:  if you have two variables and you want to check if they have equal values (the same), do you know how to?
+[13:05] <k-joseph> yes i do, 
+[13:05] <dkayiwa> so how would you do it?
+[13:09] <k-joseph> if(this.locationId==locationId ? assert "equal" : assert"they are not equal")
+[13:11] <dkayiwa> so this translates to: //only go ahead if it has actually changed OR if wasn't set before
+[13:11] <dkayiwa> if (this.locationId == null || this.locationId != locationId)
+[13:11] <dkayiwa> thats all we have been looking for
+[13:12] <dkayiwa> but for that comparison you need to first convert locationId from a string to an int
+[13:12] <dkayiwa> ok?
+[13:12] <k-joseph> ok, 
+[13:12] <dkayiwa> so can you now go ahead?
+[13:22] <k-joseph> getting this error Incompatible operand types Integer and String    with if (this.locationId == null || this.locationId != locationId) ressolved it to if (this.locationId == null || !this.locationId.equals(locationId)) {
+[13:23] <dkayiwa> did you read my comments well?
+[13:23] <k-joseph> had not concidered it, focusing on it now
+[13:24] <dkayiwa> ok
+[13:36] <k-joseph> notice the need to ressolve the error The method getLocation() is undefined for the type UserContext   in LocationUtility flie under 
+[13:36] <k-joseph> public static Location getUserDefaultLocation() {
+[13:36] <k-joseph>           return Context.getUserContext().getLocation();
+[13:36] <k-joseph>      }
+[13:36] <dkayiwa> did you first finish the one we were dealing with?
+[13:37] <k-joseph> yes,   it is if (this.locationId == null || this.locationId != Integer.parseInt(locationId)) {
+[13:37] <dkayiwa> ok
+[13:38] <dkayiwa> now the error you are reporting comes because you removed or changed the getLocation method
+[13:38] <dkayiwa> do you get that?
+[13:38] <k-joseph> yes i do
+[13:38] <k-joseph> uunder UserContext file
+[13:39] <dkayiwa> when dealing with API development, we do not change existing API methods
+[13:39] <dkayiwa> that is because module developers are already using those APIs and hence changing them would break their modules
+[13:39] <dkayiwa> ok?
+[13:39] <k-joseph> ok
+[13:40] <dkayiwa> so can you change them back?
+[13:47] <k-joseph> how, i had not made any changes yet apart from the ones i ihave just done in UserContext.SetUserLoaction, what is do you mean exactly by change existing API methods, was this part of them, and not to be subjected to changes, what am i to do then
+[13:50] <k-joseph> tampered with , UserContext.SetUserLoaction()  and field location plus its getter and setter  
+[13:51] <dkayiwa> restore the the methods as they were
+[13:52] <k-joseph> i have done  that 
+[13:55] ->> Attempting to join #Git
+[14:15] <k-joseph> hi
+[14:15] <dkayiwa> so does it compile
+[14:16] <k-joseph> when i restore, do you mean dropping all my added changes, done that and no errors, compiles
+[14:17] <k-joseph> are these methods api methods?
+[14:21] <dkayiwa> no
+[14:21] <dkayiwa> just returning the setLocation and getLocation
+[14:21] <dkayiwa> as they were
+[14:22] <dkayiwa> does that make sense?
+[14:22] <k-joseph> just returning the setLocation and getLocation
+[14:22] <k-joseph> [14:21] <dkayiwa> as they were
+[14:23] <k-joseph> beg your pardon
+[14:23] <dkayiwa> did you touch those two metjods
+[14:23] <dkayiwa> methods
+[14:23] <k-joseph> yes
+[14:28] <k-joseph> i think i had to change the getter and setter of location to much locationId, !!!!!!!!
+[14:33] <k-joseph> :-@
+[14:33] ->> Socket Error: 10053 : Connection is aborted due to timeout or other failure (Server)
+[14:33] ->> Goto http://www.icechat.net/socket for more Socket Error Information
+[14:50] <k-joseph_> meaning i was then supposed to leave private Location location = null;  and its setters and getters as a method component and then create anew set of private Integer locationId = null; is this right??
+[14:51] <dkayiwa> first step, change them back to what they were
+[14:51] <dkayiwa> then tell me which compiler errors you get
+[14:51] <dkayiwa> then i will guide you in how to go about them
+[14:53] <k-joseph_> i have done a git stash, and am now back to the step where i had no, chanes,  
+[14:58] <k-joseph_> chaned private Location location = null; to private Integer locationId = null;  added my changes to setUserLocation() and now the i 
+[14:59] <dkayiwa> do not return the Location object
+[14:59] <dkayiwa> because we removed that and replaced it with locationId
+[15:00] <dkayiwa> are we together?
+[15:01] <k-joseph_> getLocation(returned locationId), now and this is the error, i think we need to apply casting   
+[15:01] <k-joseph_> Type mismatch: cannot convert from Integer to Location
+[15:02] <dkayiwa> do you know how to get a Location object from a locationId?
+[15:02] <k-joseph_> no
+[15:02] <dkayiwa> in otherwards if i have a locationId do you know how i fetch its location>
+[15:02] <dkayiwa> ?
+[15:03] <k-joseph_> no, i dont
+[15:04] <k-joseph_> know that
+[15:04] <dkayiwa> can you look at the location service
+[15:05] <dkayiwa> ?
+[15:05] <k-joseph_> locationService file?
+[15:05] <dkayiwa> whatever you think is the location service
+[15:09] <k-joseph_> looking at location service file
+[15:09] <k-joseph_> @Authorized( { PrivilegeConstants.GET_LOCATIONS })
+[15:09] <k-joseph_>      public Location getLocation(Integer locationId) throws APIException;
+[15:09] <k-joseph_>      
+[15:09] <dkayiwa> so can you use that?
+[15:53] <k-joseph_> how can i fetch and use loactionId from LocationService, this what am doing
+[15:54] <k-joseph_> public Location getLocation() {
+[15:54] <k-joseph_>           return LocationService.getLocation(locationId);
+[15:54] <dkayiwa> does it take away the compiler error?
+[15:54] <k-joseph_> it creates this error, 
+[15:54] <k-joseph_> public Location getLocation() {
+[15:54] <k-joseph_>           return LocationService.getLocation(locationId);
+[15:55] <k-joseph_> Cannot make a static reference to the non-static method getLocation(Integer) from the type LocationService
+[15:55] <dkayiwa> do you remember how the original code used to get  a location object from locationId ?
+[15:56] <k-joseph_> i dont remember that
+[15:58] <dkayiwa> can you check for it on github?
+[15:59] <k-joseph_> which one exactly, the fix for  this last error, 
+[16:00] <dkayiwa> can you check it here?
+[16:00] <dkayiwa> https://github.com/openmrs/openmrs-core/blob/master/api/src/main/java/org/openmrs/api/context/UserContext.java
+[16:00] <dkayiwa> as in check to see how it was getting a location object from a locationId
+[16:04] <k-joseph_> i have seen that
+[16:04] <dkayiwa> ok do it
+[16:06] <k-joseph_> return this.locationId;    ?
+[16:07] <dkayiwa> am not sure i understand your question
+[16:09] <k-joseph_> i mean from github it was return this.location; is this what is required to answer what you mean 
+[16:09] <k-joseph_>  to get  a location object from locationId ?
+[16:09] <k-joseph_> even now, 
+[16:09] <dkayiwa> all i meant was just for you to see how to get a location object from a locationId
+[16:07] <dkayiwa> am not sure i understand your question
+[16:09] <k-joseph_> i mean from github it wasreturn this.location; is this what is required toanswer what you mean 
+[16:09] <k-joseph_>  to get  a location object from locationId ?
+[16:09] <k-joseph_> even now, 
+[16:09] <dkayiwa> all i meant was just for youto see how to get a location object from a locationId
+[18:07] <k-joseph> hi
+[18:07] <dkayiwa> hi
+[18:09] <k-joseph> using that approach doesn't take the error away, may be am just not sure what to do!1
+[18:14] <dkayiwa> what change did you make
+[18:15] <k-joseph> forexample my last change is 
+[18:15] <k-joseph> public Location getLocation() {
+[18:15] <k-joseph>           return this.locationId;
+[18:15] <k-joseph>      }
+[18:16] <dkayiwa> is that what we agreed upon of how to get a location object from a locationId?
+[18:17] <k-joseph> public void setLocation(Location location) {
+[18:17] <k-joseph>           this.location = location;
+[18:17] <k-joseph>      }
+[18:18] <dkayiwa> is that we agreed upon of how to get a location object from a locationId?
+[18:20] <k-joseph> that is according to the link, you gave me, then i didnt understand about locationService 
+[18:20] <dkayiwa> do you see how they get a location object from a locationId?
+[18:21] <dkayiwa> as in from the link i gave you?
+[18:21] ->> dkayiwa is ~dkayiwa@h157.n1.ips.mtn.co.ug (Daniel Kayiwa)
+[18:21] ->> dkayiwa is on: #openmrs
+[18:21] ->> dkayiwa using hobana.freenode.net (Pitesti, RO)
+[18:21] ->> dkayiwa :End of /WHOIS list.
+[18:22] <k-joseph> is not that like 
+[18:22] <k-joseph> public Location getLocation() {
+[18:22] <k-joseph>           return this.location;
+[18:22] <k-joseph>      }
+[18:22] <dkayiwa> is that in the link i gave you?
+[18:23] <k-joseph> yes, https://github.com/openmrs/openmrs-core/blob/master/api/src/main/java/org/openmrs/api/context/UserContext.java
+[18:23] <dkayiwa> and is it getting a location object from a locationId?
+[18:25] <k-joseph> not sure, what you are meaning there please, can you humbly repeat for in clearer form what you are meaning, 
+[18:26] <dkayiwa> in that link where i gave you, do you see, by looking at the whole page, anywhere we get a location by passing in a locationId?
+[18:27] <k-joseph> this.location = Context.getLocationService().getLocation(Integer.valueOf(locationId));
+[18:28] <dkayiwa> exactly
+[18:28] <dkayiwa> thats the one which you should use
+[18:33] <k-joseph> iam i to change any thing in the getter and setter methods of location previously, and how can i stand with out their respective field variable?
+[18:34] <dkayiwa> deal with one thing at a time
+[18:34] <dkayiwa> if you deal with the getter, then first finish it before you go to the setter
+[18:34] <dkayiwa> ok?
+[18:57] <k-joseph> ok, getter:
+[18:58] <k-joseph> public Location getLocation() {
+[18:58] <k-joseph>           Location location = Context.getLocationService().getLocation(Integer.valueOf(locationId));
+[18:58] <k-joseph>           return location;
+[18:58] <k-joseph>           return location;
+[18:58] <k-joseph>      }
+[18:58] <k-joseph> ??
+[18:59] <dkayiwa> what is the type for locationId?
+[18:59] <k-joseph> Integer
+[18:59] <dkayiwa> so what is Integer.valueOf() doing for it?
+[19:00] <k-joseph> nothing thing, that was a mistake, i have removed that 
+[19:00] <dkayiwa> so how does it now look like?
+[19:01] <k-joseph> public Location getLocation() {
+[19:01] <k-joseph>           Location location = Context.getLocationService().getLocation(locationId);
+[19:01] <k-joseph>           return location;
+[19:01] <k-joseph>      }
+[19:02] <dkayiwa> looks better
+[19:03] <dkayiwa> can you just return it and do not first assign it to a local variable?
+[19:03] <k-joseph> doing that
+[19:05] ->> Attempting to join ##java
+[19:15] <k-joseph> that is tricky, how(A)
+[19:15] <k-joseph> ?
+[19:15] <dkayiwa> how to do what?
+[19:16] <k-joseph> > can you just return it and do not first assign it to a local variable?
+[19:16] <dkayiwa> just do: return Context.get........
+[19:19] <k-joseph> fine now, will be back after prayers
+[19:19] <dkayiwa> ok
+
+fri-1-jan-2013+++++++++++++++++++++++++
+___________________________________
+[14:53] <k-joseph> please am kindly requesting for your assistance on this issue so that i can fix it, thanks a lot
+[14:53] ->> checkout :Unknown command
+[14:53] ->> go :Unknown command
+[14:53] <dkayiwa> you start by answering the last question i asked you
+[14:54] ->> commands :Unknown command
+[14:54] ->> command :Unknown command
+[14:54] <k-joseph> what was that, i dont think i remeber it
+[14:55] <dkayiwa> irc logs
+[14:56] <k-joseph> i think it was via querying was'nt it
+[14:56] <dkayiwa> this is a continuous conversation and when i ask, i proceed basing on your response
+[14:56] <dkayiwa> check the irc logs
+[15:05] <k-joseph> was it can you compare the UUID as the way of checking if is daemon user?
+[15:06] <dkayiwa> was that the last one?
+[15:06] <dkayiwa> as per the IRC logs?
+[15:06] <k-joseph> yes
+[15:07] <dkayiwa> which day was that?
+[15:08] <k-joseph> 30-jan-2013
+[15:09] <dkayiwa> it was a private chat which the logs do not have
+[15:09] <dkayiwa> so i will have to repeat it all over
+[15:10] <dkayiwa> list some of the properties of a user object
+[15:12] <k-joseph> userId, person, systemId, username, secretQuestion, roles, 
+[15:12] <dkayiwa> and how do we access them?
+[15:13] <k-joseph> through  messages like getter
+[15:27] <k-joseph> hi, sorry i meant through methods, like getPerson()
+[15:27] <dkayiwa> thats a response to what question?
+[15:28] <k-joseph>  and how do we access them?
+[15:28] <k-joseph> which was refering to  list some of the properties of a user object
+[15:28] <dkayiwa> does the user object have a uuid property?
+[15:29] <k-joseph> no, it does not
+[15:30] <dkayiwa> how do you tell
+[15:30] <dkayiwa> ?
+[15:31] <k-joseph> uuid  os not included among the properties, or variables of the user object
+[15:31] <dkayiwa> ok
+[15:32] <dkayiwa> have you also tried to look at the base classes?
+[15:32] <k-joseph> i have looked at BaseOpenmrsMetadata, and it does not as well
+[15:33] <dkayiwa> ok
+[15:33] <dkayiwa> have you recursively looked at all the base classes up to the topmost?
+[15:34] <k-joseph> do you mean by goin on checking the base class of BaseOpenmrsMetadata  and the corresponding
+[15:34] <k-joseph> ?
+[15:35] <dkayiwa> yes up to the very last topmost
+[15:35] <k-joseph> doing that
+[15:36] <k-joseph> BaseOpenmrsObject   the base object of BaseOpenmrsMetadata  has the uuid property
+[15:36] <dkayiwa> so what does that mean?
+[15:37] <k-joseph> i think it means that i can use it in user
+[15:37] <dkayiwa> and how would you access it?
+[15:40] <k-joseph> BaseOpenmrsObject.getUuid();
+[15:41] <dkayiwa> how would you do it in the method you are working on?
+[15:48] <k-joseph> the idea is this  daemon == BaseOpenmrsObject.getUuid();
+[15:52] <dkayiwa> can you please always use the compiler before you show me????
+[16:20] <k-joseph> am getting this wrong, am not supposed to call a non static method, how am i to do this, that is what i had in mind but i have proved itwrong
+[16:20] <dkayiwa> if an object has a property, from what you have all along read, how would you access it?
+[16:21] <k-joseph> i thought it is through method
+[16:21] <dkayiwa> and did you try it?
+[16:22] <k-joseph> it is what i have been trying via, the getUuid() but it cant work out since it is not static
+[16:23] <dkayiwa> which object are you dealing with?
+[16:24] <k-joseph> BaseOpenmrsObject
+[16:24] <dkayiwa> is that an object or a class?
+[16:25] <k-joseph> a class
+[16:25] <k-joseph> !!!!!!!!!!!
+[16:26] <dkayiwa> and did i ask class or object?
+[16:28] <k-joseph> sorry, am dealing with daemon
+[16:28] <k-joseph> how about this 
+[16:28] <k-joseph> public boolean isDaemonUser(User daemon) {
+[16:28] <k-joseph>           return daemon.toString() == daemon.getUuid();
+[16:28] <k-joseph>      }
+0[16:28] <k-joseph> sorry, am dealing with daemon
+[16:28] <k-joseph> how about this 
+[16:28] <k-joseph> public boolean isDaemonUser(User daemon) {
+[16:28] <k-joseph>           return daemon.toString() == daemon.getUuid();
+[16:28] <k-joseph>      }
+[16:29] <dkayiwa> does it compile?
+[16:29] <k-joseph> checking...............
+[16:34] <k-joseph> runs, since the other time, mvn clean install stopped working, that is still a problem to me
+[16:35] <dkayiwa> what was the last think i told you about you asking me something and consulting your compiler?
+[16:40] <k-joseph> i should always check the compiler first, there are no errors in the code, but i thought you meant compiring the whole openmrs by runningmvn clean install
+[16:41] <dkayiwa> i do not expect you to asking me something like, "should it be this???....." before you consult your compiler. Is that clear?
+[16:42] <k-joseph> yes it is
+[16:42] <dkayiwa> so do you know what a toString method does?
+[16:43] <k-joseph> public boolean isDaemonUser(User daemon) {
+[16:43] <k-joseph>           return daemon.toString() == daemon.getUuid();
+[16:43] <k-joseph>      }
+[16:43] <dkayiwa> did you understand my question?
+[16:43] <k-joseph> Returns a string equal to the value of: 
+[16:43] <dkayiwa> what?
+[16:44] <k-joseph> returns a string equal to daemon
+[16:45] <dkayiwa> is that the meaning of a toString method?
+[16:49] <k-joseph> it returns username, under User class
+[16:50] <dkayiwa> so are you trying to compare username and uuid?
+[16:52] <k-joseph> am supposed to compare daemon and uuid
+[16:52] <dkayiwa> which ticket number is that?
+[16:55] <k-joseph> sorry for the delay it is TRUNK-3424
+[16:55] <dkayiwa> !ticket  TRUNK-3424
+[16:58] <dkayiwa> one is a daemon user if their uuid is equal to that of a daemon user
+[17:04] <k-joseph> :-(
+[17:10] <k-joseph> ????????
+[17:10] <dkayiwa> meaning?e() == daemon.getUuid();  "
+[17:14] <k-joseph> ?
+[17:15] <dkayiwa> can you paste here my statement again?
+[17:15] <k-joseph> one is a daemon user iftheir uuid is equal to that of a daemon user
+[17:17] <k-joseph> i need to do some physical work before the sabbath, thanks a lot for all the assistance, i think i will pick up from there, if you only allowme ?
+[17:18] <dkayiwa> ok no problem
+[17:18] <dkayiwa> see you next time and thanks for your time!!!
+[17:18] <k-joseph> thanks a lot and may God bless you, happy Sabbath
+[15:34] <k-joseph> do you mean by goin onchecking the base class of BaseOpenmrsMetadat
+
++++++++++++++++++++++++++++++
+1-sat-2013
+
+[20:53] <k-joseph> good evenning and welcome back from church, greetings to every one there, ,hope you all had a wonderful experience with Jesus? i too hada good experience of Him, may God bless you + every one through out this this week began:-)
+[20:53] <dkayiwa> Amen!!! We surely had a blessed Sabbath. May you too have a week full of God's blessings!!!
+[20:54] <k-joseph> praise God for that and Amen to that blessing, 
+[20:55] <dkayiwa> Amiina
+[21:15] <k-joseph> hi
+[21:15] ->> Socket Error: 10053 : Connection is aborted due to timeout or other failure (Server)
+[21:15] ->> Goto http://www.icechat.net/socket for more Socket Error Information
+[21:15] ->> Connection closed from wright.freenode.net
+[21:17] <k-joseph> we had stopped on this statement on friday
+[21:17] <k-joseph>    <dkayiwa> one is a daemon user if their uuid is equal to that of a daemon user
+[21:18] <dkayiwa> ok. and how do you understand that?
+[21:19] <k-joseph> that for the user to be a daemon one, his uuid should be equal to the daemon uuid
+[21:28] <k-joseph> hi
+[21:29] <dkayiwa> and how would that look like codewise?
+[21:29] <k-joseph> daemon.getUsername() == daemon.getUuid();
+[21:30] <dkayiwa> are username and uuid meaning the same thing?
+[21:30] <k-joseph> no
+[21:31] <dkayiwa> then why do you have something like that?
+[21:43] <k-joseph> i now understand what the statement meant, ,compairing uuid values
+[21:44] <k-joseph> daemon.toString() == daemon.getUuid();
+[21:44] <dkayiwa> what does toString do?
+[21:45] <k-joseph> returns uuid, overiden from baseopenmrsobject class
+[21:47] <dkayiwa> have you googled about what toString() method does for objects?
+[21:49] <k-joseph> am refering to the one written in the code, not the one at java.lang.Object
+[21:50] <k-joseph> one located in baseopenmrsobject class
+[21:50] <dkayiwa> do you know what property setters and getters are used for?
+[21:51] <k-joseph> to set values for variables or properties and to return the set values
+[21:52] <dkayiwa> so what are you comparing now?
+[21:53] <k-joseph> the user's uuid, with the daemon uuid
+[21:54] <dkayiwa> and is that how they access a user's uuid?
+[21:54] <k-joseph> i think i need your assistance there
+[21:55] <dkayiwa> how do we access the object's uuid?
+[21:55] <k-joseph> objectname.getuuid()
+[21:56] <dkayiwa> and is that how you are accessing it in the code you showed me a few moments ago?
+[21:57] <k-joseph> daemon.getuuid(), am just not yet sure how i can the user uuid which am supposed to compare with that
+[21:59] <dkayiwa> can you again paste here the statement we are trying to translate into code?
+[22:00] <k-joseph> one is adaemon user if their uuid is equal to that of a daemon user
+[22:01] <dkayiwa> and do you know the uuid value for a daemon user?
+[22:02] <k-joseph> yes, it is A4F30A1B-5EB9-11DF-A648-37A07F9C90FB
+[22:01] <dkayiwa> and do you know the uuid value for a daemon user?
+[22:02] <k-joseph> yes, it is A4F30A1B-5EB9-11DF-A648-37A07F9C90FB
+[22:02] <dkayiwa> so how do we tell if one is a daemon user
+[22:03] <k-joseph> daemon.getUuid() == "A4F30A1B-5EB9-11DF-A648-37A07F9C90FB"
+[22:03] <k-joseph> if that is true
+[22:03] <dkayiwa> does it compile?
+[22:11] <k-joseph> it does compile
+[22:18] <dkayiwa> can you create a unit test for that method?
+_____________________________
+sun 3rd-jan-2013
+
+[12:40] <k-joseph> dkayiwa: hi
+[12:45] <dkayiwa> k-joseph:  hi
+[12:46] <dkayiwa> k-joseph:  your unit test naming does not seem to be in line with our convention
+[12:47] <dkayiwa> k-joseph:  secondly, you need two tests: One where the method should return true and the other where the same method should returnfalse
+[12:47] <k-joseph> dkayiwa: does it require me to add @should in Daemon class
+[12:48] <dkayiwa> k-joseph:  you need to learn from what you have been doing in the past, before asking
+[12:49] <dkayiwa> k-joseph:  just look at your past commits and you will understand
+[12:58] * wyclif (~wyclif@98.220.74.158) Quit ( Ping timeout: 245 seconds )
+[13:08] <k-joseph> dkayiwa: http://pastebin.com/m8i09GGB
+[13:09] <dkayiwa> k-joseph:  that looks better
+[13:09] <dkayiwa> k-joseph:  do these tests pass?
+[13:10] <k-joseph> dkayiwa: yes they do pass
+[13:10] <dkayiwa> k-joseph:  can you remind of the ticket number
+[13:10] <k-joseph> dkayiwa: TRUNK-3424
+[13:10] <dkayiwa> !ticket TRUNK-3424
+[13:10] <@OpenMRSBot> dkayiwa: [#TRUNK-3424] Daemon.DAEMON_USER_UUID should be public - OpenMRS JIRA - https://tickets.openmrs.org/browse/TRUNK-3424
+[13:13] <dkayiwa> k-joseph:  did you also add the javadoc that Burke suggests?
+[13:14] <k-joseph> dkayiwa: yes i did, 
+[13:20] <dkayiwa> k-joseph: can you do a commit and i look at it?
+[13:20] <k-joseph> dkayiwa: ok
+[13:23] <dkayiwa> k-joseph:  after you commit, look for another ticket and start working on it
+[13:24] <k-joseph> dkayiwa: ok, 
+[13:31] <k-joseph> dkayiwa: commit at  https://github.com/k-joseph/openmrs-core/commit/TRUNK-3424
+[13:31] <@OpenMRSBot> <http://ln-s.net/+ZdN> (at github.com)
+[13:33] * dkayiwa (~dkayiwa@41.210.129.117) Quit ( Quit: dkayiwa )
+[13:38] * dkayiwa (~dkayiwa@41.210.129.101) has joined #openmrs
+[13:39] <dkayiwa> hi k-joseph
+[13:39] <k-joseph> dkayiwa:  hi
+[13:39] <k-joseph> dkayiwa: how is this TRUNK-3289 ??
+[13:39] <dkayiwa> k-joseph:  in the javadoc, i do not see the method description (as in what the method does)
+[13:40] <dkayiwa> k-joseph:  secondly, why do you hard code the uuid?
+[13:41] <k-joseph> dkayiwa:  secondly, why do you hard code the uuid?  
+[13:41] <k-joseph> dkayiwa: what are you meaning?
+[13:41] <dkayiwa> k-joseph:  why
+[13:42] <dkayiwa> k-joseph:  do you remember the docs i sent you about constants?
+[13:42] <k-joseph> dkayiwa: i do
+[13:43] <dkayiwa> k-joseph:  so do i now make sense?
+[13:43] <k-joseph> dkayiwa: not yet
+[13:44] <k-joseph> dkayiwa: on hard coding
+[13:44] <dkayiwa> k-joseph: its about the constants docs i sent
+[13:43] <dkayiwa> k-joseph:  so do i now make sense?
+[13:43] <k-joseph> dkayiwa: not yet
+[13:44] <k-joseph> dkayiwa: on hard coding
+[13:44] <dkayiwa> k-joseph: its about the constants docs i sent you in reference to the way you are using the uuid in that method
+[13:44] <dkayiwa> k-joseph:  you can just read them again
+[13:49] <dkayiwa> k-joseph:  i also see that you did not claim the ticket
+[13:49] <dkayiwa> k-joseph:  did you?
+[13:49] <dkayiwa> k-joseph:  never work on a ticket before claiming it
+[13:49] <k-joseph> dkayiwa: i claimed it, refresh the page
+[13:49] <k-joseph> dkayiwa: ok
+[13:50] <dkayiwa> k-joseph:  you may end up wasting time duplicating and wasting efforts with someone else working on the same thing
+

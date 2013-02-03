@@ -1,0 +1,51 @@
+ git branch TRUNK-3814
+
+git checkout TRUNK-3814
+
+code>>>>
+
+
+git commit -m "Missing Validators for relationship_type-TRUNK-3814"
+
+
+ git push origin TRUNK-3814
+
+
+ssh-keygen -t rsa -C "your_email@youremail.com"
+
+
+
+git pull --rebase upstream master
+git pull upstream master
+
+refresh
+
+git fetch
+git remote prune origin
+
+git branch -D TRUNK-3814
+
+git push origin :TRUNK-3814
+
+git reset --hard HEAD~1       delete the 5 last commits
+
+ doing this will list for you all the module tags:      git tag
+ then you just do:                           git checkout tagname
+ 
+
+__________________________________________________________________________________
+<khaase> k-joseph_: travis takes the projects' code, builds it and runs it's tests
+<khaase> k-joseph_: then reports back if the tests pass or not_____________________________________________________________________________________________
+___________________________  links:  ______________________________________________________________________
+
+http://snag.gy/
+http://jk.gs/git-stash.html
+http://www.brandonsavage.net/five-ways-to-write-better-code/
+
+TASKS AND SUBTASKS________________________________________________
+https://tickets.openmrs.org/secure/ReleaseNote.jspa?projectId=10000&version=12565
+https://wiki.openmrs.org/display/docs/Bundling+Modules
+
+
+https://tickets.openmrs.org/secure/IssueNavigator.jspa?mode=hide&requestId=12655     from wyclif
+https://wiki.openmrs.org/display/docs/Tickets											all links to tickets
