@@ -549,3 +549,464 @@ sun 3rd-jan-2013
 [13:49] <k-joseph> dkayiwa: ok
 [13:50] <dkayiwa> k-joseph:  you may end up wasting time duplicating and wasting efforts with someone else working on the same thing
 
+[22:23] <k-joseph> dkayiwa: hi
+[22:23] <dkayiwa> k-joseph:  hi
+[22:25] <k-joseph> dkayiwa: commited at https://github.com/k-joseph/openmrs-core/commit/TRUNK-3424
+[22:25] <@OpenMRSBot> <http://ln-s.net/+ZdN> (at github.com)
+[22:25] <dkayiwa> k-joseph:  checking it now
+[22:26] <k-joseph> dkayiwa: ok
+[22:26] <dkayiwa> k-joseph:  the method description should not include implementation details
+[22:27] <dkayiwa> k-joseph:  in otherwards, remove the part which says how the daemon comparison is done
+[22:27] <dkayiwa> k-joseph:  does that make sense?
+[22:30] <k-joseph> dkayiwa: it does, i have removed that and now the first line of that javadoc is checks whether a user is a daemon user or not 
+[22:31] <dkayiwa> k-joseph:  ok good
+[22:31] * djadmin (~djadmin@115.248.50.24) Quit ( Ping timeout: 260 seconds )
+[22:31] <dkayiwa> k-joseph:  secondly, the call needs to be like this: Daemon.isDaemonUser(
+[22:31] <dkayiwa> k-joseph:  that is in your unit tests
+[22:45] * harshadura_ (harshadura@175.157.229.142) Quit ( Ping timeout: 246 seconds )
+[22:46] <k-joseph> dkayiwa: can you please clarify more what you mean by the last two posts, 
+[22:47] <dkayiwa> k-joseph:  check your unit tests, your method call should be: Daemon.isDaemonUser()
+[22:49] <k-joseph> dkayiwa: then i think i need to make isDaemonUser() static, ? right, 
+[22:50] <dkayiwa> k-joseph:  right
+[22:50] <k-joseph> dkayiwa: ok
+[22:52] <k-joseph> dkayiwa: i think i can make a fresh commit
+[22:52] <dkayiwa> k-joseph:  ok
+[22:58] * bhashitha (67f730a0@gateway/web/freenode/ip.103.247.48.160) Quit ( Ping timeout: 245 seconds )
+[22:59] <k-joseph> dkayiwa: dkayiwa: https://github.com/k-joseph/openmrs-core/commit/TRUNK-3424      pullrequest?
+[22:59] <@OpenMRSBot> <http://ln-s.net/+ZdN> (at github.com)
+[23:00] <dkayiwa> k-joseph:  looking
+[23:00] <k-joseph> dkayiwa: ok, mean while am working on TRUNK-3621
+[23:00] <dkayiwa> k-joseph:  ok
+[23:01] <k-joseph> dkayiwa: do you mean it fine to make a pull request?
+[23:02] <dkayiwa> k-joseph:  in the isDaemonUser method, can you do the reverse?
+[23:02] <dkayiwa> k-joseph:  DAEMON_USER_UUID.equals(......)
+[23:02] <dkayiwa> k-joseph:  that will prevent the NPE if the uuid is null
+[23:02] <dkayiwa> k-joseph:  does this make sense?
+[23:02] <dkayiwa> k-joseph:  does this make sense?
+[23:03] <k-joseph> dkayiwa: what is NPE
+[23:03] <dkayiwa> k-joseph:  Null Pointer Exception
+[23:05] <k-joseph> dkayiwa: am not fully getting this can you do the reverse?
+[23:05] <dkayiwa> k-joseph:  if the uuid is null, do you see that the method call will throw a NPE?
+[23:07] <k-joseph> dkayiwa: so can i just use a catch block to take care of this, or there i sa better way?
+[23:08] <dkayiwa> k-joseph:  and easier way is it reverse the statement
+[23:08] <dkayiwa> k-joseph:  as i mentioned above
+[23:11] <k-joseph> dkayiwa: how is that to be done? 
+[23:12] <k-joseph> dkayiwa: daemon.getUuid().equals(DAEMON_USER_UUID) || daemon.getUuid().equals(null)  ??
+[23:12] <dkayiwa> k-joseph: do you see my statement above?
+[23:13] <k-joseph> dkayiwa: i see that 
+[23:13] <k-joseph> k-joseph:  in the isDaemonUser method, can you do the reverse?
+[23:13] <k-joseph> [23:02] <dkayiwa> k-joseph:  DAEMON_USER_U UID.equals(......)
+[23:13] <dkayiwa> k-joseph:  yes use that to do the comparison
+[23:18] <k-joseph> dkayiwa: am failing to figure out how exactly you want me to do that
+[23:19] <dkayiwa> k-joseph:  do you see where you do the equals comparison in that method?
+[23:19] <k-joseph> dkayiwa: i do see that
+[23:20] <dkayiwa> k-joseph:  can you replace it my statement above and then you finish it?
+[23:22] <k-joseph> dkayiwa: am sorry to say but am not understanding that, 
+[23:23] <dkayiwa> k-joseph:  have you first of all done the replacement?
+[23:26] <k-joseph> dkayiwa: daemon.getUuid().DAEMON_USER_UUID.equals(DAEMON_USER_UUID)
+[23:26] <dkayiwa> k-joseph:  does that compile?
+[23:28] * djazayeri (~Adium@c-98-216-51-77.hsd1.ma.comcast.net) Quit ( Quit: Leaving. )
+[23:36] <k-joseph> dkayiwa: ok, i have got what you meant, 
+[23:37] <k-joseph> dkayiwa: return DAEMON_USER_UUID.equals(daemon.getUuid());
+[23:37] <dkayiwa> k-joseph:  thats exactly what i wanted. how did you figure it out?
+[23:38] <k-joseph> dkayiwa: i just had to remeber how the equals() is to be used
+[23:38] <dkayiwa> k-joseph:  ok
+[23:39] <dkayiwa> k-joseph:  what is the advantage of that over the one you have committed?
+[23:40] <k-joseph> dkayiwa: i dont think i can prove the advantage, bu tfrom what i have had from you, this conciders DAEMON_USER_UUID being null as well
+[23:41] <dkayiwa> k-joseph:  what do you mean by DAEMON_USER_UUID being null?
+[23:42] <k-joseph> dkayiwa: i mean daemon uuid == null
+[23:42] <dkayiwa> k-joseph:  can't DAEMON_USER_UUID also be null?
+[23:43] <k-joseph> dkayiwa: DAEMON_USER_UUID is the same as daemon uuid
+[23:43] <dkayiwa> k-joseph:  what do you mean by saying that they are the same?
+[23:43] <k-joseph> dkayiwa: it can be null when there is no value that is initially assigned to it 
+[23:46] <k-joseph> dkayiwa: it looks like, DAEMON_USER_UUID is the in defined uuid for daemon, d
+[23:43] <k-joseph> dkayiwa: DAEMON_USER_UUID is the same as daemon uuid
+[23:43] <dkayiwa> k-joseph:  what do you mean by saying that they are the same?
+[23:43] <k-joseph> dkayiwa: it can be null when there is no value that is initially assigned to it 
+[23:46] <k-joseph> dkayiwa: it looks like, DAEMON_USER_UUID is the in defined uuid for daemon, does that mean that a daemon user can have a user defined universally unique id  ?
+[23:47] <dkayiwa> k-joseph:  not all users are daemon
+[23:47] <dkayiwa> k-joseph:  and in that case can you also change the parameter name?
+[23:48] <dkayiwa> k-joseph:  you gave the parameter the name daemon. but that does not make sense since the user may not be a daemon
+[23:48] <dkayiwa> k-joseph:  do you agree?
+[23:49] <k-joseph> dkayiwa: yes i do, practically how can i create a daemon user account, besides modifying the availabe daemon account 
+[23:50] <k-joseph> dkayiwa: am naming the parameter daemonUsername
+[23:50] <dkayiwa> k-joseph:  which data type is that parameter?
+[23:50] <k-joseph> dkayiwa: User
+[23:50] <dkayiwa> k-joseph:  so is that a user name?
+[23:51] <k-joseph> dkayiwa: so daemonUser, is what am using
+[23:51] <dkayiwa> k-joseph:  will all of them be daemons?
+[23:52] <k-joseph> dkayiwa: do you mean all users
+[23:52] <dkayiwa> k-joseph:  all parameters to that method
+[23:52] <k-joseph> dkayiwa: not neccessarily
+[23:53] <dkayiwa> k-joseph:  so then why do you call it daemon???
+[23:57] <k-joseph> dkayiwa: http://pastebin.com/0zHmmXEj
+[23:58] <dkayiwa> k-joseph:  you did not complete the javadoc for the @param
+[23:59] <dkayiwa> k-joseph:  also for the method description, can you use capitalization whenever it should be?
+[00:00] <dkayiwa> k-joseph:  that is only for the method description
+[00:01] <k-joseph> dkayiwa: @param user, User
+[00:03] <k-joseph> dkayiwa: http://pastebin.com/cxD3xGdm
+[00:04] <dkayiwa> k-joseph:  the method javadoc is still missing on capitalizations and full stops
+[00:05] <dkayiwa> k-joseph:  the @param is still incomplete. you can just look at existing openmrs methods that have javadoc, for an example
+[00:05] <dkayiwa> k-joseph:  the capitalization and full stops are for method description
+
+[00:51] <k-joseph> dkayiwa: hi
+[00:51] <dkayiwa> k-joseph:  make User start with small u
+[00:52] <dkayiwa> k-joseph:  also the @param and @return should not have implementation details
+[00:52] <dkayiwa> k-joseph:  that is, they should not tell the method user that we are actually using uuid to check for daemoness
+[00:53] <dkayiwa> k-joseph:  does that make sense?
+[00:53] <k-joseph> dkayiwa: it does
+[01:01] <k-joseph> dkayiwa: http://pastebin.com/07WkGN1d
+[01:02] <dkayiwa> k-joseph:  ok now commit
+[01:05] <dkayiwa> k-joseph:  did you also make DAEMON_USER_UUID public?
+[01:05] <k-joseph> dkayiwa: no
+[01:06] <dkayiwa> k-joseph:  do you see the ticket title?
+[01:06] <k-joseph> dkayiwa: i had forgotten that, am goin to do that
+[01:06] <dkayiwa> k-joseph:  ok
+[01:07] <dkayiwa> k-joseph:  after committing, you should also create a new ticket for someone to handle Burke's request which goes as below:
+[01:07] <dkayiwa> k-joseph:  Can we filter daemon user from user-related API methods – i.e., getting users or searching users would not include thedaemon user in results?
+[01:10] <k-joseph> dkayiwa: https://github.com/k-joseph/openmrs-core/commit/TRUNK-3424
+[01:10] <@OpenMRSBot> <http://ln-s.net/+ZdN> (at github.com)
+[01:13] <dkayiwa> k-joseph:  create pull request
+[01:13] <dkayiwa> k-joseph:  also on the ticket, mention that you have created a new ticket for Burke's request
+[01:13] <dkayiwa> k-joseph: remember to mention the ticket number
+[01:20] * harshadura (harshadura@175.157.182.226) Quit ( Read error: Connection reset by peer )
+[01:20] * harshadura (harshadura@175.157.182.226) has joined #openmrs
+[01:22] <k-joseph> dkayiwa: is the ticket to be of the same name TRUNK-3414, such that i should just change the description?
+[01:22] <dkayiwa> k-joseph:  the name should be a summary of what the ticket is about
+[01:23] <dkayiwa> k-joseph:  meaning ticket name should a summary of the description
+[01:24] <k-joseph> dkayiwa: that is creating a sub task?
+[01:24] <dkayiwa> k-joseph:  no
+[01:25] <k-joseph> dkayiwa: i see no option for creating a new ticket on the page
+[01:25] <dkayiwa> k-joseph:  which page?
+[01:25] * harshadura (harshadura@175.157.182.226) Quit ( Ping timeout: 256 seconds )
+[01:26] <k-joseph> dkayiwa: am on https://tickets.openmrs.org/browse/TRUNK-3424#comment-194822  i think you should give me a link to create the ticketfrom
+[01:27] <dkayiwa> k-joseph:  dont you see a Create Issue link at the top?
+[01:27] * evmw (~evmw@c-24-60-83-188.hsd1.ma.comcast.net) Quit ( Quit: evmw )
+[01:29] <k-joseph> dkayiwa: seen that
+[01:29] <dkayiwa> k-joseph:  am feeling sleepy. talk to you tomorrow
+[01:29] <k-joseph> dkayiwa: ok, thanks a lot 
+[01:30] * dkayiwa (~dkayiwa@41.210.129.4) Quit ( Quit: dkayiwa )
+m/k-joseph/openmrs-core/commit/TRUNK-3424
+[01:10] <@OpenMRSBot> <http://ln-s.net/+ZdN
+[01:10] <k-joseph> dkayiwa: https://github.com/k-joseph/openmrs-core/commit/TRUNK-3424
+[01:10] <@OpenMRSBot> <http://ln-s.net/+ZdN> (at github.com)
+[01:13] <dkayiwa> k-joseph:  create pull request
+[01:13] <dkayiwa> k-joseph:  also on the ticket, mention that you have created a new ticket for Burke's request
+[01:13] <dkayiwa> k-joseph: remember to mention the ticket number
+[01:20] * harshadura (harshadura@175.157.182.226) Quit ( Read error: Connection reset by peer )
+[01:20] * harshadura (harshadura@175.157.182.226) has joined #openmrs
+[01:22] <k-joseph> dkayiwa: is the ticket to be of the same name TRUNK-3414, such that i should just change the description?
+[01:22] <dkayiwa> k-joseph:  the name should be a summary of what the ticket is about
+[01:23] <dkayiwa> k-joseph:  meaning ticket name should a summary of the description
+[01:24] <k-joseph> dkayiwa: that is creating a sub task?
+[01:24] <dkayiwa> k-joseph:  no
+[01:25] <k-joseph> dkayiwa: i see no option for creating a new ticket on the page
+[01:25] <dkayiwa> k-joseph:  which page?
+[01:25] * harshadura (harshadura@175.157.182.226) Quit ( Ping timeout: 256 seconds )
+[01:26] <k-joseph> dkayiwa: am on https://tickets.openmrs.org/browse/TRUNK-3424#comment-194822  i think you should give me a link to create the ticketfrom
+[01:27] <dkayiwa> k-joseph:  dont you see a Create Issue link at the top?
+[01:27] * evmw (~evmw@c-24-60-83-188.hsd1.ma.comcast.net) Quit ( Quit: evmw )
+[01:29] <k-joseph> dkayiwa: seen that
+[01:29] <dkayiwa> k-joseph:  am feeling sleepy. talk to you tomorrow
+[01:29] <k-joseph> dkayiwa: ok, thanks a lot 
+[01:30] * dkayiwa (~dkayiwa@41.210.129.4) Quit ( Quit: dkayiwa )
+m/k-joseph/openmrs-core/commit/TRUNK-3424
+[01:10] <@OpenMRSBot> <http://ln-s.net/+ZdN
+
+_______________________________________
+mon 04-feb-2013
+
+
+[16:38] <k-joseph> dkayiwa: hi
+[16:38] <dkayiwa> k-joseph: hi
+[16:39] <dkayiwa> k-joseph: the comment on the ticket, was the ticket you created to do with custom data types?
+[16:40] <k-joseph> dkayiwa: not really
+[16:40] <dkayiwa> k-joseph: but thats what you said on the ticket
+[16:41] <k-joseph> dkayiwa: checking, that must have been a mistake
+[16:42] == wyclif [~wyclif@c-98-220-74-158.hsd1.in.comcast.net] has quit [Ping timeout: 248 seconds]
+[16:49] <k-joseph> dkayiwa: i have cleared that mistake,
+[16:49] <k-joseph> dkayiwa: thanks a lot for showing me that
+[16:49] <dkayiwa> k-joseph: and also for the ticket number, no need to give a link
+[16:50] <k-joseph> dkayiwa: ok
+[16:50] <dkayiwa> k-joseph: the ticket number will automatically turn into a hyperlink
+[16:50] <dkayiwa> k-joseph: so correct that too
+[17:01] == kishoreyekkanti [~kishoreye@14.140.166.2] has quit [Quit: Will be back..]
+[17:02] <+suranga> hi dkayiwa when you are free, could you check if TRUNK-3891 needs to be fixed ?
+[17:02] <+suranga> dkayiwa,  I reported it, so I could take it on if you think its valid :)
+[17:05] <dkayiwa> suranga: ok
+[17:07] == hybridivy [hybridivy@183.82.232.129] has joined #openmrs
+[17:14] == judy [29396476@gateway/web/freenode/ip.41.57.100.118] has quit [Ping timeout: 245 seconds]
+[17:14] == apb156 [~apb156@190.2.238.71] has joined #openmrs
+[17:15] <k-joseph> dkayiwa: please you may look at http://pastebin.com/jBh8WbZ5  for TRUNK-3621  which is a subtask of TRUNK-3499, !!
+[17:16] <dkayiwa> k-joseph:  ok
+[17:17] <dkayiwa> !ticket TRUNK-3621
+[17:17] <@OpenMRSBot> dkayiwa: [#TRUNK-3621] Create a custom data type and its associated handler for concepts - OpenMRS JIRA - https://tickets.openmrs.org/browse/TRUNK-3621
+[17:18] <dkayiwa> k-joseph:  did you also create the handler?
+[17:19] <k-joseph> dkayiwa, doing that now
+
+<k-joseph> dkayiwa: working on TRUNK-3621,   http://pastebin.com/0y5mftdt
+[22:10] <dkayiwa> k-joseph: finished it?
+[22:10] <k-joseph> dkayiwa: what do you mean?
+[22:10] <dkayiwa> k-joseph:  have you done all you need to?
+[22:11] * djadmin (~djadmin@223.235.79.101) has joined #openmrs
+[22:11] <k-joseph> dkayiwa: yes, i have done the two the conceptdatatype and its handler
+[22:11] <dkayiwa> k-joseph:  ok reviewing
+[22:15] * breeze (~cjbriese@64.6.160.170) has joined #openmrs
+[22:16] * djadmin (~djadmin@223.235.79.101) Quit ( Ping timeout: 264 seconds )
+[22:16] * djadmin (~djadmin@223.231.201.160) has joined #openmrs
+[22:29] * djazayeri (~Adium@209.156.249.193) has joined #openmrs
+[22:29] * ChanServ sets mode +o djazayeri for #openmrs
+[22:30] <k-joseph> dkayiwa: hi, i have a question
+[22:30] <dkayiwa> k-joseph:  ok
+[22:31] <k-joseph> dkayiwa: where on http://snag.gy/tH9Dg.jpg  is the example usage of the handler:?
+[23:28] <k-joseph> dkayiwa: hi
+[23:28] <dkayiwa> k-joseph:  hi
+[23:28] <dkayiwa> k-joseph:  when serializing, store the concept uuid
+[23:29] <dkayiwa> k-joseph:  and when deserializing, fetch a concept using its uuid
+[23:29] <dkayiwa> k-joseph:  does this make sense?
+[23:31] * andreapat (~andrea@155.91.28.231) has joined #openmrs
+[23:31] <andreapat> mseation, you here?
+[23:52] <k-joseph> dkayiwa: how can i fetch a concept using its uuid?, i need your assistance there please, 
+[23:52] <dkayiwa> k-joseph:  using the ConceptService
+[23:53] <andreapat> mseaton?
+[23:58] <+mseaton> andreapat: ?
+[23:58] <andreapat> mseaton, hi
+[23:58] <+mseaton> andreapat: hey
+[23:59] <andreapat> mseaton, It's fine to leave Daniel on it
+[23:59] <+mseaton> andreapat: ok
+[23:59] <andreapat> mseaton, any other tickets in mind?
+[00:01] <+mseaton> andreapat: you could do PS-5.  i'll add a comment on the ticket.
+[00:02] <andreapat> mseaton, ok
+
+2] <dkayiwa> k-joseph: hi
+[13:43] <k-joseph> dkayiwa: hi
+[13:43] <dkayiwa> suranga:  there is always a hacky way
+[13:43] <dkayiwa> k-joseph: for typedValue.getUuid(), what happens if typedValue is null?
+[13:44] <k-joseph> dkayiwa: null is returned
+[13:44] <+suranga> dkayiwa,  but in this situation, I dont really have a provider table to work with, just a search widget which gets the data for me... im notsure which alternative u are suggesting :(
+[13:44] <dkayiwa> k-joseph: did you understand my question?
+[13:44] * ibewes (~ibewes@41.212.103.107) Quit ( Ping timeout: 248 seconds )
+[13:45] <dkayiwa> suranga:  you can hackily replace the entire page :)
+[13:45] <k-joseph> dkayiwa: i think i have not, could please repeat, in a more familiar way
+[13:46] <+suranga> dkayiwa, mm... how shall I google for what you are suggesting ? :)
+[13:46] <dkayiwa> k-joseph: try assign typedValue to null. then make the call typedValue.getUuid()
+[13:47] <k-joseph> dkayiwa: do you intend i use some thing like if (typedValue==null) return null;
+[13:47] <dkayiwa> k-joseph: is that an answer to my question?
+[13:47] * ibewes (~ibewes@41.212.103.107) has joined #openmrs
+[13:47] <k-joseph> dkayiwa: that is what am thinking o fthe question
+[13:48] <dkayiwa> k-joseph: what question did i ask?
+[13:48] <k-joseph> dkayiwa: <dkayiwa> k-joseph: for typedValue.get Uuid(), what happens if typedValue is null?
+[13:48] <dkayiwa> suranga:  about replacing an entire page?
+[13:48] <+suranga> dkayiwa, yes please, i'd love to do that :)
+[13:48] <dkayiwa> k-joseph: and what is your answer?
+[13:49] <dkayiwa> suranga:  try look for its url controller mapping first
+[13:50] <k-joseph> dkayiwa: null
+[13:50] <dkayiwa> k-joseph: what does that mean?
+[13:51] <k-joseph> dkayiwa: returns null when typedValue is null according to
+[13:51] <k-joseph>  if (typedValue==null) return null;
+[13:51] * djadmin2 (~djadmin@115.248.50.24) Quit ( Ping timeout: 264 seconds )
+[13:52] <dkayiwa> k-joseph: write a small throw away unit test, where you start by assigning typedValue to null, then do typedValue.getUuid(). Tell me whathappens
+[13:52] <dkayiwa> k-joseph: ok?
+[13:52] <k-joseph> dkayiwa: ok
+
+7th-jan-2013 thursday
+__________________________________
+[19:59] <dkayiwa> k-joseph: hi
+[19:59] <k-joseph> dkayiwa: what could be the cause of having these errors on the imports
+[20:00] <dkayiwa> k-joseph: in eclipse?
+[20:00] <k-joseph> dkayiwa: yes
+[20:00] <dkayiwa> k-joseph: in which project?
+[20:01] * djazayeri (~Adium@209.156.249.193) Quit ( Quit: Leaving. )
+[20:02] <k-joseph> dkayiwa: please you can take a look at this, only the test project looks fine http://snag.gy/Bz09F.jpg
+[20:03] <dkayiwa> k-joseph: can you see if doing a hard reset changes anything?
+[20:07] * downey (~downey@unaffiliated/downey) has joined #openmrs
+[20:07] * ChanServ sets mode +o downey for #openmrs
+[20:07] * OpenMRSBot sets mode +o downey for #openmrs
+[20:08] * apb156 (~apb156@190.2.238.71) has joined #openmrs
+[20:09] <apb156> does anyone know if the dashboard can show all open visits? On a mobile clinic, this would help us to see how many patients we have in ourqueue
+[20:09] <k-joseph> dkayiwa: it looks asthough these erros are every where theseimports are, how about looking at this,http://snag.gy/poPY6.jpg that popsupwhenever am starting eclipse, could it be thesouurce of the problem, before i may do a hard reset
+[20:10] * mseaton (~mseaton@209.156.249.193) Quit ( Quit: Leaving. )
+[20:10] * djadmin (~djadmin@115.248.50.24) Quit ( Ping timeout: 256 seconds )
+[20:10] * rafa (rafa@host13-89-206-27.limes.com.pl) Quit ( Ping timeout: 246 seconds )
+[20:10] <dkayiwa> k-joseph: what does the problems window show?
+[20:16] <k-joseph> dkayiwa: ok, am begining to figure out the problem, the .m2 does not exist see here http://snag.gy/I0cJH.jpg and here http://pastebin.com/NwcAK3yy
+[20:16] <dkayiwa> k-joseph: ok
+[20:17] * apb156 (~apb156@190.2.238.71) Quit ( Quit: apb156 )
+[20:18] <k-joseph> dkayiwa: but am not yet figuring out the appropriate solution, i dont remember haviing created .m2 the other time, i think it wasautomatically created?
+[20:19] <dkayiwa> k-joseph: did you correctly install and configure maven?
+[20:19] <k-joseph> dkayiwa: yes, i did
+[20:19] <dkayiwa> k-joseph: on command line, can you ask for the maven version?
+[20:20] <k-joseph> dkayiwa: in fact, .m2 is already existing C:\Users\k_joseph\.m2\repository
+[20:20] <dkayiwa> k-joseph: open eclipse window preferences
+[20:21] <dkayiwa> k-joseph: then Maven -> Installations and show me
+[20:21] <wyclif> hi dj
+[20:21] <dkayiwa> k-joseph: and also Maven -> User Settings
+[20:23] <k-joseph> dkayiwa: mvn --version returns http://pastebin.com/WSiHQ5xw  and eclipse->preference->maven->installations  ==http://snag.gy/Fr2u0.jpg
+[20:25] <dkayiwa> k-joseph: and User Settings?
+[20:25] <k-joseph> dkayiwa: eclipse->preference->maven->User Settings  returns http://snag.gy/gFRyV.jpg
+[20:26] <dkayiwa> k-joseph: under Java -> Installed JREs are you pointing to JDK or JRE?
+[20:27] <k-joseph> dkayiwa: jre7
+[20:31] <dkayiwa> k-joseph: point it to jdk
+[20:32] <k-joseph> dkayiwa: how, http://snag.gy/gt0xm.jpg
+[20:32] <k-joseph> ?
+[20:33] <dkayiwa> k-joseph: click the add button
+[20:33] <dkayiwa> k-joseph: browse for the jdk folder
+[20:34] <dkayiwa> k-joseph: then you will remove the JRE one which you have already set
+[20:35] <k-joseph> dkayiwa: before, that should i go with the highlighted choice of standard VM and click next
+[20:35] * apb156 (~apb156@190.2.238.71) has joined #openmrs
+[20:35] <dkayiwa> k-joseph: ok
+[20:35] <k-joseph> dkayiwa: ok
+[20:35] * wyclif (~wyclif@rgnout.regenstrief.org) Quit ( Read error: Connection reset by peer )
+[20:36] * wyclif (~wyclif@rgnout.regenstrief.org) has joined #openmrs
+[20:39] <k-joseph> dkayiwa: finished, 
+[20:40] <k-joseph> dkayiwa: then, !!
+[20:40] <dkayiwa> k-joseph: show me how it looks like now
+[20:41] <k-joseph> dkayiwa: http://snag.gy/qpEBV.jpg
+[20:42] <dkayiwa> k-joseph: i mean under installed jre
+[20:45] <k-joseph> dkayiwa: http://snag.gy/2ec61.jpg
+[20:46] <dkayiwa> k-joseph: now restart eclipse
+[20:46] <k-joseph> dkayiwa: ok
+[20:46] <dkayiwa> k-joseph: and resend me the Markers window with Description column expanded to full
+[20:54] * apb156 (~apb156@190.2.238.71) Quit ( Quit: apb156 )
+[20:54] <k-joseph> dkayiwa: http://snag.gy/fiZ59.jpg
+[20:55] <dkayiwa> k-joseph: does mvn clean install work on command line?
+[20:55] <k-joseph> dkayiwa: trying it out, 
+[20:55] * kishoreyekkanti (~kishoreye@122.164.13.254) Quit ( Quit: kishoreyekkanti )
+[20:56] <k-joseph> dkayiwa: downloading
+] <k-joseph> dkayiwa: cut off by internet, but the result is http://pastebin.com/gY1N990p
+[21:04] <rfriedman> dkayiwa, can't time out, basic's been logged in since 2005 and he's never there
+[21:05] <dkayiwa> rfriedman: lolllllllll :)
+[21:07] <dkayiwa> k-joseph:  try again
+[21:08] <k-joseph> dkayiwa: do you think 60mb will work fine now, or i may be cought up before completing as it did before
+[21:08] <k-joseph> ?
+[21:09] <dkayiwa> k-joseph:  i am not sure. but the already downloaded ones are not redownloaded
+[21:09] <k-joseph> dkayiwa: ok, running it, 
+[21:09] <k-joseph> dkayiwa: does that mean that it proceeds from where it stopped?
+[21:10] <dkayiwa> k-joseph:  yes
+[21:10] <k-joseph> dkayiwa: ok
+[21:23] <k-joseph> dkayiwa: http://pastebin.com/FQ980WdX
+[21:25] <dkayiwa> k-joseph:  do you have JDK 6?
+[21:27] <k-joseph> dkayiwa: i do
+[21:27] <dkayiwa> k-joseph:  can you change to it instead?
+[21:27] <k-joseph> dkayiwa: changing....
+[21:32] <k-joseph> dkayiwa: i have changed now
+[21:32] <dkayiwa> k-joseph:  check for maven version and show me
+[21:34] <k-joseph> dkayiwa: http://pastebin.com/5bVjxm6J
+[21:35] * djazayeri (~Adium@209.156.249.193) has joined #openmrs
+[21:35] * ChanServ sets mode +o djazayeri for #openmrs
+[21:35] <dkayiwa> k-joseph:  whats the value of your java home?
+[21:36] <k-joseph> dkayiwa: C:\Program Files (x86)\java\jdk1.6.0
+[21:37] <dkayiwa> k-joseph:  do mvn clean install again
+[21:39] * djadmin (~djadmin@115.248.50.24) Quit ( Ping timeout: 245 seconds )
+[21:40] <k-joseph> dkayiwa: still failing http://pastebin.com/Xb07PxSZ  repeating again in a fresh command line
+ <dkayiwa> hi k     
+[21:59] <dkayiwa> hi k-joseph
+[21:59] <@djazayeri> rfriedman: well, a friendly hi back to you. :-)
+[22:00] <k-joseph> dkayiwa: am noticing some change with jdk6, only that it didn't complete because of data  here is http://pastebin.com/s69pLNu9, i haverun mvn clean install again
+[22:01] <dkayiwa> k-joseph:  that could be a network connection. try again
+[22:01] <k-joseph> dkayiwa: i have repeated it again
+[22:02] <k-joseph> dkayiwa: now istalling openmrs,    standalone
+[22:02] <dkayiwa> k-joseph:  has mvn clean install succeeded?
+[22:03] <k-joseph> dkayiwa: no, still the same failure i think, am running it again
+[22:03] <dkayiwa> k-joseph:  yes run it again
+[22:06] <k-joseph> dkayiwa: when is this error while installing openmrs encountered, i dont think i miss spelt the password
+[22:06] <k-joseph> ???Error executing sql: create database if not exists `?` default character set utf8 - Could not create connection to database server.Attempted reconnect 3 times. Giving up.???
+[22:06] <k-joseph> Unable to create the database. The password might be incorrect or the database is not started
+[22:08] <dkayiwa> k-joseph:  standalone?
+[22:08] <k-joseph> dkayiwa: yes
+[22:08] <dkayiwa> k-joseph:  stop it
+[22:08] <k-joseph> dkayiwa: the result is still failure for mvn clean install http://pastebin.com/8CU3yj5H
+[22:08] <dkayiwa> k-joseph:  delete unzipped folder, unzip and run it again
+[22:08] <dkayiwa> k-joseph:  chose demo data mode
+[22:09] <k-joseph> dkayiwa: ok
+[22:09] * mseaton (~mseaton@209.156.249.193) has joined #openmrs
+[22:09] * ChanServ sets mode +v mseaton for #openmrs
+[22:09] <dkayiwa> k-joseph:  does mvn clean install succeed in eclipse?
+[22:10] <k-joseph> dkayiwa: no, http://pastebin.com/8CU3yj5H
+[22:10] <k-joseph> dkayiwa: that is the third time
+[22:10] <dkayiwa> k-joseph:  is that from eclipse?
+[22:10] <k-joseph> dkayiwa: no, from command line
+[22:11] <dkayiwa> k-joseph:  does it succeed in eclipse?
+[22:11] <k-joseph> dkayiwa: mvn clean -> mvn install   while running?
+[22:12] <dkayiwa> k-joseph:  yes
+[22:12] <k-joseph> dkayiwa: checking, am first restarting eclipse
+[22:20] <k-joseph> dkayiwa: can you please remind me the location os mvn clean and mvn install in eclipse, i thought it is through select all projects->maven, it is not offeringthese optioms
+[22:20] <dkayiwa> k-joseph:  do it on project by project
+[22:21] <dkayiwa> k-joseph:  one at a time
+[22:25] <k-joseph> dkayiwa: ok, doing that
+[22:30] <k-joseph> dkayiwa: standalone install success full
+[22:30] <dkayiwa> k-joseph:  ok great
+ <@downey> dkayiwa: are you ready to hang out soon?
+[22:34] <dkayiwa> downey: yes
+[22:34] <@downey> as soon as cpower_ gets in there he can invite you :)
+[22:35] <k-joseph> dkayiwa: test project successfull
+[22:37] <k-joseph> dkayiwa: webapp successfull
+[22:38] <dkayiwa> k-joseph:  now try web again
+[22:38] <dkayiwa> k-joseph:  as in try it last
+[22:39] * rkorytkowski (rafa@host13-89-206-27.limes.com.pl) has joined #openmrs
+[22:39] * rkorytkowski is now known as rafa
+[22:39] * ChanServ sets mode +v rafa for #openmrs
+[22:41] <k-joseph> dkayiwa: still on release-test, 
+[22:41] <dkayiwa> k-joseph:  ok
+[22:42] <k-joseph> dkayiwa: but all my projects have red marks indicating errors
+[22:42] <k-joseph> dkayiwa: release-test successfull
+[22:43] <dkayiwa> k-joseph:  i suggest removing all your local changes first
+[22:43] <dkayiwa> k-joseph:  hard reset
+[22:43] <k-joseph> dkayiwa: ok
+[22:43] <dkayiwa> k-joseph:  and then pull
+[22:44] <k-joseph> dkayiwa: upstream or origin
+[22:44] <k-joseph> ?
+[22:44] <dkayiwa> k-joseph:  git pull upstream master
+[22:45] <k-joseph> dkayiwa: ok
+[22:45] <dkayiwa> k-joseph:  git pull --rebase upstream master
+[22:50] <k-joseph> dkayiwa: twise and still web is failing i get i link https://cwiki.apache.org/confluence/display/MAVEN/MojoFailureExcept from eclipse
+[22:51] <dkayiwa> k-joseph:  now can you do a hard reset on all  projects?
+[22:51] <k-joseph> dkayiwa: via eclpise
+[22:51] <k-joseph> dkayiwa: via eclpise?
+[22:51] <dkayiwa> k-joseph:  wherever
+[22:52] <k-joseph> dkayiwa: doing it from eclipse, hard(head, index, and working directory updated)
+[22:53] <dkayiwa> k-joseph:  for all
+[22:53] <@downey> rafa: https://plus.google.com/hangouts
+[22:53] <k-joseph> dkayiwa: :-)  yes
+[22:53] <@downey> rfriedman: http://youtu.be/uDUXUxbbRwY
+[22:54] <k-joseph> dkayiwa: so am about to loose all my contributions? i think i may back up core
+[22:54] <k-joseph> ?
+[22:55] <dkayiwa> k-joseph:  for which tickets?
+[22:55] <k-joseph> dkayiwa: i have lots of tickets, i thought am to reset one at a time
+[22:55] <k-joseph> ?
+[22:56] * wyclif (~wyclif@rgnout.regenstrief.org) Quit ( Read error: Connection reset by peer )
+[22:56] * wyclif_ (~wyclif@rgnout.regenstrief.org) has joined #openmrs
+<dkayiwa> k-joseph:  you already committed
+[22:57] <dkayiwa> k-joseph:  so reset all
+[22:57] <@downey> dkayiwa: https://plus.google.com/hangouts
+[22:58] <+jkeiper> that is for all hangouts
+[22:58] <@downey> if you were invited you will show up there
+[22:58] <@downey> s/you will/it will/
+[22:58] <dkayiwa> downey: not for me
+[22:58] * mseaton (~mseaton@209.156.249.193) Quit ( Quit: Leaving. )
+[23:00] <rfriedman> cpower_, nothing on you tube
+[23:00] <@downey> rfriedman: we haven't started yet :)
+[23:00] <@downey> still waiting on wyclif_ and dkayiwa
+[23:00] <k-joseph> dkayiwa: ok
+[23:19] <k-joseph> dkayiwa: reset all of them, the error indicators are still showing, i have again run mvn clean install at command line
+[23:20] <rfriedman> what rafa has done is focused on combining rest and rest19, which is a major goal
+[23:20] <rfriedman> then every object needs to be looked at and updated
+[23:20] <rfriedman> but i really would like the doc to keep up with the features
+[23:21] <k-joseph> dkayiwa: hi
+[23:21] <dkayiwa> k-joseph:  hi
+[23:21] <rfriedman> the problem is that we added subclass handlers without writing a bit of documentation or making the catalog represent them
+[23:21] <rfriedman> at this point only an in-group member can use them
+[23:21] <rfriedman> that really is not right
+[23:21] <k-joseph> dkayiwa: here is part of the failure trace from command prompt http://pastebin.com/GKnaui2P
+[23:21] <dkayiwa> k-joseph:  ok show me commandline error
+[23:22] * robbyoconnor (~wakawaka@guifications/user/r0bby) has joined #openmrs
+[23:22] * ChanServ sets mode +v robbyoconnor for #openmrs
+[23:22] <rfriedman> can we get some rough idea of how much time people have to work on the sprint?
+[23:22] <dkayiwa> k-joseph:  did you pull?
+[23:23] <k-joseph> dkayiwa: before i hard reset
+[23:23] <dkayiwa> k-joseph:  now
+[23:23] <dkayiwa> k-joseph:  after resetin
+[23:23] <dkayiwa> g
+[23:24] <k-joseph> dkayiwa: do mean i pull now after reseting
+[23:24] <k-joseph> ?
+[23:24] <dkayiwa> k-joseph:  yes\

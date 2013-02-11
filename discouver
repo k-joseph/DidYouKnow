@@ -1,0 +1,10 @@
+	  
+	LINUX-PHPMYADMIN
+
+hi every one, i have installed phpmyadmin, when i put localhost/phpmyadmin in  a browser i get error,  Not Found The requested URL /phpmyadmin was not found on this server. Apache/2.2.20 (Ubuntu) Server at localhost Port 80  please help me fix this, thanks a lot 
+
+ok, that is quite very easy to solve, hope you have correctly installed all the packages neccessary on linux for running phpmyadmin, good, if yes, now open terminal, 
+1)  do you have a /etc/apache2/conf.d/phpmyadmin.conf file ?
+2)  k-joseph, ok, open a terminal and run : sudo ln -s /etc/phpmyadmin/apache.conf /etc/apache2/conf.d/phpmyadmin.conf &&     
+    sudo service apache2 reload
+3)   that's fine, you should be able to load phpmyadmin now
