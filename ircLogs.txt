@@ -1010,3 +1010,1839 @@ __________________________________
 [23:24] <k-joseph> dkayiwa: do mean i pull now after reseting
 [23:24] <k-joseph> ?
 [23:24] <dkayiwa> k-joseph:  yes\
+
+
+[14:01:45] * Starting query with dkayiwa
+[14:02:21] <k-joseph> currently using linux, uganda telecom and it is fine, only that i have been using win and it could not show signal in my mobile partner, but it is good, 
+[14:02:48] <dkayiwa> and 100MB at 250 only?
+[14:03:01] <k-joseph> yes
+[14:03:10] <dkayiwa> thats too cheap
+[14:03:57] <k-joseph> also 1/= per sec call utl i have just called mum and we have talked for 10mins, i thank God
+[14:04:00] <k-joseph> for that
+[14:05:26] <dkayiwa> oh thats so so good!!!
+[14:05:45] <dkayiwa> so you mean a minute is just 60 shs?
+[14:05:57] <k-joseph> yes
+[14:06:09] <dkayiwa> yike!!!
+[14:06:14] <dkayiwa> how long is the promotion?
+[14:06:15] <k-joseph> un-immaginable
+[14:06:22] <k-joseph> am not sure
+[14:07:08] <dkayiwa> ok
+[14:10:05] <k-joseph> even mint is good, i have liked it more than win, 
+[14:10:47] <dkayiwa> what is mint?
+[14:11:26] <k-joseph> linux distribution, version
+[14:17:03] <dkayiwa> oh i see
+[14:19:31] <k-joseph> what do you think am currently thinking about now, that is using linux in most of my projects if not all, what is your suggestion?
+[14:20:02] <dkayiwa> linux is better than windows (for me) :)
+[14:21:35] <k-joseph> so dont you think it is better to re-install all these required softwares as quick as possible so that i can switch to use linux even for openmrs, ?
+[14:22:47] <k-joseph> it solving lots of issues am used of experiencing while using win7
+[14:23:09] <dkayiwa> i fully agree
+[14:23:33] <dkayiwa> when i need windows, i run it under a VM
+[14:23:34] <k-joseph> ok, am now beginning to install them
+[14:23:36] <dkayiwa> virtual box
+[14:23:38] <dkayiwa> ok
+[14:24:16] <k-joseph> what is virtual box?
+[14:24:29] <dkayiwa> google :)
+[14:25:24] <k-joseph> ok, i like that spirit of making me excercise the required knowledge search, thanks
+[14:25:39] <dkayiwa> :)
+[00:00:00] - {Day changed to Sun Feb 10 00:00:00 2013}
+[22:27:47] <k-joseph> dkayiwa: hi
+[22:28:05] <dkayiwa> hi
+[22:31:13] <k-joseph> dkayiwa: i have finished installing (on linux) git, mysql, eclipse, i downloaded maven.gz and i have been trying to follow up its installation from its page and am failing, please i kindly request for your assistance on how to configure jdk path, and mvn, thanks a lot am now  downloading eclipse plugins according to wiki pages
+[22:31:56] <dkayiwa> can you use the public chat?
+[22:41:48] <k-joseph> Warning: JAVA_HOME environment variable is not set.
+[22:41:48] <k-joseph> Apache Maven 3.0.4 (r1232337; 2012-01-17 11:44:56+0300)
+[22:41:48] <k-joseph> Maven home: /home/k-joseph/myProgs/maven/apache-maven-3.0.4
+[22:41:48] <k-joseph> Java version: 1.6.0_26, vendor: Sun Microsystems Inc.
+[22:41:48] <k-joseph> Java home: /usr/lib/jvm/java-6-sun-1.6.0.26/jre
+[22:41:48] <k-joseph> Default locale: en_US, platform encoding: UTF-8
+[22:41:48] <k-joseph> OS name: "linux", version: "3.0.0-12-generic", arch: "i386", family: "unix"
+[22:42:18] <dkayiwa> can you use pastebin? and using the public chat?
+[22:42:30] <k-joseph> ok
+[00:00:00] - {Day changed to Mon Feb 11 00:00:00 2013}
+[15:17:36] <k-joseph> dkayiwa: pastebin is taking so long to load the pasted content for me to show you the error, can i paste it here on private chart
+[15:17:38] <k-joseph> ?
+[15:19:56] <dkayiwa> no
+[15:20:04] <k-joseph> ok, 
+[15:20:04] <dkayiwa> you can also try dpaste
+[15:20:24] <dkayiwa> let me come back in a like one hour
+[15:20:33] <k-joseph> ok
+[00:00:00] - {Day changed to Tue Feb 12 00:00:00 2013}
+[17:07:54] <k-joseph> my internet is very very weak, 
+[00:00:00] - {Day changed to Wed Feb 13 00:00:00 2013}
+[22:13:47] <k-joseph> dkayiwa: not seeing any clear solution
+[22:14:07] <dkayiwa> can you answer on the public chat?
+[00:00:00] - {Day changed to Thu Feb 14 00:00:00 2013}
+[00:00:00] - {Day changed to Fri Feb 15 00:00:00 2013}
+[01:05:27] <-- dkayiwa (~dkayiwa@41.210.129.113) has quit (Quit: dkayiwa)
+[16:07:44] <k-joseph> dkayiwa: hi, i have cloned openmrs, and i have only a few minutes like 30 to have it run safely, for i will be leaving to do some physical work before the Sabbath
+[16:22:11] <dkayiwa> ok
+[00:00:00] - {Day changed to Sat Feb 16 00:00:00 2013}
+[23:34:41] <k-joseph> good evenning brother Daniel and well be back all from church, hope the Sabbath was great that side as it was this side!! :)
+[23:38:00] <dkayiwa> oh thanks
+[23:38:00] <dkayiwa> Sabbath was great too here!!! :)
+[00:00:00] - {Day changed to Sun Feb 17 00:00:00 2013}
+[01:10:33] <-- dkayiwa (~dkayiwa@h164.n1.ips.mtn.co.ug) has quit (Quit: dkayiwa)
+[21:18:12] <k-joseph> hi, am kindly requesting for further assistance from the where we stopped, when you were going to google the error
+[21:18:37] <dkayiwa> ok
+[00:00:00] - {Day changed to Mon Feb 18 00:00:00 2013}
+[14:53:02] <k-joseph> 1.0.4  1.2    1.4.2  1.5.1   1.5.5  1.5.8  2.0.6
+[14:53:02] <k-joseph> 1.1    1.4.1  1.4.6  1.5.15  1.5.6  2.0.5  3.0
+[15:22:52] <k-joseph> #definitions of maven3
+[15:22:52] <k-joseph>  export JAVA_HOME=/usr/lib/jvm/java-6-openjdk 
+[15:22:52] <k-joseph>  export M2_HOME=/home/k-joseph/myProgs/maven/apache-maven-3.0.4
+[15:22:52] <k-joseph>  export M2=$M2_HOME/bin
+[15:22:52] <k-joseph>  export MAVEN_OPTS="-Xms256m -Xmx512m"
+[15:22:52] <k-joseph>  export PATH=$M2:$PATH
+[17:32:01] <k-joseph> i have reset upto 5th == OpenMRS ........................................... SUCCESS [3.133s]
+[17:32:01] <k-joseph> [INFO] openmrs-tools ..................................... SUCCESS [2.667s]
+[17:32:01] <k-joseph> [INFO] openmrs-test ...................................... SUCCESS [0.797s]
+[17:32:01] <k-joseph> [INFO] openmrs-api ....................................... SUCCESS [4:06.499s]
+[17:32:01] <k-joseph> [INFO] openmrs-web ....................................... SUCCESS [1:48.089s]
+[17:32:01] <k-joseph> [INFO] openmrs-webapp .................................... FAILURE [9.867s]
+[17:32:01] <k-joseph> [INFO] openmrs-release-test .............................. SKIPPED
+[17:36:23] <dkayiwa> stack trace
+[18:00:27] <k-joseph> dkayiwa: in eclipse webapp pom.xml has error;   Description Resource Path Location Type Cannot read lifecycle mapping metadata for artifact org.apache.maven.plugins:maven-antrun-plugin:maven-plugin:1.4:runtime Cause: error in opening zip file        pom.xml        /webapp        line 1        Maven Project Build Lifecycle Mapping Problem
+[18:00:57] <dkayiwa> can you pastebin the entire stack trace?
+[18:10:09] <dkayiwa> whats the current stack trace
+[18:37:49] <k-joseph> dkayiwa: m2e-lastUpdated.properties   maven-antrun-plugin-1.4.pom.lastUpdated
+[18:37:49] <k-joseph> maven-antrun-plugin-1.4.jar  maven-antrun-plugin-1.4.pom.sha1
+[18:37:49] <k-joseph> maven-antrun-plugin-1.4.pom  _maven.repositories
+[18:38:16] <dkayiwa> meaning you do not have any folders in there?
+[18:38:22] <k-joseph> yes
+[18:38:30] <k-joseph> i don't
+[18:38:56] <dkayiwa> can you paste here the folder name you are looking at?
+[18:39:25] <dkayiwa> oh i see. can you just delete the 1.4 folder?
+[18:39:49] <dkayiwa> thats the folder that has those files
+[18:40:18] <k-joseph> _____________________________________________
+[18:40:21] <k-joseph> k-joseph@k-joseph-Notebook ~/.m2/repository/org/apache/maven/plugins/maven-antrun-plugin $ ls                                                                       
+[18:40:21] <k-joseph> 1.3  1.4
+[18:40:41] <dkayiwa> k-joseph:  can you delete the 1.4 folder?
+[18:40:47] <k-joseph> ok
+[18:41:13] <dkayiwa> after which run mvn clean install again and tell me what happens this time
+[18:41:22] <k-joseph> ok
+[19:12:57] <k-joseph> the connection is slowed dowm much to 0kb/sec,   i will be back to continue after smething like 40min
+[19:13:08] <dkayiwa> ok
+
+[14:10:27] --> rkorytkowski (rafa@host13-89-206-27.limes.com.pl) has joined #openmrs
+[14:10:28] <-> rkorytkowski is now known as rafa
+[14:10:28] *** Mode #openmrs +v rafa by ChanServ
+[14:10:30] <-- rafa (rafa@host13-89-206-27.limes.com.pl) has quit (Client Quit)
+[14:15:53] <-- djadmin (~djadmin@115.248.50.24) has quit (Ping timeout: 276 seconds)
+[14:40:24] <reverton> hi
+[14:44:38] <-- reverton (52807985@gateway/web/freenode/ip.82.128.121.133) has quit (Ping timeout: 245 seconds)
+[14:51:23] <-- k-joseph (~quassel@196.0.9.67) has quit (No Ping reply in 180 seconds.)
+[17:00:43] --> k-joseph (~quassel@196.0.9.66) has joined #openmrs
+[17:00:44] * Topic for #openmrs is "OpenMRS: open source medical record systems for the developing world - http://openmrs.org/ - IRC info & logs: http://go.openmrs.org/irc - Can't find the answer here? Try http://answers.openmrs.org/"
+[17:00:44] * Topic set by downey on Mon Oct 15 15:15:18 2012
+[17:00:44] [ChanServ] Welcome to #OpenMRS. This channel is logged for your convenience. If you can't find an answer here, please use our wiki and mailing lists. More info: http://go.openmrs.org/irc
+[17:00:44] * Homepage for #openmrs is http://go.openmrs.org/irc
+[17:00:45] *** Mode #openmrs +cnt by pratchett.freenode.net
+[17:00:45] * Channel #openmrs created on Fri Mar 16 22:24:29 2007
+[17:17:19] <-- k-joseph (~quassel@196.0.9.66) has quit (No Ping reply in 180 seconds.)
+[17:19:39] --> k-joseph (~quassel@196.0.9.68) has joined #openmrs
+[17:19:41] * Topic for #openmrs is "OpenMRS: open source medical record systems for the developing world - http://openmrs.org/ - IRC info & logs: http://go.openmrs.org/irc - Can't find the answer here? Try http://answers.openmrs.org/"
+[17:19:41] * Topic set by downey on Mon Oct 15 15:15:18 2012
+[17:19:41] [ChanServ] Welcome to #OpenMRS. This channel is logged for your convenience. If you can't find an answer here, please use our wiki and mailing lists. More info: http://go.openmrs.org/irc
+[17:19:41] * Homepage for #openmrs is http://go.openmrs.org/irc
+[17:19:42] *** Mode #openmrs +cnt by pratchett.freenode.net
+[17:19:42] * Channel #openmrs created on Fri Mar 16 22:24:29 2007
+[17:23:01] --> jkeiper (~jkeiper@rgnout.regenstrief.org) has joined #openmrs
+[17:23:09] *** Mode #openmrs +v jkeiper by ChanServ
+[17:23:13] --> wyclif (~wyclif@rgnout.regenstrief.org) has joined #openmrs
+[17:31:18] <dkayiwa> wyclif:  do you know how to edit time spent on a ticket if i had set it to a wrong value?
+[17:31:34] <dkayiwa> rafa:  djazayeri  ^^
+[17:31:56] <djazayeri> dkayiwa: not sure offhand. I can look at JIRA if you want...
+[17:32:05] <dkayiwa> djazayeri: ok
+[17:33:33] <djazayeri> dkayiwa: what ticket, out of curiosity?
+[17:33:58] <dkayiwa> djazayeri: TRUNK-3896
+[17:34:00] <dkayiwa> !ticket TRUNK-3896
+[17:34:02] <OpenMRSBot> dkayiwa: [#TRUNK-3896] ORUR01Handler should load an encounters location from the database - OpenMRS JIRA - https://tickets.openmrs.org/browse/TRUNK-3896
+[17:37:43] <-- k-joseph (~quassel@196.0.9.68) has quit (No Ping reply in 180 seconds.)
+[17:38:01] --> k-joseph_ (~quassel@196.0.9.67) has joined #openmrs
+[17:38:01] * Topic for #openmrs is "OpenMRS: open source medical record systems for the developing world - http://openmrs.org/ - IRC info & logs: http://go.openmrs.org/irc - Can't find the answer here? Try http://answers.openmrs.org/"
+[17:38:01] * Topic set by downey on Mon Oct 15 15:15:18 2012
+[17:38:01] [ChanServ] Welcome to #OpenMRS. This channel is logged for your convenience. If you can't find an answer here, please use our wiki and mailing lists. More info: http://go.openmrs.org/irc
+[17:38:01] * Homepage for #openmrs is http://go.openmrs.org/irc
+[17:38:02] *** Mode #openmrs +cnt by pratchett.freenode.net
+[17:38:02] * Channel #openmrs created on Fri Mar 16 22:24:29 2007
+[17:38:13] <-- k-joseph (~quassel@196.0.9.68) has quit (Ping timeout: 248 seconds)
+[17:39:11] --> travis-ci (~travis-ci@ec2-23-22-8-110.compute-1.amazonaws.com) has joined #openmrs
+[17:39:16] <travis-ci> [travis-ci] [openmrs/openmrs-core] [a145d15] [dkayiwa] The build passed. - http://travis-ci.org/openmrs/openmrs-core/builds/4666970
+[17:39:16] <-- travis-ci (~travis-ci@ec2-23-22-8-110.compute-1.amazonaws.com) has left #openmrs
+[17:39:23] <OpenMRSBot> <http://ln-s.net/+aoy> (at travis-ci.org)
+[17:51:34] <-- k-joseph_ (~quassel@196.0.9.67) has quit (No Ping reply in 180 seconds.)
+[17:51:54] --> k-joseph (~quassel@196.0.9.66) has joined #openmrs
+[17:51:55] * Topic for #openmrs is "OpenMRS: open source medical record systems for the developing world - http://openmrs.org/ - IRC info & logs: http://go.openmrs.org/irc - Can't find the answer here? Try http://answers.openmrs.org/"
+[17:51:55] * Topic set by downey on Mon Oct 15 15:15:18 2012
+[17:51:55] [pratchett.freenode.net] [freenode-info] help freenode weed out clonebots -- please register your IRC nick and auto-identify: http://freenode.net/faq.shtml#nicksetup
+[17:51:55] [ChanServ] Welcome to #OpenMRS. This channel is logged for your convenience. If you can't find an answer here, please use our wiki and mailing lists. More info: http://go.openmrs.org/irc
+[17:51:55] * Homepage for #openmrs is http://go.openmrs.org/irc
+[17:51:56] *** Mode #openmrs +cnt by pratchett.freenode.net
+[17:51:56] * Channel #openmrs created on Fri Mar 16 22:24:29 2007
+[17:53:10] <-- k-joseph_ (~quassel@196.0.9.67) has quit (Ping timeout: 248 seconds)
+[18:02:17] <cpower_> Hello!
+[18:02:48] --> andrea (~andrea@2602:306:cefe:49f0:454e:4ad7:1a8e:45fd) has joined #openmrs
+[18:02:48] <cpower_> Let us Scrum...
+[18:02:48] <cpower_> !scrumon cpower
+[18:02:48] -*- OpenMRSBot says the DAILY SCRUM MEETING is STARTING. This meeting should not last longer than 15 minutes. Please hold other comments until the end of the meeting, or message someone privately. Thank you! ScrumMaster cpower- you may begin when ready.
+[18:02:48] <rafa> Hi!
+[18:02:48] <andrea> cpower, hi
+[18:02:48] <-> andrea is now known as Guest99215
+[18:02:48] <cpower_> Welcome to the RESTWS Sprint!
+[18:03:02] <-> Guest99215 is now known as andreap
+[18:03:35] <cpower_> Order: wyclif, dkayiwa, andreap, rafa, mseaton and djazayeri (If they want to update us on Boston)
+[18:03:41] <wyclif> Thursday:
+[18:03:42] <wyclif>         emails
+[18:03:42] <wyclif>         dev call
+[18:03:42] <wyclif>         RESTWS-320 - Combine search and getAll methods in MainCrudController
+[18:03:42] <wyclif> Friday:
+[18:03:43] <wyclif>         Complete RESTWS-320 - Combine search and getAll methods in MainCrudController
+[18:03:45] <wyclif>         pick another ticket
+[18:03:52] <wyclif> Blockers: None
+[18:03:58] <cpower_> and Lluis if you are out there we'd love your status update to at the end
+[18:04:15] <dkayiwa> Committed: Edit Xslt - XFRM-124
+[18:04:16] <dkayiwa> Committed: ORUR01Handler should load an encounter's location from the database - TRUNK-3896
+[18:04:16] <dkayiwa> Reviewing: FormService.saveFormResouce doesn't effectively replace existing resources - TRUNK-3658
+[18:04:16] <dkayiwa> No Blockers
+[18:04:34] <andreap> Thursday
+[18:04:39] <andreap>   Dev call
+[18:04:39] <andreap>   REST-WS kick off meeting
+[18:04:39] <andreap>   Claimed ticket RESTWS-322 Fix ConceptClassControllerTest
+[18:04:39] <andreap>   Look over REST-WS
+[18:04:39] <andreap>   Checked out code the for REST-WS sprint
+[18:04:39] <andreap>   mvn clean install - BUILD SUCCESS
+[18:04:39] <andreap>   Module didn't start - Raffal has fixed now
+[18:04:47] <andreap> Friday
+[18:04:47] <andreap>   Merck meeting
+[18:04:47] <andreap>   Pull fixed code
+[18:04:47] <andreap>   Work on ticket RESTWS-322 Fix ConceptClassControllerTest
+[18:04:49] <andreap> No Blockers
+[18:04:54] <rafa> Today:
+[18:04:56] <rafa> * Committed RESTWS-349: Fix omod packaging
+[18:04:56] <rafa> https://tickets.openmrs.org/browse/RESTWS-349
+[18:04:56] <rafa> * Working on RESTWS-309: Merge webservices.rest and webservices.rest19ext modules into one
+[18:04:56] <rafa> https://tickets.openmrs.org/browse/RESTWS-309
+[18:04:56] <rafa> No blockers.
+[18:05:38] <djazayeri> Boston update:
+[18:05:42] <djazayeri> * Snow has started
+[18:05:46] <djazayeri> * but is still minimal
+[18:06:05] <djazayeri> * mayor and governor have asked business to stay closed
+[18:06:15] <dkayiwa> that must be a real blocker :)
+[18:06:16] <cpower_> I'll take that as a blocker
+[18:06:19] <djazayeri> No blockers yet, though snow may pile up in front of doors. :-)
+[18:06:20] <rafa> lol
+[18:06:20] <cpower_> ha!
+[18:06:35] <cpower_> Lluis are you out there?
+[18:07:12] <djazayeri> Tuesday and Wednesday: some very productive meetings related to Reference Application; report on that upcoming
+[18:07:16] <wyclif> rafa, i think i got a blocker
+[18:07:25] <rafa> wyclif: yes?
+[18:08:11] <wyclif> rafa, how are you running the unit tests between the pre and post 1.9 versions
+[18:08:40] <wyclif> rafa, when i just run mvn test, it fails
+[18:09:06] <cpower_> Ok, no discussion topics, let's keep the ball moving this week as we have a lot of tickets (even if a lot of them are estimated as small) on to wyclif's blocker
+[18:09:43] <rafa> wyclif: did you run mvn clean install?
+[18:09:43] <wyclif> rafa, running that currently and it works
+[18:09:43] <wyclif> rafa, will try mvn test after
+[18:09:48] <rafa> wyclif: you need to run install at least once
+[18:10:19] <wyclif> rafa, okay thanks
+[18:10:23] <rafa> wyclif: np
+[18:10:52] <rafa> wyclif: be sure to update the code
+[18:11:00] <wyclif> rafa, okay
+[18:12:40] <cpower_> and that's our game
+[18:12:40] <cpower_> !scrumoff
+[18:12:40] -*- OpenMRSBot says the DAILY SCRUM MEETING has ENDED. This channel is now returned to normal hacking operations. Post-scrum meeting follow-up conversations may now begin.
+[18:12:40] <wyclif> rafa, so we are sending pull requests from my_repo/ticket branch to openmrs/sprint-201302
+[18:12:40] <rafa> wyclif: you can push directly to that branch
+[18:12:51] <wyclif> rafa, okay
+[18:12:51] <rafa> wyclif: you have privs
+[18:12:51] <wyclif> rafa, okay thanls
+[18:12:54] <wyclif> rafa, okay thanks
+[18:20:00] <-- rafa (rafa@host13-89-206-27.limes.com.pl) has quit (Quit: rafa)
+[18:24:58] <-- andreap (~andrea@2602:306:cefe:49f0:454e:4ad7:1a8e:45fd) has quit (Quit: Leaving)
+[18:27:06] <-- dkayiwa (~dkayiwa@h129.n1.ips.mtn.co.ug) has left #openmrs
+[18:37:50] <-- k-joseph (~quassel@196.0.9.66) has quit (Quit: http://quassel-irc.org - Chat comfortably. Anywhere.)
+[00:00:00] - {Day changed to Sat Feb 9 00:00:00 2013}
+[20:21:08] --> k-joseph (~quassel@41.223.84.38) has joined #openmrs
+[20:21:08] * Topic for #openmrs is "OpenMRS: open source medical record systems for the developing world - http://openmrs.org/ - IRC info & logs: http://go.openmrs.org/irc - Can't find the answer here? Try http://answers.openmrs.org/"
+[20:21:08] * Topic set by downey on Mon Oct 15 15:15:18 2012
+[20:21:14] [ChanServ] Welcome to #OpenMRS. This channel is logged for your convenience. If you can't find an answer here, please use our wiki and mailing lists. More info: http://go.openmrs.org/irc
+[20:21:14] * Homepage for #openmrs is http://go.openmrs.org/irc
+[20:21:14] *** Mode #openmrs +cnt by pratchett.freenode.net
+[20:21:14] * Channel #openmrs created on Fri Mar 16 22:24:29 2007
+[20:25:41] <-- djadmin (~djadmin@115.248.50.24) has quit (Ping timeout: 255 seconds)
+[20:26:21] --> djadmin (~djadmin@115.248.50.24) has joined #openmrs
+[20:27:52] --> kishoreyekkanti (~kishoreye@122.164.196.90) has joined #openmrs
+[20:35:24] --> djazayeri (~Adium@c-65-96-166-137.hsd1.ma.comcast.net) has joined #openmrs
+[20:35:24] *** Mode #openmrs +o djazayeri by ChanServ
+[20:46:07] <-- djazayeri (~Adium@c-65-96-166-137.hsd1.ma.comcast.net) has quit (Quit: Leaving.)
+[21:04:44] <-- k-joseph (~quassel@41.223.84.38) has quit (No Ping reply in 180 seconds.)
+[21:14:42] --> k-joseph (~quassel@196.0.9.67) has joined #openmrs
+[21:14:43] * Topic for #openmrs is "OpenMRS: open source medical record systems for the developing world - http://openmrs.org/ - IRC info & logs: http://go.openmrs.org/irc - Can't find the answer here? Try http://answers.openmrs.org/"
+[21:14:43] * Topic set by downey on Mon Oct 15 15:15:18 2012
+[21:14:43] [ChanServ] Welcome to #OpenMRS. This channel is logged for your convenience. If you can't find an answer here, please use our wiki and mailing lists. More info: http://go.openmrs.org/irc
+[21:14:43] * Homepage for #openmrs is http://go.openmrs.org/irc
+[21:14:44] *** Mode #openmrs +cnt by pratchett.freenode.net
+[21:14:44] * Channel #openmrs created on Fri Mar 16 22:24:29 2007
+[21:14:45] --> djadmin (~djadmin@115.248.50.24) has joined #openmrs
+[21:15:28] --> rkorytkowski (rafa@host13-89-206-27.limes.com.pl) has joined #openmrs
+[21:15:29] <-> rkorytkowski is now known as rafa
+[21:15:29] *** Mode #openmrs +v rafa by ChanServ
+[23:24:47] --> k-joseph (~quassel@196.0.9.65) has joined #openmrs
+[23:24:48] * Topic for #openmrs is "OpenMRS: open source medical record systems for the developing world - http://openmrs.org/ - IRC info & logs: http://go.openmrs.org/irc - Can't find the answer here? Try http://answers.openmrs.org/"
+[23:24:48] * Topic set by downey on Mon Oct 15 15:15:18 2012
+[23:24:48] [ChanServ] Welcome to #OpenMRS. This channel is logged for your convenience. If you can't find an answer here, please use our wiki and mailing lists. More info: http://go.openmrs.org/irc
+[23:24:48] * Homepage for #openmrs is http://go.openmrs.org/irc
+[23:24:49] *** Mode #openmrs +cnt by pratchett.freenode.net
+[23:24:49] * Channel #openmrs created on Fri Mar 16 22:24:29 2007
+[23:43:32] <-- kishoreyekkanti (~kishoreye@122.164.196.90) has quit (Quit: kishoreyekkanti)
+[00:00:00] - {Day changed to Sun Feb 10 00:00:00 2013}
+[00:06:51] <-- k-joseph (~quassel@196.0.9.65) has quit (No Ping reply in 180 seconds.)
+[08:24:49] --> k-joseph (~quassel@196.0.9.68) has joined #openmrs
+[08:24:49] * Topic for #openmrs is "OpenMRS: open source medical record systems for the developing world - http://openmrs.org/ - IRC info & logs: http://go.openmrs.org/irc - Can't find the answer here? Try http://answers.openmrs.org/"
+[08:24:49] * Topic set by downey on Mon Oct 15 15:15:18 2012
+[08:24:49] [pratchett.freenode.net] [freenode-info] if you're at a conference and other people are having trouble connecting, please mention it to staff: http://freenode.net/faq.shtml#gettinghelp
+[08:24:49] [ChanServ] Welcome to #OpenMRS. This channel is logged for your convenience. If you can't find an answer here, please use our wiki and mailing lists. More info: http://go.openmrs.org/irc
+[08:24:49] * Homepage for #openmrs is http://go.openmrs.org/irc
+[08:24:56] *** Mode #openmrs +cnt by pratchett.freenode.net
+[08:24:57] * Channel #openmrs created on Fri Mar 16 22:24:29 2007
+[08:51:35] <-- jkeiper (~jkeiper@rgnout.regenstrief.org) has quit (Ping timeout: 256 seconds)
+[09:02:28] <-- djadmin2 (~djadmin@115.248.50.24) has quit (Ping timeout: 264 seconds)
+[09:07:25] --> jkeiper (~jkeiper@c-69-136-184-37.hsd1.in.comcast.net) has joined #openmrs
+[09:07:25] *** Mode #openmrs +v jkeiper by ChanServ
+[09:16:45] <-- k-joseph (~quassel@196.0.9.68) has quit (No Ping reply in 180 seconds.)
+[09:18:01] --> k-joseph (~quassel@196.0.9.68) has joined #openmrs
+[09:18:01] * Topic for #openmrs is "OpenMRS: open source medical record systems for the developing world - http://openmrs.org/ - IRC info & logs: http://go.openmrs.org/irc - Can't find the answer here? Try http://answers.openmrs.org/"
+[09:18:01] * Topic set by downey on Mon Oct 15 15:15:18 2012
+[09:18:01] [ChanServ] Welcome to #OpenMRS. This channel is logged for your convenience. If you can't find an answer here, please use our wiki and mailing lists. More info: http://go.openmrs.org/irc
+[09:18:01] * Homepage for #openmrs is http://go.openmrs.org/irc
+[09:18:09] *** Mode #openmrs +cnt by pratchett.freenode.net
+[09:18:14] * Channel #openmrs created on Fri Mar 16 22:24:29 2007
+[09:32:44] --> djadmin (~djadmin@115.248.50.24) has joined #openmrs
+[10:33:49] --> dkayiwa (~dkayiwa@41.210.129.49) has joined #openmrs
+[10:34:59] <-- djazayeri (~Adium@c-98-216-51-77.hsd1.ma.comcast.net) has quit (Quit: Leaving.)
+[10:55:07] <-- djadmin (~djadmin@115.248.50.24) has quit (Ping timeout: 240 seconds)
+[11:11:10] --> djadmin (~djadmin@115.248.50.24) has joined #openmrs
+[11:17:50] <-- dkayiwa (~dkayiwa@41.210.129.49) has quit (Quit: dkayiwa)
+[11:27:58] <-- djadmin (~djadmin@115.248.50.24) has quit (Ping timeout: 245 seconds)
+[11:56:19] --> dkayiwa (~dkayiwa@h126.n1.ips.mtn.co.ug) has joined #openmrs
+[20:18:45] --> k-joseph (~quassel@196.0.9.67) has joined #openmrs
+[20:18:46] * Topic for #openmrs is "OpenMRS: open source medical record systems for the developing world - http://openmrs.org/ - IRC info & logs: http://go.openmrs.org/irc - Can't find the answer here? Try http://answers.openmrs.org/"
+[20:18:46] * Topic set by downey on Mon Oct 15 15:15:18 2012
+[20:18:46] [ChanServ] Welcome to #OpenMRS. This channel is logged for your convenience. If you can't find an answer here, please use our wiki and mailing lists. More info: http://go.openmrs.org/irc
+[20:18:46] * Homepage for #openmrs is http://go.openmrs.org/irc
+[20:18:47] *** Mode #openmrs +cnt by hitchcock.freenode.net
+[20:18:47] * Channel #openmrs created on Fri Mar 16 22:24:29 2007
+[20:47:22] <-- bhashitha (67f730b8@gateway/web/freenode/ip.103.247.48.184) has quit (Quit: Page closed)
+[22:06:24] <-- djadmin (~djadmin@115.248.50.24) has quit (Ping timeout: 245 seconds)
+[22:10:50] --> dkayiwa (~dkayiwa@41.210.129.21) has joined #openmrs
+[22:32:17] <k-joseph> dkayiwa: i have finished installing (on linux) git, mysql, eclipse, i downloaded maven.gz and i have been trying to follow up its installation from its page and am failing, please i kindly request for your assistance on how to configure jdk path, and mvn, thanks a lot am now  downloading eclipse plugins according to wiki
+[22:33:03] <dkayiwa> k-joseph:  have you tried to google on how to do it?
+[22:33:32] <k-joseph> dkayiwa: yes, i have not yet a better link than the one i have been using
+[22:34:36] <dkayiwa> k-joseph:  did you try looking into other possible links?
+[22:34:36] <dkayiwa> k-joseph:  or even changing the search phrase?
+[22:35:20] <k-joseph> dkayiwa: am trying a gain, perhaps
+[22:42:11] <k-joseph> dkayiwa: how can i ressolve that
+[22:44:10] <k-joseph> dkayiwa:  back soon
+[22:57:27] <-- k-joseph (~quassel@196.0.9.67) has quit (No Ping reply in 180 seconds.)
+[22:57:44] --> k-joseph (~quassel@196.0.9.68) has joined #openmrs
+[22:57:44] * Topic for #openmrs is "OpenMRS: open source medical record systems for the developing world - http://openmrs.org/ - IRC info & logs: http://go.openmrs.org/irc - Can't find the answer here? Try http://answers.openmrs.org/"
+[22:57:44] * Topic set by downey on Mon Oct 15 15:15:18 2012
+[22:57:45] [ChanServ] Welcome to #OpenMRS. This channel is logged for your convenience. If you can't find an answer here, please use our wiki and mailing lists. More info: http://go.openmrs.org/irc
+[22:57:45] * Homepage for #openmrs is http://go.openmrs.org/irc
+[22:57:46] *** Mode #openmrs +cnt by hitchcock.freenode.net
+[22:57:46] * Channel #openmrs created on Fri Mar 16 22:24:29 2007
+[23:02:22] <k-joseph> dkayiwa: good, i have set it up
+[23:02:35] <dkayiwa> k-joseph:  great
+[23:51:55] <k-joseph> dkayiwa: how do i use mysql, is it from the terminal, that is before i install phpmyadmin, i.e a tool == mysql client command line window in windows?
+[23:52:39] <dkayiwa> k-joseph:  yes from terminal
+[23:52:49] <k-joseph> dkayiwa: how
+[23:52:59] <dkayiwa> k-joseph:  which is the command line in windows
+[23:53:07] <dkayiwa> k-joseph:  have you tried to google about it?
+[23:53:27] <k-joseph> dkayiwa: i mean in windows mysql has a seperate command line
+[23:53:47] <dkayiwa> k-joseph:  have you tried to google about it?
+[23:54:14] <k-joseph> dkayiwa: not, yet, will do that
+[23:54:31] <dkayiwa> k-joseph:  you should always do that before asking
+[23:56:55] <k-joseph> dkayiwa: ok, thanks alot, good night to you all, i will pick up from there tommorow  :-)
+[23:57:09] <dkayiwa> k-joseph:  ok  :)
+[00:00:00] - {Day changed to Mon Feb 11 00:00:00 2013}
+[13:10:55] --> k-joseph (~quassel@196.0.9.67) has joined #openmrs
+[13:10:55] * Topic for #openmrs is "OpenMRS: open source medical record systems for the developing world - http://openmrs.org/ - IRC info & logs: http://go.openmrs.org/irc - Can't find the answer here? Try http://answers.openmrs.org/"
+[13:10:55] * Topic set by downey on Mon Oct 15 15:15:18 2012
+[13:10:55] [ChanServ] Welcome to #OpenMRS. This channel is logged for your convenience. If you can't find an answer here, please use our wiki and mailing lists. More info: http://go.openmrs.org/irc
+[13:10:55] * Homepage for #openmrs is http://go.openmrs.org/irc
+[13:10:55] <-- k-joseph (~quassel@196.0.9.67) has quit (Client Quit)
+[13:11:23] --> k-joseph (~quassel@196.0.9.67) has joined #openmrs
+[13:11:23] * Topic for #openmrs is "OpenMRS: open source medical record systems for the developing world - http://openmrs.org/ - IRC info & logs: http://go.openmrs.org/irc - Can't find the answer here? Try http://answers.openmrs.org/"
+[13:11:23] * Topic set by downey on Mon Oct 15 15:15:18 2012
+[13:11:23] [ChanServ] Welcome to #OpenMRS. This channel is logged for your convenience. If you can't find an answer here, please use our wiki and mailing lists. More info: http://go.openmrs.org/irc
+[13:11:23] * Homepage for #openmrs is http://go.openmrs.org/irc
+[13:11:24] *** Mode #openmrs +cnt by adams.freenode.net
+[13:11:25] * Channel #openmrs created on Fri Mar 16 22:24:29 2007
+[13:13:52] <-> You are now known as help
+[13:14:23] <-> You are now known as Guest35978
+[13:14:56] <-> You are now known as k-joseph
+[13:17:01] <k-joseph> dkayiwa: hi
+[13:17:09] <dkayiwa> k-joseph: hi
+[13:42:10] <-- djadmin (~djadmin@115.248.50.24) has quit (Read error: Connection reset by peer)
+[13:42:23] --> djadmin (~djadmin@115.248.50.24) has joined #openmrs
+[13:50:09] --> dcmul (29dd5de5@gateway/web/freenode/ip.41.221.93.229) has joined #openmrs
+[13:54:06] <-- dcmul (29dd5de5@gateway/web/freenode/ip.41.221.93.229) has quit (Ping timeout: 245 seconds)
+[13:59:13] <k-joseph> dkayiwa: while importing openmrs code into eclipse, the process is taking alot of time at 11%,  do you think there is a problem some where?
+[13:59:38] <dkayiwa> k-joseph: for how long has it run so far?
+[14:00:14] <k-joseph> dkayiwa: i think for more than 10min now
+[14:01:07] <dkayiwa> k-joseph: that is too long. restart eclipse and see
+[14:01:20] <k-joseph> dkayiwa: ok
+[14:26:18] <-- djadmin (~djadmin@115.248.50.24) has quit (Ping timeout: 260 seconds)
+[14:30:58] <k-joseph> dkayiwa: still taking a lot of time it even did the other time
+[14:31:34] <dkayiwa> k-joseph: how long now?
+[14:32:08] <k-joseph> dkayiwa: i think more than 15 minutes now, 
+[14:33:01] <dkayiwa> k-joseph: ok leave it for like an hour and we see
+[14:33:49] <k-joseph> dkayiwa: ok, do you use phpmyadmin?
+[14:34:09] <dkayiwa> k-joseph: no
+[14:34:27] <k-joseph> dkayiwa: ok
+[14:38:32] <k-joseph> hi, is there any one using phpmyadmin on linux? am installing it and am not sure what to go with here:      configure database for phpmyadmin  with dbconfig-common? should i select yes on no?
+[14:40:23] <dkayiwa> k-joseph: why do use phpadmin?
+[14:41:10] <k-joseph> dkayiwa: it is much more better than the gui options for me to access and query my mysql databases
+[14:42:14] <dkayiwa> k-joseph:  which gui options
+[14:43:06] <k-joseph> dkayiwa: the available gui options for mysql like mysql workbench et-cetera
+[14:43:18] <dkayiwa> k-joseph: ok
+[14:47:16] <-- robbyoconnor (~wakawaka@guifications/user/r0bby) has quit (Ping timeout: 256 seconds)
+[15:06:55] --> k-joseph (~quassel@196.0.9.67) has joined #openmrs
+[15:06:55] * Topic for #openmrs is "OpenMRS: open source medical record systems for the developing world - http://openmrs.org/ - IRC info & logs: http://go.openmrs.org/irc - Can't find the answer here? Try http://answers.openmrs.org/"
+[15:06:55] * Topic set by downey on Mon Oct 15 15:15:18 2012
+[15:06:55] [ChanServ] Welcome to #OpenMRS. This channel is logged for your convenience. If you can't find an answer here, please use our wiki and mailing lists. More info: http://go.openmrs.org/irc
+[15:06:55] * Homepage for #openmrs is http://go.openmrs.org/irc
+[15:06:56] *** Mode #openmrs +cnt by adams.freenode.net
+[15:06:56] * Channel #openmrs created on Fri Mar 16 22:24:29 2007
+[15:07:48] <k-joseph> dkayiwa: project imported well, but actually all my projects pom files are showing errors
+[15:08:05] --> kishoreyekkanti_ (~kishoreye@14.140.166.2) has joined #openmrs
+[15:08:53] <dkayiwa> k-joseph:  what errors?
+[15:11:53] <-- kishoreyekkanti (~kishoreye@14.140.166.2) has quit (Ping timeout: 240 seconds)
+[15:11:59] <-> kishoreyekkanti_ is now known as kishoreyekkanti
+[17:53:26] --> k-joseph (~quassel@196.0.9.65) has joined #openmrs
+[17:53:26] * Topic for #openmrs is "OpenMRS: open source medical record systems for the developing world - http://openmrs.org/ - IRC info & logs: http://go.openmrs.org/irc - Can't find the answer here? Try http://answers.openmrs.org/"
+[17:53:26] * Topic set by downey on Mon Oct 15 15:15:18 2012
+[17:53:26] [ChanServ] Welcome to #OpenMRS. This channel is logged for your convenience. If you can't find an answer here, please use our wiki and mailing lists. More info: http://go.openmrs.org/irc
+[17:53:26] * Homepage for #openmrs is http://go.openmrs.org/irc
+[17:53:27] *** Mode #openmrs +cnt by adams.freenode.net
+[17:53:27] * Channel #openmrs created on Fri Mar 16 22:24:29 2007
+[17:53:48] <k-joseph> dkayiwa: hi
+[17:55:24] <dkayiwa> k-joseph:  hi
+[17:56:03] <k-joseph> dkayiwa: how must i configure maven, when i restart the pc  it deletes all the previous configurations, and it gives me a message of The program 'mvn' is currently not installed. 
+[17:56:06] <k-joseph> dkayiwa
+[17:56:49] --> rkorytkowski (rafa@host13-89-206-27.limes.com.pl) has joined #openmrs
+[17:56:50] *** Mode #openmrs +v rkorytkowski by ChanServ
+[17:57:01] <-> rkorytkowski is now known as rafa
+[17:57:46] <k-joseph> dkayiwa: actually i never wanted to intall it via terminal, since i have it downloaded and working, but i dont want to keep on configing the same settings, how can i ressolve this, thank you please
+[17:58:31] <rafa> dkayiwa: just to be sure you're on community swimlane, right?
+[17:58:52] <dkayiwa> rafa: ` oh yes :)
+[17:59:17] <rafa> dkayiwa: ok, thx
+[18:00:14] <dkayiwa> k-joseph:  install what?
+[18:01:39] <cpower_> testing..1..2..3
+[18:02:28] <dkayiwa> 4 :)
+[18:02:47] --> cpower (~IceChat9@rgnout.regenstrief.org) has joined #openmrs
+[18:02:53] <k-joseph> dkayiwa: maven2 via terminal, i dont want to use this way since it includes so manny other packages besides  mvn its self, that is why i downloaded the package, i did follow up the installation and i know how to configure mvn to run from any where in terminal but when i restart the configurations are all reset, ,how should i fix this?
+[18:03:08] *** Mode #openmrs +v cpower by ChanServ
+[18:03:19] <cpower> Hello everyone ready to Scrum?
+[18:03:39] --> rfriedman (~rfriedman@adsl-074-251-137-165.sip.asm.bellsouth.net) has joined #openmrs
+[18:03:43] <cpower> !scrumon cpower
+[18:03:45] -*- OpenMRSBot says the DAILY SCRUM MEETING is STARTING. This meeting should not last longer than 15 minutes. Please hold other comments until the end of the meeting, or message someone privately. Thank you! ScrumMaster cpower- you may begin when ready.
+[18:03:58] --> jkeiper (~jkeiper@rgnout.regenstrief.org) has joined #openmrs
+[18:03:58] *** Mode #openmrs +v jkeiper by ChanServ
+[18:04:34] <cpower> Order: rafa, djadmin, dkayiwa, andrea when she appears, I feel like I'm missing people..
+[18:04:58] <rafa> Today:
+[18:04:58] <rafa> * Fixed the RESTWS build
+[18:04:58] <rafa> * Reviewed and merged PRs
+[18:04:58] <rafa> * Fixing tests for RESTWS-309: Merge webservices.rest and webservices.rest19ext modules into one
+[18:04:58] <rafa> https://tickets.openmrs.org/browse/RESTWS-309
+[18:04:58] <rafa> No blockers.
+[18:04:59] <rfriedman> lluis said he'd work on the weekend, i wouldn't expect him
+[18:08:32] <-- k-joseph (~quassel@196.0.9.65) has quit (No Ping reply in 180 seconds.)
+[18:10:29] --> k-joseph (~quassel@196.0.9.65) has joined #openmrs
+[18:10:29] * Topic for #openmrs is "OpenMRS: open source medical record systems for the developing world - http://openmrs.org/ - IRC info & logs: http://go.openmrs.org/irc - Can't find the answer here? Try http://answers.openmrs.org/"
+[18:10:29] * Topic set by downey on Mon Oct 15 15:15:18 2012
+[18:10:29] [ChanServ] Welcome to #OpenMRS. This channel is logged for your convenience. If you can't find an answer here, please use our wiki and mailing lists. More info: http://go.openmrs.org/irc
+[18:10:29] * Homepage for #openmrs is http://go.openmrs.org/irc
+[18:10:31] *** Mode #openmrs +cnt by adams.freenode.net
+[18:10:31] * Channel #openmrs created on Fri Mar 16 22:24:29 2007
+[18:11:38] <rfriedman> rafa, i looked at the catalog ticket
+[18:12:00] <rafa> rfriedman: nothing interesting there :)
+[18:12:06] <rfriedman> rafa, it didn't say what was broken
+[18:12:16] <rafa> rfriedman: because I don't know
+[18:12:27] <rafa> rfriedman: it's part of the ticket to figure it out
+[18:12:38] <rfriedman> rafa, aha, a mystery wrapped in an enigma
+[18:12:40] <k-joseph> dkayiwa: hi
+[18:12:46] <rafa> rfriedman: haha
+[18:13:00] <rafa> rfriedman: wyclif or me will take care of that
+[18:13:12] <rfriedman> rafa, ok, maybe I'll try to lend a hand also
+[18:13:17] <dkayiwa> k-joseph:  hi
+[18:13:33] <k-joseph> dkayiwa: did you understand what am meaning?
+[18:14:41] <dkayiwa> k-joseph:  no
+[18:15:43] --> andrea_ (~andrea@2602:306:cefe:49f0:3177:f9d3:4947:24a) has joined #openmrs
+[18:15:58] <andrea_> cpower, got on irc
+[18:17:07] <k-joseph> dkayiwa: is there a way of configuring or installing mavev so that i do not need to keep on setting it up again whenever i start the pc, what isi that way when it is not installing maven  via terminal by  sudo apt-get install maven2
+[18:17:07] <k-joseph>  
+[18:17:22] <k-joseph> ?
+[18:17:52] <dkayiwa> k-joseph:  yes that should be possible
+[18:19:20] <k-joseph> dkayiwa: please help me do that, all the google links am following are giving the approach am using which keeps on resetting the installed package of maven
+[18:19:44] <-- djadmin (~djadmin@115.248.50.24) has quit (Ping timeout: 276 seconds)
+[18:20:23] <k-joseph> dkayiwa: that is after starting up the pc
+[18:20:49] <dkayiwa> k-joseph:  what changes do you do everytime you restart the pc?
+[18:21:30] <k-joseph> dkayiwa: nothing, i leave when mvn --version is working, i get back when it is not
+[18:21:56] <dkayiwa> k-joseph:  what do you do to get it working?
+[18:23:53] --> downey (~downey@unaffiliated/downey) has joined #openmrs
+[18:23:54] *** Mode #openmrs +o downey by ChanServ
+[18:23:54] *** Mode #openmrs +o downey by OpenMRSBot
+[18:24:32] --> djadmin (~djadmin@115.248.50.24) has joined #openmrs
+[18:26:28] <k-joseph> dkayiwa: export M2_HOME=/home/k-joseph/myProgs/maven/apache-maven-3.0.4
+[18:26:28] <k-joseph>  then, export M2=$M2_HOME/bin then, export MAVEN_OPTS="-Xms256m -Xmx512m" then, export PATH=$M2:$PATH, then export JAVA_HOME=/usr/lib/jvm/java-6-sun-1.6.0.26 
+[18:27:16] <k-joseph> dkayiwa: then mvn --version works well, but on restarting, it does not
+[18:29:05] <dkayiwa> k-joseph:  http://www.coderanch.com/t/563245/Linux-UNIX/Setting-PATH-Ubuntu
+[18:29:10] <OpenMRSBot> <http://ln-s.net/+bzb> (at www.coderanch.com)
+[18:30:23] <dkayiwa> k-joseph:  http://mzhaqs.blogspot.com/2009/04/open-your.html
+[18:30:23] <OpenMRSBot> <http://ln-s.net/+bzi> (at mzhaqs.blogspot.com)
+[18:32:33] <dkayiwa> k-joseph:  and finally this: http://www.jumpingbean.co.za/blogs/mark/maven2_tips
+[18:32:33] <OpenMRSBot> <http://ln-s.net/+bzl> (at www.jumpingbean.co.za)
+[18:45:23] <k-joseph> dkayiwa: am using less .bashrc to view that file from the terminal, which command should i use to either be able to edit it from terminal or open it in an external editer like Kate 
+[18:53:21] <dkayiwa> k-joseph:  did you try to google about it? :)
+[18:53:32] <-- rafa (rafa@host13-89-206-27.limes.com.pl) has quit (Ping timeout: 276 seconds)
+[18:53:53] <k-joseph> dkayiwa: that is what am doing, though i wanted to quickly fix that
+[18:54:37] <dkayiwa> k-joseph:  the more you try google solutions is the more you will become experience at finding answers on your own!!! :)
+[19:05:25] --> djazayeri (~Adium@209.156.249.193) has joined #openmrs
+[19:05:25] *** Mode #openmrs +o djazayeri by ChanServ
+[22:12:13] --> k-joseph (~quassel@196.0.9.66) has joined #openmrs
+[22:12:13] * Topic for #openmrs is "OpenMRS: open source medical record systems for the developing world - http://openmrs.org/ - IRC info & logs: http://go.openmrs.org/irc - Can't find the answer here? Try http://answers.openmrs.org/"
+[22:12:13] * Topic set by downey on Mon Oct 15 15:15:18 2012
+[22:12:16] [ChanServ] Welcome to #OpenMRS. This channel is logged for your convenience. If you can't find an answer here, please use our wiki and mailing lists. More info: http://go.openmrs.org/irc
+[22:12:16] * Homepage for #openmrs is http://go.openmrs.org/irc
+[22:12:19] *** Mode #openmrs +ct by hubbard.freenode.net
+[22:12:19] * Channel #openmrs created on Fri Mar 16 22:24:29 2007
+[22:13:38] <suranga> dkayiwa,  if you guys will put up with me again, that is :P
+[22:13:53] <dkayiwa> suranga:  why not :)
+[22:15:08] <k-joseph> dkayiwa: hi
+[22:15:19] <dkayiwa> k-joseph:  hi
+[22:16:05] <k-joseph> dkayiwa: is maven using port 80?
+[22:16:26] <dkayiwa> k-joseph:  for what
+[22:18:09] <k-joseph> dkayiwa: i had got that from here, http://stackoverflow.com/questions/8138099/creating-a-maven-project
+[22:18:25] <OpenMRSBot> <http://ln-s.net/+c6H> (at stackoverflow.com)
+[22:20:10] <k-joseph> dkayiwa: any way that is not the problem, the error message in the pom.xml files of all my projects is http://dpaste.com/919862/ 
+[22:22:36] <k-joseph> dkayiwa: a better link for that is http://pastebin.com/hWACGfYJ
+[22:24:10] <dkayiwa> k-joseph:  is that when compiling?
+[22:25:35] <k-joseph> dkayiwa: not really, those are more error messages indicated on all pom.xml, for all the projects
+[22:26:18] <dkayiwa> k-joseph:  does mvn clean compile work
+[22:27:34] <k-joseph> dkayiwa: doing that
+[22:34:55] <suranga> need to sign off now guys, bit day at university tomorrow...
+[22:35:11] <suranga> im sorry, i mean "later today" :P
+[22:35:29] <dkayiwa> :)
+[22:37:23] <-- suranga (suranga@175.157.207.171) has quit (Quit: Leaving)
+[22:37:30] <downey> http://go.openmrs.org/soc2013
+[22:38:41] <dkayiwa> downey: that was super fast!!!  :D
+[22:41:39] --> djazayeri (~Adium@209.156.249.193) has joined #openmrs
+[22:41:49] *** Mode #openmrs +o djazayeri by ChanServ
+[22:42:25] <jkeiper> has anyone been following the travis-ci legality thread?
+[22:42:47] <jkeiper> https://github.com/travis-ci/travis-ci/issues/925
+[22:42:56] <jkeiper> sounds like a rant
+[22:42:56] <OpenMRSBot> <http://ln-s.net/+c7+> (at github.com)
+[22:43:08] <jkeiper> but ...
+[22:56:20] <-- djazayeri (~Adium@209.156.249.193) has quit (Ping timeout: 240 seconds)
+[22:57:21] --> djazayeri (~Adium@209.156.249.193) has joined #openmrs
+[22:57:21] *** Mode #openmrs +o djazayeri by ChanServ
+[23:09:29] <-- cpower (~IceChat9@rgnout.regenstrief.org) has quit (Ping timeout: 255 seconds)
+[23:13:37] <rfriedman> jkeiper, got a minute?
+[23:17:16] <-- k-joseph (~quassel@196.0.9.66) has quit (No Ping reply in 180 seconds.)
+[23:46:59] --> k-joseph (~quassel@196.0.9.65) has joined #openmrs
+[23:46:59] * Topic for #openmrs is "OpenMRS: open source medical record systems for the developing world - http://openmrs.org/ - IRC info & logs: http://go.openmrs.org/irc - Can't find the answer here? Try http://answers.openmrs.org/"
+[23:46:59] * Topic set by downey on Mon Oct 15 15:15:18 2012
+[23:46:59] [ChanServ] Welcome to #OpenMRS. This channel is logged for your convenience. If you can't find an answer here, please use our wiki and mailing lists. More info: http://go.openmrs.org/irc
+[23:46:59] * Homepage for #openmrs is http://go.openmrs.org/irc
+[23:47:01] *** Mode #openmrs +ct by card.freenode.net
+[23:47:01] * Channel #openmrs created on Fri Mar 16 22:24:29 2007
+[00:00:00] - {Day changed to Tue Feb 12 00:00:00 2013}
+[00:00:03] <-- k-joseph (~quassel@196.0.9.65) has quit (No Ping reply in 180 seconds.)
+[12:22:41] --> k-joseph (~quassel@41.223.84.37) has joined #openmrs
+[12:22:41] * Topic for #openmrs is "OpenMRS: open source medical record systems for the developing world - http://openmrs.org/ - IRC info & logs: http://go.openmrs.org/irc - Can't find the answer here? Try http://answers.openmrs.org/"
+[12:22:41] * Topic set by downey on Mon Oct 15 15:15:18 2012
+[12:22:41] [ChanServ] Welcome to #OpenMRS. This channel is logged for your convenience. If you can't find an answer here, please use our wiki and mailing lists. More info: http://go.openmrs.org/irc
+[12:22:41] * Homepage for #openmrs is http://go.openmrs.org/irc
+[12:22:42] *** Mode #openmrs +ct by wright.freenode.net
+[12:22:42] * Channel #openmrs created on Fri Mar 16 22:24:29 2007
+[12:30:58] <-- Anuruddha (~Anuruddha@111.223.189.84) has quit (Ping timeout: 252 seconds)
+[12:33:50] --> rowanseymour (~textual@41.74.174.250) has joined #openmrs
+[12:37:47] <-- kishoreyekkanti (~kishoreye@14.140.166.2) has quit (Quit: Will be back..)
+[12:40:54] <-- rowanseymour (~textual@41.74.174.250) has quit (Ping timeout: 248 seconds)
+[12:50:16] <-- k-joseph (~quassel@41.223.84.37) has quit (No Ping reply in 180 seconds.)
+[17:00:44] --> k-joseph (~quassel@196.0.9.67) has joined #openmrs
+[17:00:44] * Topic for #openmrs is "OpenMRS: open source medical record systems for the developing world - http://openmrs.org/ - IRC info & logs: http://go.openmrs.org/irc - Can't find the answer here? Try http://answers.openmrs.org/"
+[17:00:44] * Topic set by downey on Mon Oct 15 15:15:18 2012
+[17:00:44] [ChanServ] Welcome to #OpenMRS. This channel is logged for your convenience. If you can't find an answer here, please use our wiki and mailing lists. More info: http://go.openmrs.org/irc
+[17:00:44] * Homepage for #openmrs is http://go.openmrs.org/irc
+[17:00:45] *** Mode #openmrs +ct by verne.freenode.net
+[17:00:46] * Channel #openmrs created on Fri Mar 16 22:24:29 2007
+[17:01:50] <k-joseph> dkayiwa: hi
+[17:02:19] <dkayiwa> k-joseph:  hi
+[17:02:27] <k-joseph> dkayiwa: mvn clean install failed!!1
+[17:03:25] <dkayiwa> k-joseph:  with what error
+[17:05:54] <-- shady__ (29396402@gateway/web/freenode/ip.41.57.100.2) has quit
+[17:06:03] <k-joseph> dkayiwa: actually, i lost the error log, am trying it, again, i also did it from eclipse, looking at project after project, api had so far failed, am just repeating that again, now, 
+[17:10:14] <dkayiwa> ok
+[17:10:18] <-- k-joseph (~quassel@196.0.9.67) has quit (No Ping reply in 180 seconds.)
+[18:25:13] --> k-joseph (~quassel@196.0.9.67) has joined #openmrs
+[18:25:14] * Topic for #openmrs is "OpenMRS: open source medical record systems for the developing world - http://openmrs.org/ - IRC info & logs: http://go.openmrs.org/irc - Can't find the answer here? Try http://answers.openmrs.org/"
+[18:25:14] * Topic set by downey on Mon Oct 15 15:15:18 2012
+[18:25:14] [ChanServ] Welcome to #OpenMRS. This channel is logged for your convenience. If you can't find an answer here, please use our wiki and mailing lists. More info: http://go.openmrs.org/irc
+[18:25:14] * Homepage for #openmrs is http://go.openmrs.org/irc
+[18:25:14] *** Mode #openmrs +ct by card.freenode.net
+[18:25:14] * Channel #openmrs created on Fri Mar 16 22:24:29 2007
+[18:30:17] <-- k-joseph (~quassel@196.0.9.67) has quit (No Ping reply in 180 seconds.)
+[18:32:14] --> k-joseph (~quassel@196.0.9.67) has joined #openmrs
+[18:32:14] * Topic for #openmrs is "OpenMRS: open source medical record systems for the developing world - http://openmrs.org/ - IRC info & logs: http://go.openmrs.org/irc - Can't find the answer here? Try http://answers.openmrs.org/"
+[18:32:14] * Topic set by downey on Mon Oct 15 15:15:18 2012
+[18:32:14] [ChanServ] Welcome to #OpenMRS. This channel is logged for your convenience. If you can't find an answer here, please use our wiki and mailing lists. More info: http://go.openmrs.org/irc
+[18:32:14] * Homepage for #openmrs is http://go.openmrs.org/irc
+[18:32:15] *** Mode #openmrs +ct by card.freenode.net
+[18:32:16] * Channel #openmrs created on Fri Mar 16 22:24:29 2007
+[18:40:54] <-- rafa (rafa@host13-89-206-27.limes.com.pl) has quit (Ping timeout: 252 seconds)
+[18:52:38] --> djadmin (~djadmin@115.248.50.24) has joined #openmrs
+[19:10:36] <-- djadmin (~djadmin@115.248.50.24) has quit (Ping timeout: 256 seconds)
+[19:11:53] --> djadmin (~djadmin@115.248.50.24) has joined #openmrs
+[19:16:07] --> djadmin2 (~djadmin@115.248.50.24) has joined #openmrs
+[19:16:19] <-- djadmin (~djadmin@115.248.50.24) has quit (Ping timeout: 252 seconds)
+[19:20:18] <-- k-joseph (~quassel@196.0.9.67) has quit (No Ping reply in 180 seconds.)
+[19:22:37] --> k-joseph (~quassel@41.223.84.36) has joined #openmrs
+[19:22:37] * Topic for #openmrs is "OpenMRS: open source medical record systems for the developing world - http://openmrs.org/ - IRC info & logs: http://go.openmrs.org/irc - Can't find the answer here? Try http://answers.openmrs.org/"
+[19:22:37] * Topic set by downey on Mon Oct 15 15:15:18 2012
+[19:22:37] [ChanServ] Welcome to #OpenMRS. This channel is logged for your convenience. If you can't find an answer here, please use our wiki and mailing lists. More info: http://go.openmrs.org/irc
+[19:22:37] * Homepage for #openmrs is http://go.openmrs.org/irc
+[19:22:38] *** Mode #openmrs +ct by kornbluth.freenode.net
+[19:22:38] * Channel #openmrs created on Fri Mar 16 22:24:29 2007
+[19:59:53] <k-joseph> hi, to you all, i have recently changed from windows to linux where am going to be working on openmrs from, i installed all the packages and plugins required, and now while importing openmrs to eclipse, am getting errors, please help me to fix this, so that i may again keep going, here is the error http://snag.gy/epx2x.jpg   thanks a lot :(
+[20:00:17] <-- djadmin2 (~djadmin@115.248.50.24) has quit (Ping timeout: 248 seconds)
+[20:06:42] --> hybridivy (hybridivy@183.82.232.129) has joined #openmrs
+[20:09:26] --> djadmin (~djadmin@115.248.50.24) has joined #openmrs
+[20:26:24] --> mseaton1 (~mseaton@209.156.249.193) has joined #openmrs
+[20:28:28] <-- mseaton (~mseaton@209.156.249.193) has quit (Ping timeout: 245 seconds)
+[20:41:53] <-- mseaton1 (~mseaton@209.156.249.193) has quit (Ping timeout: 248 seconds)
+[20:50:19] <-- hybridivy (hybridivy@183.82.232.129) has quit
+[20:50:32] --> mseaton (~mseaton@209.156.249.193) has joined #openmrs
+[20:50:33] *** Mode #openmrs +v mseaton by ChanServ
+[20:51:22] <-- mseaton (~mseaton@209.156.249.193) has quit (Read error: Connection reset by peer)
+[20:53:03] <-- sunbiz (~Saptarshi@1x-193-157-207-32.uio.no) has quit (Quit: Leaving.)
+[20:53:07] --> mseaton (~mseaton@209.156.249.193) has joined #openmrs
+[20:53:08] *** Mode #openmrs +v mseaton by ChanServ
+[20:54:12] --> sunbiz (~Saptarshi@1x-193-157-207-32.uio.no) has joined #openmrs
+[20:54:12] *** Mode #openmrs +v sunbiz by ChanServ
+[20:55:45] <-- mseaton (~mseaton@209.156.249.193) has quit (Read error: Connection reset by peer)
+[20:56:29] --> rowanseymour (~textual@196.44.240.59) has joined #openmrs
+[20:56:46] --> mseaton (~mseaton@209.156.249.193) has joined #openmrs
+[20:56:46] *** Mode #openmrs +v mseaton by ChanServ
+[20:59:43] <-- rowanseymour (~textual@196.44.240.59) has quit (Client Quit)
+[21:02:32] --> djazayeri1 (~Adium@209.156.249.193) has joined #openmrs
+[21:02:32] <-- djazayeri (~Adium@209.156.249.193) has quit (Read error: Connection reset by peer)
+[21:03:46] --> rowanseymour (~textual@196.44.240.59) has joined #openmrs
+[21:07:20] <-- djazayeri1 (~Adium@209.156.249.193) has quit (Ping timeout: 252 seconds)
+[21:07:31] <-- rowanseymour (~textual@196.44.240.59) has quit (Ping timeout: 260 seconds)
+[21:11:18] --> rowanseymour (~textual@196.44.240.59) has joined #openmrs
+[21:13:12] --> andrea__ (~andrea@2602:306:cefe:49f0:5d3f:90eb:e2b1:bab7) has joined #openmrs
+[21:15:59] <-- andrea_ (~andrea@2602:306:cefe:49f0:5d3f:90eb:e2b1:bab7) has quit (Ping timeout: 276 seconds)
+[21:21:11] <-- k-joseph (~quassel@41.223.84.36) has quit (No Ping reply in 180 seconds.)
+[21:32:12] --> k-joseph (~quassel@196.0.9.67) has joined #openmrs
+[21:32:12] * Topic for #openmrs is "OpenMRS: open source medical record systems for the developing world - http://openmrs.org/ - IRC info & logs: http://go.openmrs.org/irc - Can't find the answer here? Try http://answers.openmrs.org/"
+[21:32:12] * Topic set by downey on Mon Oct 15 15:15:18 2012
+[21:32:13] [ChanServ] Welcome to #OpenMRS. This channel is logged for your convenience. If you can't find an answer here, please use our wiki and mailing lists. More info: http://go.openmrs.org/irc
+[21:32:13] * Homepage for #openmrs is http://go.openmrs.org/irc
+[21:32:14] *** Mode #openmrs +ct by moorcock.freenode.net
+[21:32:14] * Channel #openmrs created on Fri Mar 16 22:24:29 2007
+[21:32:47] --> djazayeri (~Adium@209.156.249.193) has joined #openmrs
+[21:32:48] *** Mode #openmrs +o djazayeri by ChanServ
+[21:33:08] <-- djadmin (~djadmin@115.248.50.24) has quit (Ping timeout: 248 seconds)
+[21:34:06] <-- rowanseymour (~textual@196.44.240.59) has quit (Quit: Computer has gone to sleep.)
+[21:36:15] --> rowanseymour (~textual@196.44.240.59) has joined #openmrs
+[21:36:15] <-- djazayeri (~Adium@209.156.249.193) has quit (Read error: Connection reset by peer)
+[21:36:32] --> djazayeri (~Adium@209.156.249.193) has joined #openmrs
+[21:36:37] *** Mode #openmrs +o djazayeri by ChanServ
+[21:38:22] <-- rowanseymour (~textual@196.44.240.59) has quit (Client Quit)
+[21:38:36] --> mseaton1 (~mseaton@209.156.249.193) has joined #openmrs
+[21:39:09] --> rowanseymour (~textual@196.44.240.59) has joined #openmrs
+[21:39:31] <rfriedman> mseaton1, hi
+[21:40:06] <mseaton1> rfriedman: hey
+[21:40:31] <rfriedman> mseaton,  hey, I was at a seminar this morning and got to wondering if we did anything in reporting to optimize queries
+[21:40:49] <mseaton1> rfriedman: example?
+[21:41:36] <rfriedman> mseaton, for example, in composition cohorts using AND, do we evaluate both sides and then AND them or do we AND the cohorts, do the left side and then do the right side on the result
+[21:42:09] <rfriedman> mseaton, excuse, not clear
+[21:42:31] <mseaton1> rfriedman: in the current implementation we evaluate each query in full (on the base cohort supplied), and then intersect/union/etc in java
+[21:42:52] <rfriedman> option 1: calculate left side on its cohort, calculate right side on its cohort, then AND the cohorts
+[21:43:01] <-- mseaton (~mseaton@209.156.249.193) has quit (Ping timeout: 272 seconds)
+[21:43:16] <mseaton1> rfriedman: this could be changed if it were more efficient to reduce down base cohort as we go, but the tradeoff would be that caching would potentially be lost
+[21:43:21] <-> mseaton1 is now known as mseaton
+[21:44:16] <rfriedman> mseaton1, ok, yes, but which is more important?  or can we make it an option?
+[21:44:42] <mseaton> rfriedman: for example, right now if you do male + adult, then male + children, then female + adult, then female + children, you can reuse male, female, adult, child cached results as you go
+[21:45:21] <-- rowanseymour (~textual@196.44.240.59) has quit (Quit: Computer has gone to sleep.)
+[21:45:38] <rfriedman> mseaton, or what about, if you have A and B, and the criteria of A are more likely to eliminate patients than the criteria of B, make sure that A is done first
+[21:45:39] <mseaton> rfriedman: certainly could be modified to support the other approach.  not sure how to make it configurable at runtime.  a different implementation of a CompositionCohortDefinitionEvaluator could do it differently easily
+[21:46:30] <mseaton> rfriedman: yes, if that were something that could be detected.
+[21:46:45] <rfriedman> mseaton, what about things that can be done with the same table, like males >18, is there a way to handle that?
+[21:47:15] <rfriedman> mseaton, DBs keep statistics for query optimization, we could also
+[21:48:08] <mseaton> rfriedman: yes, good point.  would be interesting to design in a way to store statistics around which queries are run most often, how long they take to run, etc.
+[21:48:53] <rfriedman> mseaton, i think it would be more table-based: count of encounters by encounter type; count of obs by id-value for coded obs
+[21:49:46] <rfriedman> mseaton, if we create an index on what we're interested in, the counts come with no DB accesses, only index accesses
+[21:50:02] --> djadmin (~djadmin@115.248.50.24) has joined #openmrs
+[21:50:33] --> dkayiwa (~dkayiwa@h16b.n1.ips.mtn.co.ug) has joined #openmrs
+[21:52:17] <mseaton> rfriedman:  the intention behind our design in the reporting module is to provide the framework for plugging in "definitions" and "evaluators" to produce "results", and then various tools around those.  and so far, some bad UIs around them too.  and when i have written many of the evaluators that are in place now, my goal often has been to get a reasonably efficient starting pass out the door that produces the right result, and then allowing us to iterat
+[21:53:38] <rfriedman> mseaton, understand, np, just had this idea, thought i wld pass it on
+[21:53:56] <mseaton> rfriedman: yeah, i'm on board.  hopefully contributers with good db chops can get into that code and make it faster.
+[21:54:10] <mseaton> rfriedman: or design alternative techniques (data warehousing, indexing, etc) that can improve things
+[21:54:23] --> andrea (~andrea@2602:306:cefe:49f0:5d3f:90eb:e2b1:bab7) has joined #openmrs
+[21:54:47] <-> andrea is now known as Guest10726
+[21:57:34] <-- andrea__ (~andrea@2602:306:cefe:49f0:5d3f:90eb:e2b1:bab7) has quit (Ping timeout: 276 seconds)
+[21:58:00] <-> Guest10726 is now known as andreap
+[22:04:45] <-- djadmin (~djadmin@115.248.50.24) has quit (Ping timeout: 252 seconds)
+[22:05:08] <k-joseph> hi, to you all, i have recently changed from windows to linux where am going to be working on openmrs from, i installed all the packages and plugins required, and now while importing openmrs to eclipse, am getting errors, please help me to fix this, so that i may again keep going, here is the error http://snag.gy/epx2x.jpg   thanks a lot :(
+[22:05:36] <k-joseph> dkayiwa: hiii
+[22:20:00] --> djazayeri1 (~Adium@209.156.249.193) has joined #openmrs
+[22:25:08] <= Netsplit between *.net and *.split. Users quit: djazayeri
+[22:26:15] --> rowanseymour (~textual@196.44.240.59) has joined #openmrs
+[22:33:39] <-- dkayiwa (~dkayiwa@h16b.n1.ips.mtn.co.ug) has quit (Quit: dkayiwa)
+[22:46:17] <-- k-joseph (~quassel@196.0.9.67) has quit (No Ping reply in 180 seconds.)
+[22:48:40] --> k-joseph (~quassel@196.0.9.68) has joined #openmrs
+[22:48:40] * Topic for #openmrs is "OpenMRS: open source medical record systems for the developing world - http://openmrs.org/ - IRC info & logs: http://go.openmrs.org/irc - Can't find the answer here? Try http://answers.openmrs.org/"
+[22:48:40] * Topic set by downey on Mon Oct 15 15:15:18 2012
+[22:48:40] [ChanServ] Welcome to #OpenMRS. This channel is logged for your convenience. If you can't find an answer here, please use our wiki and mailing lists. More info: http://go.openmrs.org/irc
+[22:48:40] * Homepage for #openmrs is http://go.openmrs.org/irc
+[22:48:48] *** Mode #openmrs +ct by moorcock.freenode.net
+[22:48:48] * Channel #openmrs created on Fri Mar 16 22:24:29 2007
+[22:53:40] <-- andreap (~andrea@2602:306:cefe:49f0:5d3f:90eb:e2b1:bab7) has quit (Ping timeout: 276 seconds)
+[22:54:04] --> rkorytkowski (rafa@host13-89-206-27.limes.com.pl) has joined #openmrs
+[22:54:04] *** Mode #openmrs +v rkorytkowski by ChanServ
+[22:54:04] <-> rkorytkowski is now known as rafa
+[23:11:24] --> dkayiwa (~dkayiwa@41.210.129.96) has joined #openmrs
+[23:16:35] <-- sunbiz (~Saptarshi@1x-193-157-207-32.uio.no) has quit (Quit: Leaving.)
+[23:24:33] --> djazayeri (~Adium@209.156.249.193) has joined #openmrs
+[23:24:34] *** Mode #openmrs +o djazayeri by ChanServ
+[23:24:34] <-- djazayeri1 (~Adium@209.156.249.193) has quit (Read error: Connection reset by peer)
+[23:35:05] <-- jkeiper (~jkeiper@c-69-136-184-37.hsd1.in.comcast.net) has quit (Read error: Connection reset by peer)
+[23:36:31] --> jkeiper (~jkeiper@c-69-136-184-37.hsd1.in.comcast.net) has joined #openmrs
+[23:36:32] *** Mode #openmrs +v jkeiper by ChanServ
+[23:48:28] --> djazayeri1 (~Adium@209.156.249.193) has joined #openmrs
+[23:48:51] <-- djazayeri (~Adium@209.156.249.193) has quit (Read error: Connection reset by peer)
+[23:52:36] <-- rfriedman (~rfriedman@adsl-074-251-137-165.sip.asm.bellsouth.net) has quit (Quit: Leaving)
+[00:00:00] - {Day changed to Wed Feb 13 00:00:00 2013}
+[00:01:14] <-- k-joseph (~quassel@196.0.9.68) has quit (No Ping reply in 180 seconds.)
+[16:55:27] --> k-joseph (~quassel@41.223.84.37) has joined #openmrs
+[16:55:27] * Topic for #openmrs is "OpenMRS: open source medical record systems for the developing world - http://openmrs.org/ - IRC info & logs: http://go.openmrs.org/irc - Can't find the answer here? Try http://answers.openmrs.org/"
+[16:55:27] * Topic set by downey on Mon Oct 15 15:15:18 2012
+[16:55:27] [ChanServ] Welcome to #OpenMRS. This channel is logged for your convenience. If you can't find an answer here, please use our wiki and mailing lists. More info: http://go.openmrs.org/irc
+[16:55:27] * Homepage for #openmrs is http://go.openmrs.org/irc
+[16:55:29] *** Mode #openmrs +ct by wright.freenode.net
+[16:55:29] * Channel #openmrs created on Fri Mar 16 22:24:29 2007
+[16:55:38] <k-joseph> hi, dkayiwa
+[16:55:48] <dkayiwa> k-joseph:  hi
+[16:56:15] <k-joseph> dkayiwa: have you faced this Incompatible JavaHL library loaded.  1.7.x or later required. before?
+[16:57:17] <dkayiwa> k-joseph:  have you googled it?
+[17:00:01] <-- djadmin (~djadmin@115.248.50.24) has quit (Ping timeout: 245 seconds)
+[17:00:04] <k-joseph> dkayiwa: i installed all the required plugins and now on importing openmrscore  am getting that, i tried http://subeclipse.tigris.org/wiki/JavaHL and i installed version 0.9, that is what my linux version software manager offers,  
+[17:03:45] --> harshadura (harshadura@175.157.47.133) has joined #openmrs
+[17:06:26] <-- rowanseymour (~textual@41.74.174.250) has quit (Ping timeout: 252 seconds)
+[17:08:36] --> mseaton (~mseaton@209.156.249.193) has joined #openmrs
+[17:08:36] *** Mode #openmrs +v mseaton by ChanServ
+[17:12:15] <k-joseph> hi, all, svnclientadapter-java High-level java api for subversion (library) version 0.9, i need to install a better version according to Incompatible JavaHL library loaded.  1.7.x or later required.  how can i install that one required
+[17:13:11] <dkayiwa> k-joseph:  does that prevent your mvn clean install from working?
+[17:14:39] <k-joseph> mvn clean install is still failing, when i insist to import and ignore this error, the projects have errors, like pom files
+[17:15:13] <dkayiwa> k-joseph:  can you pastebin the link for mvn clean install results?
+[17:15:38] --> GitHub67 (~GitHub67@ec2-54-235-118-251.compute-1.amazonaws.com) has joined #openmrs
+[17:15:38] <GitHub67> [openmrs-core] dkayiwa pushed 2 new commits to master: http://git.io/vgUX-w
+[17:15:38] <GitHub67> openmrs-core/master e11119b wluyima: Handle complex observations (ED) in ORUR01Handler - TRUNK-3887
+[17:15:38] <GitHub67> openmrs-core/master 6fe2ac4 dkayiwa: Merge pull request #208 from wluyima/TRUNK-3887...
+[17:15:38] <-- GitHub67 (~GitHub67@ec2-54-235-118-251.compute-1.amazonaws.com) has left #openmrs
+[17:15:52] --> wyclif_ (~wyclif@rgnout.regenstrief.org) has joined #openmrs
+[17:20:30] --> harshadura_ (harshadura@123.231.9.254) has joined #openmrs
+[17:22:22] <-- harshadura (harshadura@175.157.47.133) has quit (Ping timeout: 276 seconds)
+[17:33:47] <-- mseaton (~mseaton@209.156.249.193) has quit (Ping timeout: 255 seconds)
+[17:34:40] <suranga> mm.. hi rafa , regarding RESTWS-331
+[17:38:41] <-- k-joseph (~quassel@41.223.84.37) has quit (No Ping reply in 180 seconds.)
+[18:02:00] --> k-joseph (~quassel@196.0.9.65) has joined #openmrs
+[18:02:00] * Topic for #openmrs is "OpenMRS: open source medical record systems for the developing world - http://openmrs.org/ - IRC info & logs: http://go.openmrs.org/irc - Can't find the answer here? Try http://answers.openmrs.org/"
+[18:02:00] * Topic set by downey on Mon Oct 15 15:15:18 2012
+[18:02:00] [ChanServ] Welcome to #OpenMRS. This channel is logged for your convenience. If you can't find an answer here, please use our wiki and mailing lists. More info: http://go.openmrs.org/irc
+[18:02:00] * Homepage for #openmrs is http://go.openmrs.org/irc
+[18:02:21] <cpower> Scrum time
+[18:02:21] <cpower> ?
+[18:02:33] <cpower> of course it is, let's begin!
+[18:04:15] *** Mode #openmrs +ct by moorcock.freenode.net
+[18:04:15] * Channel #openmrs created on Fri Mar 16 22:24:29 2007
+[18:04:15] <cpower> !scrumon cpower
+[18:04:15] -*- OpenMRSBot says the DAILY SCRUM MEETING is STARTING. This meeting should not last longer than 15 minutes. Please hold other comments until the end of the meeting, or message someone privately. Thank you! ScrumMaster cpower- you may begin when ready.
+[18:04:15] <cpower> Order: rafa, dkayiwa, wyclif_, suranga (if he wants) and Andrea when she shows
+[18:04:15] <rafa> Today:
+[18:04:15] <rafa> * Reviewed and merged PRs
+[18:04:15] <rafa> * Completed:
+[18:04:15] <rafa> + RESTWS-309: Merge webservices.rest and webservices.rest19ext modules into one
+[18:04:15] <rafa> https://tickets.openmrs.org/browse/RESTWS-309
+[18:04:15] <rafa> + RESTWS-325: Fix ConceptDescriptionControllerTest
+[18:04:15] <rafa> https://tickets.openmrs.org/browse/RESTWS-325
+[18:04:15] <rafa> + RESTWS-326: Fix ConceptNameControllerTest
+[18:04:15] <rafa> https://tickets.openmrs.org/browse/RESTWS-326
+[18:04:15] <rafa> * Started with RESTWS-350: Fix catalog to work with new resources and subresources
+[18:04:15] <rafa> https://tickets.openmrs.org/browse/RESTWS-350
+[18:04:15] <rafa> Note to wyclif: please focus on tickets different than Fix..., RESTWS-320 is your priority
+[18:04:15] <rafa> No blockers.
+[18:04:15] <dkayiwa> Back ported to 1.9.x and closed: Erasing a short name in the edit concepts page should void it - TRUNK-3445
+[18:04:15] <dkayiwa> Reviewed: Improve Crash Reporting - TRUNK-2119
+[18:04:15] <dkayiwa> Reviewed: Handle complex observations (ED) in ORUR01Handler - TRUNK-3887
+[18:04:15] <dkayiwa> Looked into: Move away from depending on module id - TRUNK-3349
+[18:04:15] <dkayiwa> Now reviewing: Add SerializableComplexObsHandler interface for form processing methods - TRUNK-3886
+[18:04:15] <dkayiwa> No Blockers
+[18:04:15] <wyclif_> Tuesday:
+[18:04:15] <wyclif_>         email catch up
+[18:04:15] <wyclif_>         Revisit - RESTWS-320 - Combine search and getAll methods in MainCrudController
+[18:04:15] <wyclif_>         RESTWS-267 - Need to expose concept_source
+[18:04:29] <wyclif_> Wednesday:
+[18:04:29] <wyclif_>         RESTWS-329 - Fix EncounterTypeControllerTest
+[18:04:29] <wyclif_>         RESTWS-328 - Fix EncounterControllerTest
+[18:04:29] <wyclif_>         design call
+[18:04:29] <wyclif_> Blockers: None
+[18:04:29] <suranga> hi
+[18:04:29] <suranga> DOING
+[18:04:29] --> andrea_ (~andrea@2602:306:cefe:49f0:e825:8506:3e52:f267) has joined #openmrs
+[18:04:29] <suranga> Just started on RESTWS 331
+[18:04:31] <dkayiwa> surely andrea_  shows up :)
+[18:04:47] <suranga> No blockers
+[18:04:59] <rafa> suranga: please have a look at the most recently fixed tests ike ConceptDescriptionControllerTest
+[18:04:59] <cpower> good update suranga
+[18:05:09] <cpower> andrea_ you are up :-)
+[18:05:09] <suranga> thanks rafa  cpower :)
+[18:05:09] <andrea_> dkayiwa, I'm here
+[18:05:25] <andrea_> Tuesday
+[18:05:25] <andrea_>   Work on REST-322 Fix ConceptClassControllerTest
+[18:05:25] <andrea_> Wednesday
+[18:05:25] <andrea_>   Univ call
+[18:05:25] <andrea_>   Design call
+[18:05:25] <andrea_>   REST-322 Fix ConceptClassControllerTest
+[18:05:25] <andrea_>   Pair with Rafa re REST-322 Fix ConceptClassControllerTest
+[18:05:25] <andrea_>   Blocker - can't run tests as a JUNIT test
+[18:05:25] <andrea_>             5 Tests with  Errors
+[18:05:32] <rafa> andrea_: I won't have time today to pair
+[18:06:14] <rafa> andrea_: wyclif_ could you please pait with andrea_?
+[18:06:14] <rafa> *pair
+[18:06:14] <andrea_> rafa, ok
+[18:06:29] <wyclif_> pair
+[18:06:29] <wyclif_> rafa, sure
+[18:06:29] <-- suranga (~suranga@61.245.160.245) has quit (Quit: Leaving)
+[18:06:40] <rafa> wyclif_: thanks
+[18:06:40] <wyclif_> andrea_, what time works for you?
+[18:06:51] <andrea_> rafa, can we use the connect room like you and I did?
+[18:06:55] <cpower> andrea_ is the pair programming to help with the blocker or two different things?
+[18:07:07] <wyclif_> andrea_, i think my connect trial perido ran out
+[18:07:41] <rafa> wyclif_: andrea_ I can make it available for you guys
+[18:07:41] <andrea_> cpower, the blocker
+[18:07:41] <rafa> you can use the university room
+[18:07:47] <wyclif_> rafa, the connect software?
+[18:08:09] <rafa> wyclif_: no adobe connect
+[18:08:09] <wyclif_> rafa, oh!
+[18:08:21] <rafa> wyclif_: andrea is on Windows so she'll share
+[18:08:41] <wyclif_> andrea_, what ticket are you working on
+[18:08:41] <dkayiwa> how about TeamViewer?
+[18:08:54] <-- harshadura__ (harshadura@123.231.9.254) has quit (Ping timeout: 256 seconds)
+[18:09:51] <rafa> dkayiwa: yeah, that should also work
+[18:09:51] <rafa> andrea_: wyclif_ you can use either TeamViewer or http://connect.iu.edu/omrsu/
+[18:09:51] <andrea_> wyclif_: REST-322 Fix ConceptClassControllerTest
+[18:09:51] <cpower> Ok, as a reminder to those online, but not currently involved with the sprint.  We have plenty of small tickets for people to join in.  PLEASE DO SO! We are still working out our plans for what sprint will be next so stay tuned.
+[18:10:22] --> travis-ci (~travis-ci@ec2-184-73-137-10.compute-1.amazonaws.com) has joined #openmrs
+[18:10:22] <travis-ci> [travis-ci] [openmrs/openmrs-core] [6fe2ac4] [dkayiwa] The build passed. - http://travis-ci.org/openmrs/openmrs-core/builds/4769775
+[18:10:22] <-- travis-ci (~travis-ci@ec2-184-73-137-10.compute-1.amazonaws.com) has left #openmrs
+[18:10:22] <OpenMRSBot> <http://ln-s.net/+crg> (at travis-ci.org)
+[18:10:22] <cpower> I also need design call discussion points if you have them
+[18:10:32] <cpower> for today's design call
+[18:10:32] <wyclif_> andrea_, ok, does 12:15 ET work for you?
+[18:10:32] <wyclif_> andrea_, ok, does 12:15pm ET work for you?
+[18:10:32] <cpower> email them to me if you have them
+[18:10:32] <cpower> Beyond that, have a great day!
+[18:10:32] <cpower> !scrumoff
+[18:10:32] -*- OpenMRSBot says the DAILY SCRUM MEETING has ENDED. This channel is now returned to normal hacking operations. Post-scrum meeting follow-up conversations may now begin.
+[18:10:32] <andrea_> wyclif, ok so 9:15 PT
+[18:11:11] <wyclif_> rafa, my team viewer trial ran out, do we have an open source license?
+[18:11:24] <andrea_> wyclif, adobe connect at 12:15 ET right?
+[18:11:36] <wyclif_> andrea_, yes
+[18:11:51] <rafa> wyclif_: I thought it's free
+[18:11:51] <andrea_> wyclif_: good!
+[18:12:05] <wyclif_> rafa, nope
+[18:12:15] <rafa> wyclif_: Free license (non-commercial use only)
+[18:12:30] <rafa> http://www.teamviewer.com
+[18:13:13] <andrea_> wyclif, isn't design call today?
+[18:13:31] <rafa> andrea_: wyclif_ anyway I made the adobe connect room available for you so just use whatever works for you
+[18:16:58] <-- k-joseph (~quassel@196.0.9.65) has quit (No Ping reply in 180 seconds.)
+[18:20:10] --> k-joseph (~quassel@196.0.9.65) has joined #openmrs
+[18:20:10] * Topic for #openmrs is "OpenMRS: open source medical record systems for the developing world - http://openmrs.org/ - IRC info & logs: http://go.openmrs.org/irc - Can't find the answer here? Try http://answers.openmrs.org/"
+[18:20:10] * Topic set by downey on Mon Oct 15 15:15:18 2012
+[18:20:16] [ChanServ] Welcome to #OpenMRS. This channel is logged for your convenience. If you can't find an answer here, please use our wiki and mailing lists. More info: http://go.openmrs.org/irc
+[18:20:16] * Homepage for #openmrs is http://go.openmrs.org/irc
+[18:21:38] *** Mode #openmrs +ct by holmes.freenode.net
+[18:21:38] * Channel #openmrs created on Fri Mar 16 22:24:29 2007
+[18:22:31] <-- dkayiwa (~dkayiwa@h139.n1.ips.mtn.co.ug) has quit (Quit: dkayiwa)
+[18:34:57] --> djadmin (~djadmin@115.248.50.24) has joined #openmrs
+[18:42:23] <-- djadmin (~djadmin@115.248.50.24) has quit (Ping timeout: 256 seconds)
+[18:45:10] --> djadmin (~djadmin@115.248.50.24) has joined #openmrs
+[18:55:31] <-- basic` (basic@osuosl/staff/basic) has quit (Excess Flood)
+[18:56:53] --> basic` (basic@osuosl/staff/basic) has joined #openmrs
+[19:01:19] <-- rafa (rafa@host13-89-206-27.limes.com.pl) has quit (Quit: rafa)
+[19:03:51] --> downey (~downey@unaffiliated/downey) has joined #openmrs
+[19:03:51] *** Mode #openmrs +o downey by ChanServ
+[19:03:51] *** Mode #openmrs +o downey by OpenMRSBot
+[19:06:13] * ChanServ has changed topic for #openmrs to: "OpenMRS: open source medical record systems for the developing world - http://openmrs.org/ - IRC info & logs: http://go.openmrs.org/irc - GSoC info: http://go.openmrs.org/soc2013 - Can't find the answer here? Try http://answers.openmrs.org/"
+[19:13:19] --> kavuri (~kavuri@122.166.158.247) has joined #openmrs
+[19:27:38] <-- djadmin (~djadmin@115.248.50.24) has quit (Ping timeout: 244 seconds)
+[19:30:51] --> suranga (~suranga@61.245.168.34) has joined #openmrs
+[19:30:57] *** Mode #openmrs +v suranga by ChanServ
+[19:33:10] --> djadmin (~djadmin@115.248.50.24) has joined #openmrs
+[19:34:41] <-- evmw (~evmw@c-24-60-83-188.hsd1.ma.comcast.net) has quit (Ping timeout: 244 seconds)
+[19:34:51] --> bhashitha (67f731bc@gateway/web/freenode/ip.103.247.49.188) has joined #openmrs
+[19:40:17] --> jkeiper (~jkeiper@rgnout.regenstrief.org) has joined #openmrs
+[19:40:17] *** Mode #openmrs +v jkeiper by ChanServ
+[19:44:44] <-- kavuri (~kavuri@122.166.158.247) has quit (Ping timeout: 252 seconds)
+[19:51:30] <jkeiper> !beer me
+[19:51:56] -*- OpenMRSBot slides me a pint
+[21:45:38] --> k-joseph (~quassel@196.0.9.66) has joined #openmrs
+[21:45:38] * Topic for #openmrs is "OpenMRS: open source medical record systems for the developing world - http://openmrs.org/ - IRC info & logs: http://go.openmrs.org/irc - GSoC info: http://go.openmrs.org/soc2013 - Can't find the answer here? Try http://answers.openmrs.org/"
+[21:45:38] * Topic set by downey on Wed Feb 13 19:05:52 2013
+[21:45:38] [moorcock.freenode.net] [freenode-info] channel trolls and no channel staff around to help? please check with freenode support: http://freenode.net/faq.shtml#gettinghelp
+[21:45:38] [ChanServ] Welcome to #OpenMRS. This channel is logged for your convenience. If you can't find an answer here, please use our wiki and mailing lists. More info: http://go.openmrs.org/irc
+[21:45:38] * Homepage for #openmrs is http://go.openmrs.org/irc
+[21:45:42] *** Mode #openmrs +ct by moorcock.freenode.net
+[21:45:42] * Channel #openmrs created on Fri Mar 16 22:24:29 2007
+[21:50:55] <-- dkayiwa (~dkayiwa@h165.n1.ips.mtn.co.ug) has quit (Read error: Connection reset by peer)
+[21:51:30] --> dkayiwa (~dkayiwa@h154.n1.ips.mtn.co.ug) has joined #openmrs
+[21:51:40] --> andrea_ (~andrea@2602:306:cefe:49f0:61aa:875b:85c4:fc09) has joined #openmrs
+[21:52:08] <-- andrea_ (~andrea@2602:306:cefe:49f0:61aa:875b:85c4:fc09) has quit (Client Quit)
+[21:52:38] --> rowanseymour (~textual@196.44.240.57) has joined #openmrs
+[21:53:47] --> djadmin (~djadmin@115.248.50.24) has joined #openmrs
+[21:55:28] <-- andrea__ (~andrea@2602:306:cefe:49f0:61aa:875b:85c4:fc09) has quit (Ping timeout: 276 seconds)
+[21:55:53] <-- rowanseymour (~textual@196.44.240.57) has quit (Client Quit)
+[21:58:39] <k-joseph> dkayiwa: hi
+[21:59:11] <dkayiwa> k-joseph:  hi
+[21:59:18] <k-joseph> dkayiwa: mvn clean install is yielding http://pastebin.com/asgMdwSb
+[21:59:28] <k-joseph> dkayiwa: un usual
+[22:01:05] <-- djadmin (~djadmin@115.248.50.24) has quit (Ping timeout: 260 seconds)
+[22:02:10] <dkayiwa> k-joseph:  did you try again?
+[22:02:36] <k-joseph> dkayiwa: i have tried for several times
+[22:02:53] <dkayiwa> k-joseph:  and got the same exact error?
+[22:03:24] <k-joseph> dkayiwa: yes
+[22:03:42] <dkayiwa> k-joseph:  did you try google it?
+[22:05:15] <-- djazayeri (~Adium@209.156.249.193) has quit (Quit: Leaving.)
+[22:05:23] --> mseaton1 (~mseaton@209.156.249.193) has joined #openmrs
+[22:05:31] --> djazayeri (~Adium@209.156.249.193) has joined #openmrs
+[22:05:32] *** Mode #openmrs +o djazayeri by ChanServ
+[22:08:30] <-- mseaton (~mseaton@209.156.249.193) has quit (Ping timeout: 272 seconds)
+[22:28:00] <-- bhashitha (67f731bc@gateway/web/freenode/ip.103.247.49.188) has quit (Quit: Page closed)
+[22:30:35] <k-joseph> dkayiwa: not able to solve that, yet or get an out standing page on the compile failure,     still before i forget, is can the message Incompatible JavaHL library loaded.  1.7.x or later required.  stop openmrs from running, if ignored for a while now?
+[22:43:26] <-- wyclif_ (~wyclif@rgnout.regenstrief.org) has quit (Read error: Connection reset by peer)
+[23:01:15] --> k-joseph (~quassel@196.0.9.65) has joined #openmrs
+[23:01:15] * Topic for #openmrs is "OpenMRS: open source medical record systems for the developing world - http://openmrs.org/ - IRC info & logs: http://go.openmrs.org/irc - GSoC info: http://go.openmrs.org/soc2013 - Can't find the answer here? Try http://answers.openmrs.org/"
+[23:01:15] * Topic set by downey on Wed Feb 13 19:05:52 2013
+[23:01:16] [barjavel.freenode.net] [freenode-info] if you're at a conference and other people are having trouble connecting, please mention it to staff: http://freenode.net/faq.shtml#gettinghelp
+[23:01:16] [ChanServ] Welcome to #OpenMRS. This channel is logged for your convenience. If you can't find an answer here, please use our wiki and mailing lists. More info: http://go.openmrs.org/irc
+[23:01:16] * Homepage for #openmrs is http://go.openmrs.org/irc
+[23:01:17] *** Mode #openmrs +ct by barjavel.freenode.net
+[23:01:17] * Channel #openmrs created on Fri Mar 16 22:24:29 2007
+[23:01:58] <-- wyclif (~wyclif@rgnout.regenstrief.org) has quit (Read error: Connection reset by peer)
+[23:03:49] --> wyclif (~wyclif@rgnout.regenstrief.org) has joined #openmrs
+[23:21:22] --> nwilkie (~Nick@170.77.230.50) has joined #openmrs
+[23:21:23] <-- nwilkie (~Nick@170.77.230.50) has quit (Client Quit)
+[23:27:39] <-- wyclif (~wyclif@rgnout.regenstrief.org) has quit (Read error: Connection reset by peer)
+[23:28:13] --> wyclif (~wyclif@rgnout.regenstrief.org) has joined #openmrs
+[23:47:56] <-- cpower (~IceChat9@134.68.31.227) has quit (Ping timeout: 272 seconds)
+[23:50:18] <-- dkayiwa (~dkayiwa@h154.n1.ips.mtn.co.ug) has quit (Quit: dkayiwa)
+[23:54:30] --> cpower (~IceChat9@rgnout.regenstrief.org) has joined #openmrs
+[23:56:47] <-- jkeiper (~jkeiper@rgnout.regenstrief.org) has quit (Ping timeout: 272 seconds)
+[00:00:00] - {Day changed to Thu Feb 14 00:00:00 2013}
+[00:03:55] <-- wyclif (~wyclif@rgnout.regenstrief.org) has quit (Ping timeout: 260 seconds)
+[00:26:48] <-- k-joseph (~quassel@196.0.9.65) has quit (No Ping reply in 180 seconds.)
+[13:51:50] --> k-joseph (~quassel@41.223.84.37) has joined #openmrs
+[13:51:50] * Topic for #openmrs is "OpenMRS: open source medical record systems for the developing world - http://openmrs.org/ - IRC info & logs: http://go.openmrs.org/irc - GSoC info: http://go.openmrs.org/soc2013 - Can't find the answer here? Try http://answers.openmrs.org/"
+[13:51:50] * Topic set by downey on Wed Feb 13 19:05:52 2013
+[13:51:51] [ChanServ] Welcome to #OpenMRS. This channel is logged for your convenience. If you can't find an answer here, please use our wiki and mailing lists. More info: http://go.openmrs.org/irc
+[13:51:51] * Homepage for #openmrs is http://go.openmrs.org/irc
+[13:51:51] *** Mode #openmrs +ct by barjavel.freenode.net
+[13:51:51] * Channel #openmrs created on Fri Mar 16 22:24:29 2007
+[13:52:32] <suranga> rafa,  aha, thats probably the cause to my problem then ? mm...
+[13:54:18] <suranga> rafa,  shoulnt I do a git commit first ?
+[13:57:52] <-- k-joseph (~quassel@41.223.84.37) has quit (No Ping reply in 180 seconds.)
+[16:41:11] --> k-joseph (~quassel@41.223.84.36) has joined #openmrs
+[16:41:11] * Topic for #openmrs is "OpenMRS: open source medical record systems for the developing world - http://openmrs.org/ - IRC info & logs: http://go.openmrs.org/irc - GSoC info: http://go.openmrs.org/soc2013 - Can't find the answer here? Try http://answers.openmrs.org/"
+[16:41:11] * Topic set by downey on Wed Feb 13 19:05:52 2013
+[16:41:11] [ChanServ] Welcome to #OpenMRS. This channel is logged for your convenience. If you can't find an answer here, please use our wiki and mailing lists. More info: http://go.openmrs.org/irc
+[16:41:11] * Homepage for #openmrs is http://go.openmrs.org/irc
+[16:41:12] *** Mode #openmrs +ct by barjavel.freenode.net
+[16:41:12] * Channel #openmrs created on Fri Mar 16 22:24:29 2007
+[16:42:00] <k-joseph> dkayiwa: hi
+[16:47:46] <dkayiwa> k-joseph:  hi
+[16:57:11] <-- k-joseph (~quassel@41.223.84.36) has quit (No Ping reply in 180 seconds.)
+[16:57:35] --> k_joseph (~quassel@41.223.84.38) has joined #openmrs
+[16:57:35] * Topic for #openmrs is "OpenMRS: open source medical record systems for the developing world - http://openmrs.org/ - IRC info & logs: http://go.openmrs.org/irc - GSoC info: http://go.openmrs.org/soc2013 - Can't find the answer here? Try http://answers.openmrs.org/"
+[16:57:35] * Topic set by downey on Wed Feb 13 19:05:52 2013
+[16:57:35] [ChanServ] Welcome to #OpenMRS. This channel is logged for your convenience. If you can't find an answer here, please use our wiki and mailing lists. More info: http://go.openmrs.org/irc
+[16:57:35] * Homepage for #openmrs is http://go.openmrs.org/irc
+[16:57:36] *** Mode #openmrs +ct by barjavel.freenode.net
+[16:57:36] * Channel #openmrs created on Fri Mar 16 22:24:29 2007
+[16:58:20] <-- k-joseph (~quassel@41.223.84.36) has quit (Ping timeout: 260 seconds)
+[17:02:05] <-- k_joseph (~quassel@41.223.84.38) has quit (No Ping reply in 180 seconds.)
+[17:02:30] --> k-joseph (~quassel@41.223.84.36) has joined #openmrs
+[17:02:30] * Topic for #openmrs is "OpenMRS: open source medical record systems for the developing world - http://openmrs.org/ - IRC info & logs: http://go.openmrs.org/irc - GSoC info: http://go.openmrs.org/soc2013 - Can't find the answer here? Try http://answers.openmrs.org/"
+[17:02:31] * Topic set by downey on Wed Feb 13 19:05:52 2013
+[17:02:31] [ChanServ] Welcome to #OpenMRS. This channel is logged for your convenience. If you can't find an answer here, please use our wiki and mailing lists. More info: http://go.openmrs.org/irc
+[17:02:31] * Homepage for #openmrs is http://go.openmrs.org/irc
+[17:02:32] *** Mode #openmrs +ct by rajaniemi.freenode.net
+[17:02:32] * Channel #openmrs created on Fri Mar 16 22:24:29 2007
+[17:03:01] <-- k_joseph (~quassel@41.223.84.38) has quit (Ping timeout: 260 seconds)
+[17:12:57] --> robbyoconnor (~wakawaka@guifications/user/r0bby) has joined #openmrs
+[17:12:58] *** Mode #openmrs +v robbyoconnor by ChanServ
+[17:15:15] <-- robbyoconnor (~wakawaka@guifications/user/r0bby) has quit (Client Quit)
+[17:23:01] <-- k-joseph (~quassel@41.223.84.36) has quit (No Ping reply in 180 seconds.)
+[17:23:21] --> k_joseph (~quassel@41.223.84.37) has joined #openmrs
+[17:23:21] * Topic for #openmrs is "OpenMRS: open source medical record systems for the developing world - http://openmrs.org/ - IRC info & logs: http://go.openmrs.org/irc - GSoC info: http://go.openmrs.org/soc2013 - Can't find the answer here? Try http://answers.openmrs.org/"
+[17:23:21] * Topic set by downey on Wed Feb 13 19:05:52 2013
+[17:23:21] [ChanServ] Welcome to #OpenMRS. This channel is logged for your convenience. If you can't find an answer here, please use our wiki and mailing lists. More info: http://go.openmrs.org/irc
+[17:23:21] * Homepage for #openmrs is http://go.openmrs.org/irc
+[17:23:22] *** Mode #openmrs +ct by barjavel.freenode.net
+[17:23:22] * Channel #openmrs created on Fri Mar 16 22:24:29 2007
+[17:24:04] <-- k-joseph (~quassel@41.223.84.36) has quit (Ping timeout: 276 seconds)
+[17:25:14] --> wyclif (~wyclif@rgnout.regenstrief.org) has joined #openmrs
+[17:29:37] --> djazayeri (~Adium@209.156.249.193) has joined #openmrs
+[17:29:37] *** Mode #openmrs +o djazayeri by ChanServ
+[17:31:12] <k_joseph> dkayiwa: am trying to clone openmrs though it is breaking down on the way due to small bundle probs, i think i need to do this on a further more stable connection, on the part of sharing openmrs projects in eclipse, what do you think is the cause for me to miss having git as an option to select? 
+[17:31:28] <-> You are now known as k-joseph
+[17:32:08] <-- rowanseymour (~textual@41.74.174.250) has quit (Ping timeout: 260 seconds)
+[17:32:51] <dkayiwa> k-joseph:  so does that mean that cloning no longer gives the other problem? In otherwards the other problem was cause by the wrong url you were using?
+[17:33:29] <k-joseph> dkayiwa: yes
+[17:34:52] <dkayiwa> k-joseph:  did you install the git eclipse plugin?
+[17:35:35] <k-joseph> dkayiwa: i installed Egit
+[17:39:29] <dkayiwa> k-joseph:  can you try update the plugin?
+[17:40:47] <k-joseph> dkayiwa: ok, but the update button is not available(i mean it is there but does not allow being pressed)
+[17:41:43] <dkayiwa> k-joseph:  under eclipse preferences, do you see Team -> Git?
+[17:42:38] <k-joseph> dkayiwa: git is not available
+[17:43:02] <dkayiwa> k-joseph: can you remove and install the plugin again
+[17:43:14] <k-joseph> dkayiwa: ok
+[17:52:32] <k-joseph> dkayiwa: that has solved that problem, 
+[17:52:46] <dkayiwa> k-joseph:  ok great
+[17:53:24] --> rowanseymour (~textual@41.74.174.250) has joined #openmrs
+[18:05:24] <-- wyclif (~wyclif@rgnout.regenstrief.org) has quit (Ping timeout: 252 seconds)
+[18:08:55] <-- mseaton (~mseaton@209.156.249.193) has quit (Ping timeout: 260 seconds)
+[18:11:30] <-- rowanseymour (~textual@41.74.174.250) has quit (Ping timeout: 264 seconds)
+[18:17:55] --> wyclif (~wyclif@ip-64-134-161-20.public.wayport.net) has joined #openmrs
+[18:19:53] --> rowanseymour (~textual@41.74.174.250) has joined #openmrs
+[18:24:23] <-- rowanseymour (~textual@41.74.174.250) has quit (Ping timeout: 260 seconds)
+[18:33:06] --> mseaton (~mseaton@209.156.249.193) has joined #openmrs
+[18:33:07] *** Mode #openmrs +v mseaton by ChanServ
+[18:34:24] --> djadmin (~djadmin@115.248.50.23) has joined #openmrs
+[18:40:32] <rafa> wyclif: hey
+[18:40:39] <rafa> wyclif: the thing about RESTWS-267
+[18:40:43] <wyclif> hi rafa
+[18:40:56] <rafa> wyclif: I can't think of a way to parallelize the work between devs
+[18:41:03] <rafa> wyclif: so even if we create sub-tasks
+[18:41:11] <rafa> wyclif: we will need to go with them one by one
+[18:41:21] <rafa> wyclif: meaning most likely one dev will do it
+[18:41:48] <rafa> wyclif: I was hoping you would go for it all!
+[18:42:00] <rafa> wyclif: it's either you or me actually
+[18:42:01] <wyclif> rafa, correct but you can see that i have worked on concept source without depending on another ticket, someone in this time could have been working on concept map type in the ematime
+[18:42:25] <wyclif> rafa, because concept map type and source and not related
+[18:42:44] <wyclif> rafa, i undertand some can't be done in parallel
+[18:43:11] --> rfriedman (~rfriedman@adsl-074-251-137-165.sip.asm.bellsouth.net) has joined #openmrs
+[18:43:20] <wyclif> rafa, but it is still nice to break down work into smaller units to promote the idea of committing early
+[18:43:35] <rfriedman> wyclif, anything i can do to help with this?
+[18:43:37] <rafa> wyclif: Ohh you do can commit early :)
+[18:43:51] <rafa> wyclif: how often you need
+[18:44:25] <rafa> wyclif: my point is we could parallelize it only between you and me
+[18:44:32] <wyclif> rafa, sure
+[18:44:37] <rfriedman> probably makes sense, i ended up working on this ticket for a month
+[18:44:39] <rafa> wyclif: and it's not really worth it
+[18:44:55] <rfriedman> the opposite of frequent commits
+[18:45:10] <rafa> wyclif: running into conflicts, etc...
+[18:45:42] <rafa> wyclif: if you don't like this ticket anymore I can take it over
+[18:46:02] <rafa> wyclif: you could try wih RESTWS-350 for instance
+[18:46:04] <wyclif> rafa, i know i didnt read the ticket description well which is my fault, but i just assumed this ticket was mainly about exposing concept resource
+[18:46:05] <rfriedman> rafa, we'll give you 2 hours for it
+[18:46:14] <rafa> rfriedman: haha :D
+[18:46:18] <rafa> rfriedman: you're so generous
+[18:46:30] <wyclif> so that means i can continue with something else and assume concept source is done, right rafa
+[18:46:49] <rafa> wyclif: right, concept source looks good
+[18:46:58] <rafa> wyclif: I can take it over from here
+[18:47:12] <rafa> wyclif: and free RESTWS-350 for you if you want
+[18:48:45] <rafa> wyclif: if you feel like you need to score more tickets you can go with Fix... test as well :D
+[18:49:23] <rafa> wyclif: they are like 20 minutes of work now
+[18:49:55] <wyclif> i can can do concept map type as you do concept reference term source
+[18:50:06] <wyclif> rafa, i can can do concept map type as you do concept reference term source
+[18:50:42] <wyclif> rafa, and then one of us can finish reference terms and mapping since they depend on each other
+[18:50:55] <rafa> wyclif: cool
+[18:51:07] <rafa> wyclif: would you mind creating these 3 subtasks?
+[18:51:30] <wyclif> rafa, i will create the sub tickets and set the depencency
+[18:51:40] <rafa> wyclif: perfect, thanks
+[18:51:51] <wyclif> rafa, thanks
+[18:55:55] <-> rfriedman is now known as rfriedman-away
+[18:55:55] <-- wyclif (~wyclif@ip-64-134-161-20.public.wayport.net) has quit (Read error: Connection reset by peer)
+[18:56:20] --> wyclif (~wyclif@ip-64-134-161-20.public.wayport.net) has joined #openmrs
+[18:59:34] --> suranga (~suranga@61.245.168.2) has joined #openmrs
+[18:59:35] *** Mode #openmrs +v suranga by ChanServ
+[19:02:00] <suranga> hi rafa is it a must that we use the new methods that you highlighted in RESTWS-325 ?
+[19:02:09] <rafa> suranga: no
+[19:02:28] <suranga> rafa, oh, preferred, but not mandatory, right :)
+[19:02:34] <rafa> suranga: right
+[20:01:54] <-- k-joseph (~quassel@41.223.84.37) has quit (No Ping reply in 180 seconds.)
+[00:00:00] - {Day changed to Fri Feb 15 00:00:00 2013}
+[00:08:49] --> k-joseph (~quassel@196.0.9.67) has joined #openmrs
+[00:08:49] * Topic for #openmrs is "OpenMRS: open source medical record systems for the developing world - http://openmrs.org/ - IRC info & logs: http://go.openmrs.org/irc - GSoC info: http://go.openmrs.org/soc2013 - Can't find the answer here? Try http://answers.openmrs.org/"
+[00:08:50] * Topic set by downey on Wed Feb 13 19:05:52 2013
+[00:08:50] [ChanServ] Welcome to #OpenMRS. This channel is logged for your convenience. If you can't find an answer here, please use our wiki and mailing lists. More info: http://go.openmrs.org/irc
+[00:08:50] * Homepage for #openmrs is http://go.openmrs.org/irc
+[00:08:50] *** Mode #openmrs +ct by morgan.freenode.net
+[00:08:50] * Channel #openmrs created on Fri Mar 16 22:24:29 2007
+[00:09:01] <k-joseph> dkayiwa: hi
+[00:09:12] <dkayiwa> k-joseph:  hi
+[00:11:42] <k-joseph> dkayiwa: it appeared as though the four commands i had run had solved the javahl issue, but no, i am still facing it, am trying them a gain, because that is what most sites are offering over that issue
+[00:12:09] <dkayiwa> k-joseph:  ok
+[00:16:02] <andreap_> wyclif, test is still failing - I should be  using the uuid variable and not call getUuid() right?
+[00:17:14] <-- jkeiper (~jkeiper@rgnout.regenstrief.org) has quit (Ping timeout: 272 seconds)
+[00:18:04] <k-joseph> dkayiwa: please  what could have gone wrong here http://pastebin.com/RcuFKzsi 
+[00:20:34] <dkayiwa> k-joseph:  what does mvn clean install return at commandline
+[00:20:43] <-- mseaton (~mseaton@209.156.249.193) has left #openmrs
+[00:23:19] <k-joseph> dkayiwa: mvn clean install returns http://pastebin.com/qv5QB0bT
+[00:29:27] <wyclif> andreap_, yes
+[00:30:01] <wyclif> andreap_, don't call getUuid() anywhere in that purge test method
+[00:32:31] <-- djazayeri (~Adium@209.156.249.193) has quit (Ping timeout: 256 seconds)
+[00:32:44] <andreap_> wyclif, I'm not
+[00:32:55] <wyclif> andreap_, can you send a paste bin?
+[00:33:12] <andreap_> wyclif - sure
+[00:35:03] <-- lh (~lhawthor@osuosl/staff/lh) has quit (Quit: Leaving)
+[00:35:20] <andreap_> wyclif: pastebin.com/zR1TsGn1
+[00:36:38] <wyclif> andreap_, you still have calls to getUuid() in your code, replace all of them with the uuid variable
+[00:36:54] <wyclif> andreap_, just for the test method, replace them
+[00:37:09] <andreap_> wyclif, they are commented ou
+[00:38:53] <wyclif> andreap_, there are two problems
+[00:39:32] <andreap_> wyclif: what are they?
+[00:40:09] <wyclif> andreap_, first of all your last assert is wrong it should assertNull because you have purged the concept class, second i recall saying that you need to copy the uuid value in the commented out purge method
+[00:40:32] <wyclif> andreap_, the one you are currently using isnt the one, so that is probably a concept class in use
+[00:42:18] <andreap_> wyclif, was looking at wrong purge method - too many comments
+[00:43:16] <wyclif> andreap_, basically your first assert should check that there is a concept class with that uuid and the second/last one should check that there is no concept class with that uuid since you have just deleted with a ws call
+[00:44:14] <andreap_> wyclif, I understand
+[00:44:32] <wyclif> andreap_, cool
+[00:46:41] <-- cpower (~IceChat9@rgnout.regenstrief.org) has quit (Ping timeout: 256 seconds)
+[00:53:44] --> cpower (~IceChat9@rgnout.regenstrief.org) has joined #openmrs
+[00:53:52] --> robbyoconnor (~wakawaka@guifications/user/r0bby) has joined #openmrs
+[00:53:52] *** Mode #openmrs +v robbyoconnor by ChanServ
+[00:56:05] <andreap_> wyclif, it is still failing - new paste bin with comment out method with uuid and new method
+[00:56:30] <wyclif> andreap_, let me see the pastebin
+[00:56:37] <wyclif> andreap_, what error are you getting
+[00:56:41] <dkayiwa> hi k-joseph
+[00:56:45] <andreap_> wyclif: pastebin.com/wxh4mBm7
+[00:57:07] <andreap_> wyclif, same one - should I get a full stack trace?
+[00:57:14] <dkayiwa> k-joseph:  can you sent the pastebin link for the mvn clean install results to the dev list?
+[00:59:16] <k-joseph> dkayiwa: :-( :(
+[00:59:44] <dkayiwa> k-joseph:  the dev list will engage more developers for answers :)
+[00:59:44] <andreapat> wyclif: Tests in error:
+[00:59:45] <andreapat>   shouldPurgeAConceptSource(org.openmrs.module.webservices.rest.web.v1_0.control
+[00:59:45] <andreapat> ler.openmrs1_8.ConceptClassControllerTest)
+[01:00:04] <andreapat> wyclif, switched to other computer now andreapat
+[01:00:06] <wyclif> andreap_, the test now lookd good, it is somethims else
+[01:00:22] <wyclif> andreap_, can you look at the stacktrace in the suresire report?
+[01:00:55] <andreap_> wyclif, yes will lokk at stacktrace - will be andreapat now (on other computer)
+[01:01:06] <wyclif> andreap_, ok
+[01:05:27] <-- dkayiwa (~dkayiwa@41.210.129.113) has quit (Quit: dkayiwa)
+[01:06:13] --> djazayeri (~Adium@209.156.249.193) has joined #openmrs
+[01:06:14] *** Mode #openmrs +o djazayeri by ChanServ
+[01:08:39] <andreap_> wyclif, it is taking so long beacuase I am on Merck network - have to be to use irc on that computer
+[01:12:05] --> djazayeri1 (~Adium@209.156.249.193) has joined #openmrs
+[01:12:06] <-- djazayeri (~Adium@209.156.249.193) has quit (Read error: Connection reset by peer)
+[01:13:38] <-- robbyoconnor (~wakawaka@guifications/user/r0bby) has quit (Max SendQ exceeded)
+[01:14:00] --> robbyoconnor (~wakawaka@guifications/user/r0bby) has joined #openmrs
+[01:14:01] *** Mode #openmrs +v robbyoconnor by ChanServ
+[01:14:38] <andreapat> wyclif: http://pastebin.com/PPzRCrBd
+[01:15:37] <wyclif> andreap_, i mean the surefire logs
+[01:16:36] <andreap_> wyclif: running with -X - how do I find surefire logs - has been awhile
+[01:16:45] <wyclif> under omod/target
+[01:17:53] <wyclif> andreap_,  i have seen the problem
+[01:18:00] <wyclif> andreap_, it is in the test
+[01:18:18] <andreapat> wyclif: running mvn -X clean install - see no omod/target
+[01:18:57] <wyclif> andreap_, you are working on concept class and not concept source, i said copy the code from conceptsource controller test but you were supposed to make the necessary edits sothat you deal with concept class and not source
+[01:19:44] <wyclif> andreap_, even the name of your test method is wrong, it should say concept class and no source
+[01:22:17] <andreapat> wyclif, I mentioned that earlier in pastebin - so cange name to shouldPurgeAConceptClass()
+[01:23:08] <wyclif> andreap_, ofcourse you are dealing with concept class, even you calls in the method are saying concept source which is wrong and this why tour tests are failing
+[01:23:26] <andreapat> wyclif - really confuse - did we change that yesterday?
+[01:25:15] <wyclif> andreap_, but you are dealing with concept class, you should't mention concept source anywhere in that code
+[01:26:22] <wyclif> andreap_, i just said your code should lok like that in conceptsource but should be exactly the same, can you add here the pastebin of the entire test class
+[01:29:52] <andreapat> wyclif: http://pastebin.com/h69WCrAb
+[01:32:49] <wyclif> andreap_, rename your test method to say concept class and not source, you also need to edit the code in it to deal with concept class and not concept source, so you get what i mean?
+[01:33:38] <wyclif> andreap_, it is the reason it is failing, you are looking up and purging a concept source instead of a concept class which is completely different from what we are testing
+[01:34:25] <wyclif> andreap_, you probably copied and pasted and forgot to rename things in that test
+[01:35:08] <andreap_> wyclif, changed names  under // ConceptClass - do you see that?
+[01:36:03] <andreap_> wyclif - so sorry - I was hurry yesterday because of appt
+[01:36:04] <-- robbyoconnor (~wakawaka@guifications/user/r0bby) has quit (Ping timeout: 260 seconds)
+[01:36:56] <wyclif> andreap_, have you edited the code inside the test too to deal with concept classes instead?
+[01:37:51] <andreap_> wyclif, only whta is there in pastebin
+[01:39:34] <wyclif> andreap_, can you closely look at the code in your purge test method, you should see that you are looking up/purging a concept source which is wrong, that test class is entirely for concept classes
+[01:42:53] <andreapat> wyclif: http://pastebin.com/CQHYLcq2
+[01:43:16] <wyclif> andreap_, did you understand my last text above?
+[01:44:06] <wyclif> andreap_, does it still fail?
+[01:46:02] --> djazayeri (~Adium@209.156.249.193) has joined #openmrs
+[01:46:03] *** Mode #openmrs +o djazayeri by ChanServ
+[01:46:03] <-- djazayeri1 (~Adium@209.156.249.193) has quit (Read error: Connection reset by peer)
+[01:46:34] <wyclif> andreap_, ?
+[01:46:45] <andreap_> wyclif, it works now - don't know how that happened
+[01:47:11] <andreap_> wyclif, so slow when on Merck network
+[01:47:44] <wyclif> it is after the changed or renaming you have just made, in your old code you were purging a concept source instead of a concept class
+[01:48:47] <andreapat> wyclif, yes I understand - don't remeber changing to a  concept source yesterday
+[01:49:46] <andreapat> wyclif: so sorry for so much time - still don't understand how that happened
+[01:51:29] <andreapat> wyclif, should I remove commented out code, commit and pull now?
+[02:00:43] <andreapat> wyclif: thanks!
+[02:05:11] <wyclif> andreap_, yes you need to remove commented out code, make sure that all tests have new equivalent tests
+[02:05:30] <wyclif> andreap_, i.e that all functionality is still tested
+[02:06:03] <-- Mkop (~Mkop@unaffiliated/mkop) has quit (Ping timeout: 276 seconds)
+[02:06:25] <wyclif> andreap_, the assumption is that you have replace every test with a new one
+[02:06:39] <wyclif> wyclif, am heading home, talk to u later
+[02:07:21] --> Mkop (~Mkop@unaffiliated/mkop) has joined #openmrs
+[02:07:22] *** Mode #openmrs +v Mkop by ChanServ
+[02:09:05] <-- wyclif (~wyclif@rgnout.regenstrief.org) has quit (Read error: Operation timed out)
+[02:30:49] --> djazayeri1 (~Adium@209.156.249.193) has joined #openmrs
+[02:30:50] <-- djazayeri (~Adium@209.156.249.193) has quit (Read error: Connection reset by peer)
+[02:42:41] <-- downey (~downey@unaffiliated/downey) has quit (Quit: Bye for now.)
+[02:53:43] --> wyclif (~wyclif@c-98-220-74-158.hsd1.in.comcast.net) has joined #openmrs
+[03:16:58] <-- djazayeri1 (~Adium@209.156.249.193) has quit (Quit: Leaving.)
+[03:27:02] <-- andreapat (~andrea@155.91.28.231) has quit (Remote host closed the connection)
+[03:30:38] --> robbyoconnor (~wakawaka@guifications/user/r0bby) has joined #openmrs
+[03:30:39] *** Mode #openmrs +v robbyoconnor by ChanServ
+[03:46:08] <-- robbyoconnor (~wakawaka@guifications/user/r0bby) has quit (Ping timeout: 252 seconds)
+[04:14:49] --> mseaton (~mseaton@c-75-68-176-112.hsd1.ma.comcast.net) has joined #openmrs
+[04:14:49] *** Mode #openmrs +v mseaton by ChanServ
+[05:05:40] --> jb360 (~jeffblack@99-122-1-57.lightspeed.nsvltn.sbcglobal.net) has joined #openmrs
+[05:14:14] --> robbyoconnor (~wakawaka@guifications/user/r0bby) has joined #openmrs
+[05:14:14] *** Mode #openmrs +v robbyoconnor by ChanServ
+[05:53:57] <-- andreap_ (~andrea@2602:306:cefe:49f0:68d3:3d08:5bf4:1d65) has quit (Quit: Leaving)
+[05:54:05] <-- mseaton (~mseaton@c-75-68-176-112.hsd1.ma.comcast.net) has quit (Quit: Leaving.)
+[06:09:21] <jb360> Anyone available by chance?
+[06:12:13] --> suranga (~suranga@61.245.160.201) has joined #openmrs
+[06:12:14] *** Mode #openmrs +v suranga by ChanServ
+[06:29:12] --> jkeiper (~jkeiper@c-69-136-184-37.hsd1.in.comcast.net) has joined #openmrs
+[06:29:13] *** Mode #openmrs +v jkeiper by ChanServ
+[07:24:24] --> djazayeri (~Adium@c-98-216-51-77.hsd1.ma.comcast.net) has joined #openmrs
+[07:24:26] *** Mode #openmrs +o djazayeri by ChanServ
+[07:57:31] <-- k-joseph (~quassel@196.0.9.67) has quit (No Ping reply in 180 seconds.)
+[13:34:19] --> k-joseph (~quassel@196.0.9.65) has joined #openmrs
+[13:34:19] * Topic for #openmrs is "OpenMRS: open source medical record systems for the developing world - http://openmrs.org/ - IRC info & logs: http://go.openmrs.org/irc - GSoC info: http://go.openmrs.org/soc2013 - Can't find the answer here? Try http://answers.openmrs.org/"
+[13:34:19] * Topic set by downey on Wed Feb 13 19:05:52 2013
+[13:34:23] [ChanServ] Welcome to #OpenMRS. This channel is logged for your convenience. If you can't find an answer here, please use our wiki and mailing lists. More info: http://go.openmrs.org/irc
+[13:34:23] * Homepage for #openmrs is http://go.openmrs.org/irc
+[13:34:35] *** Mode #openmrs +ct by holmes.freenode.net
+[13:34:35] * Channel #openmrs created on Fri Mar 16 22:24:29 2007
+[13:35:23] --> k_joseph (~quassel@196.0.9.65) has joined #openmrs
+[13:35:26] --> k_joseph (~quassel@196.0.9.65) has joined #openmrs
+[13:35:26] * Topic for #openmrs is "OpenMRS: open source medical record systems for the developing world - http://openmrs.org/ - IRC info & logs: http://go.openmrs.org/irc - GSoC info: http://go.openmrs.org/soc2013 - Can't find the answer here? Try http://answers.openmrs.org/"
+[13:35:26] * Topic set by downey on Wed Feb 13 19:05:52 2013
+[13:35:26] [ChanServ] Welcome to #OpenMRS. This channel is logged for your convenience. If you can't find an answer here, please use our wiki and mailing lists. More info: http://go.openmrs.org/irc
+[13:35:26] * Homepage for #openmrs is http://go.openmrs.org/irc
+[13:35:42] *** Mode #openmrs +ct by verne.freenode.net
+[13:35:42] * Channel #openmrs created on Fri Mar 16 22:24:29 2007
+[13:35:54] --> dkayiwa (~dkayiwa@41.210.129.99) has joined #openmrs
+[13:35:54] --> dkayiwa (~dkayiwa@41.210.129.99) has joined #openmrs
+[13:37:14] <-- k-joseph (~quassel@196.0.9.65) has quit (Remote host closed the connection)
+[13:43:38] <dkayiwa> hi k_joseph
+[13:43:52] <k_joseph> dkayiwa: hi
+[13:44:10] <-> You are now known as k-joseph
+[13:44:10] <-> You are now known as k-joseph
+[13:44:45] <dkayiwa> k-joseph:  you will tell me when you get some free time and we try pair up to fix that problem
+[13:45:23] <k-joseph> dkayiwa: ok, thanks a lot for that
+[13:49:23] <-- k-joseph (~quassel@196.0.9.65) has quit (No Ping reply in 180 seconds.)
+[14:07:45] --> k-joseph (~quassel@196.0.9.66) has joined #openmrs
+[14:07:46] * Topic for #openmrs is "OpenMRS: open source medical record systems for the developing world - http://openmrs.org/ - IRC info & logs: http://go.openmrs.org/irc - GSoC info: http://go.openmrs.org/soc2013 - Can't find the answer here? Try http://answers.openmrs.org/"
+[14:07:46] * Topic set by downey on Wed Feb 13 19:05:52 2013
+[14:07:46] [ChanServ] Welcome to #OpenMRS. This channel is logged for your convenience. If you can't find an answer here, please use our wiki and mailing lists. More info: http://go.openmrs.org/irc
+[14:07:46] * Homepage for #openmrs is http://go.openmrs.org/irc
+[14:07:48] *** Mode #openmrs +ct by morgan.freenode.net
+[14:07:48] * Channel #openmrs created on Fri Mar 16 22:24:29 2007
+[14:09:09] --> lh (~lhawthor@osuosl/staff/lh) has joined #openmrs
+[14:13:49] <-- k-joseph (~quassel@196.0.9.66) has quit (No Ping reply in 180 seconds.)
+[14:26:44] --> k-joseph (~quassel@196.0.9.66) has joined #openmrs
+[14:26:45] * Topic for #openmrs is "OpenMRS: open source medical record systems for the developing world - http://openmrs.org/ - IRC info & logs: http://go.openmrs.org/irc - GSoC info: http://go.openmrs.org/soc2013 - Can't find the answer here? Try http://answers.openmrs.org/"
+[14:26:45] * Topic set by downey on Wed Feb 13 19:05:52 2013
+[14:26:45] [ChanServ] Welcome to #OpenMRS. This channel is logged for your convenience. If you can't find an answer here, please use our wiki and mailing lists. More info: http://go.openmrs.org/irc
+[14:26:45] * Homepage for #openmrs is http://go.openmrs.org/irc
+[14:26:46] *** Mode #openmrs +ct by wolfe.freenode.net
+[14:26:46] * Channel #openmrs created on Fri Mar 16 22:24:29 2007
+[14:30:19] <-- k-joseph (~quassel@196.0.9.66) has quit (No Ping reply in 180 seconds.)
+[16:05:33] --> k-joseph (~quassel@196.0.9.65) has joined #openmrs
+[16:05:34] * Topic for #openmrs is "OpenMRS: open source medical record systems for the developing world - http://openmrs.org/ - IRC info & logs: http://go.openmrs.org/irc - GSoC info: http://go.openmrs.org/soc2013 - Can't find the answer here? Try http://answers.openmrs.org/"
+[16:05:34] * Topic set by downey on Wed Feb 13 19:05:52 2013
+[16:05:34] [ChanServ] Welcome to #OpenMRS. This channel is logged for your convenience. If you can't find an answer here, please use our wiki and mailing lists. More info: http://go.openmrs.org/irc
+[16:05:34] * Homepage for #openmrs is http://go.openmrs.org/irc
+[16:05:35] *** Mode #openmrs +ct by morgan.freenode.net
+[16:05:35] * Channel #openmrs created on Fri Mar 16 22:24:29 2007
+[16:07:51] <k-joseph> dkayiwa: hi
+[16:22:00] <dkayiwa> k-joseph: hi
+[16:25:17] <k-joseph> dkayiwa:hi,am importing the code now into eclipse, 
+[16:26:29] <jkeiper> anyone know when 1.10 might come out?
+[16:26:41] <dkayiwa> k-joseph: ok
+[16:28:20] --> suranga__ (~suranga@61.245.163.40) has joined #openmrs
+[16:29:16] <k-joseph> dkayiwa: still the code has lots of errors, from eclipse
+[16:29:29] <k-joseph> dkayiwa: the cloned one
+[16:31:53] <k-joseph> dkayiwa: hi
+[16:33:06] <-- k-joseph (~quassel@196.0.9.65) has quit (No Ping reply in 180 seconds.)
+[16:34:25] --> k_joseph (~quassel@41.223.84.36) has joined #openmrs
+[16:34:25] * Topic for #openmrs is "OpenMRS: open source medical record systems for the developing world - http://openmrs.org/ - IRC info & logs: http://go.openmrs.org/irc - GSoC info: http://go.openmrs.org/soc2013 - Can't find the answer here? Try http://answers.openmrs.org/"
+[16:34:25] * Topic set by downey on Wed Feb 13 19:05:52 2013
+[16:34:25] [ChanServ] Welcome to #OpenMRS. This channel is logged for your convenience. If you can't find an answer here, please use our wiki and mailing lists. More info: http://go.openmrs.org/irc
+[16:34:25] * Homepage for #openmrs is http://go.openmrs.org/irc
+[16:35:27] *** Mode #openmrs +ct by morgan.freenode.net
+[16:35:27] * Channel #openmrs created on Fri Mar 16 22:24:29 2007
+[16:42:04] <k_joseph> dkayiwa: hi
+[16:42:48] <k_joseph> dkayiwa: eclipse looks like http://snag.gy/3eq1A.jpg
+[16:43:46] --> k-joseph (~quassel@41.223.84.38) has joined #openmrs
+[16:43:47] * Topic for #openmrs is "OpenMRS: open source medical record systems for the developing world - http://openmrs.org/ - IRC info & logs: http://go.openmrs.org/irc - GSoC info: http://go.openmrs.org/soc2013 - Can't find the answer here? Try http://answers.openmrs.org/"
+[16:43:47] * Topic set by downey on Wed Feb 13 19:05:52 2013
+[16:43:47] [ChanServ] Welcome to #OpenMRS. This channel is logged for your convenience. If you can't find an answer here, please use our wiki and mailing lists. More info: http://go.openmrs.org/irc
+[16:43:47] * Homepage for #openmrs is http://go.openmrs.org/irc
+[16:43:47] *** Mode #openmrs +ct by morgan.freenode.net
+[16:43:47] * Channel #openmrs created on Fri Mar 16 22:24:29 2007
+[16:44:02] <k-joseph> dkayiwa: hi
+[16:44:12] <dkayiwa> k-joseph:  hi
+[16:44:16] <-- k_joseph (~quassel@41.223.84.36) has quit (No Ping reply in 180 seconds.)
+[16:44:22] <k-joseph> dkayiwa: eclipse looks like http://snag.gy/3eq1A.jpg
+[16:44:31] --> k_joseph (~quassel@41.223.84.36) has joined #openmrs
+[16:44:31] --> k_joseph (~quassel@41.223.84.36) has joined #openmrs
+[16:44:32] * Topic for #openmrs is "OpenMRS: open source medical record systems for the developing world - http://openmrs.org/ - IRC info & logs: http://go.openmrs.org/irc - GSoC info: http://go.openmrs.org/soc2013 - Can't find the answer here? Try http://answers.openmrs.org/"
+[16:44:32] * Topic set by downey on Wed Feb 13 19:05:52 2013
+[16:44:32] [ChanServ] Welcome to #OpenMRS. This channel is logged for your convenience. If you can't find an answer here, please use our wiki and mailing lists. More info: http://go.openmrs.org/irc
+[16:44:32] * Homepage for #openmrs is http://go.openmrs.org/irc
+[16:44:32] *** Mode #openmrs +ct by morgan.freenode.net
+[16:44:32] * Channel #openmrs created on Fri Mar 16 22:24:29 2007
+[16:44:42] <-- k_joseph (~quassel@41.223.84.36) has quit (Remote host closed the connection)
+[16:45:24] <dkayiwa> k-joseph:  can u expand description and resend
+[16:49:55] <k-joseph> dkayiwa: http://pastebin.com/3xh7hnJY  http://snag.gy/22UhE.jpg  http://snag.gy/qO0VA.jpg
+[16:50:13] <dkayiwa> k-joseph:  which of those should i take?
+[16:51:03] <k-joseph> dkayiwa: all of them, i just couldnt use one sceen shot to capture the whole thing, may be the pastebin link us better
+[16:52:03] <dkayiwa> k-joseph:  what does mvn clean install do?
+[16:53:19] <k-joseph> dkayiwa: it returns http://pastebin.com/yS2VAnRC
+[16:55:18] <dkayiwa> k-joseph:  which version of maven?
+[16:55:55] <k-joseph> dkayiwa: Apache Maven 2.2.1 (rdebian-6)
+[16:55:55] <k-joseph> Java version: 1.6.0_24
+[16:56:03] <k-joseph> dkayiwa
+[16:56:07] <dkayiwa> k-joseph:  use 3 and above
+[16:59:34] <dkayiwa> k-joseph:  does it make sense?
+[17:00:27] <k-joseph> dkayiwa: it does
+[17:01:15] <dkayiwa> k-joseph:  ok
+[17:06:42] <-- k-joseph (~quassel@41.223.84.38) has quit (Quit: No Ping reply in 180 seconds.)
+[00:00:00] - {Day changed to Sat Feb 16 00:00:00 2013}
+[20:21:06] --> k-joseph (~quassel@41.223.84.37) has joined #openmrs
+[20:21:06] * Topic for #openmrs is "OpenMRS: open source medical record systems for the developing world - http://openmrs.org/ - IRC info & logs: http://go.openmrs.org/irc - GSoC info: http://go.openmrs.org/soc2013 - Can't find the answer here? Try http://answers.openmrs.org/"
+[20:21:06] * Topic set by downey on Wed Feb 13 19:05:52 2013
+[20:21:06] [ChanServ] Welcome to #OpenMRS. This channel is logged for your convenience. If you can't find an answer here, please use our wiki and mailing lists. More info: http://go.openmrs.org/irc
+[20:21:06] * Homepage for #openmrs is http://go.openmrs.org/irc
+[20:21:16] *** Mode #openmrs +ct by morgan.freenode.net
+[20:21:28] * Channel #openmrs created on Fri Mar 16 22:24:29 2007
+[20:25:12] <k-joseph> sas: hi 
+[20:27:14] <k-joseph> sas: did you install all the plugins described on the wiki pages?
+[20:28:19] <k-joseph> sas: installing them in eclipse?
+[20:32:33] <k-joseph> sas: you mail follow up these links on the ticket issue, https://groups.google.com/a/openmrs.org/forum/?fromgroups=#!topic/dev/u0sTO92gSYI   and  https://wiki.openmrs.org/display/docs/Tickets  
+[20:32:41] <OpenMRSBot> <http://ln-s.net/+e3y> (at groups.google.com)
+[20:35:24] <-- sas (3df5a81f@gateway/web/freenode/ip.61.245.168.31) has quit (Quit: Page closed)
+[20:35:47] --> sas (3df5ac08@gateway/web/freenode/ip.61.245.172.8) has joined #openmrs
+[20:39:04] <-- k-joseph (~quassel@41.223.84.37) has quit (No Ping reply in 180 seconds.)
+[20:41:43] --> k-joseph (~quassel@41.223.84.37) has joined #openmrs
+[20:41:43] * Topic for #openmrs is "OpenMRS: open source medical record systems for the developing world - http://openmrs.org/ - IRC info & logs: http://go.openmrs.org/irc - GSoC info: http://go.openmrs.org/soc2013 - Can't find the answer here? Try http://answers.openmrs.org/"
+[20:41:43] * Topic set by downey on Wed Feb 13 19:05:52 2013
+[20:41:43] [ChanServ] Welcome to #OpenMRS. This channel is logged for your convenience. If you can't find an answer here, please use our wiki and mailing lists. More info: http://go.openmrs.org/irc
+[20:41:43] * Homepage for #openmrs is http://go.openmrs.org/irc
+[20:41:52] *** Mode #openmrs +ct by verne.freenode.net
+[20:41:52] * Channel #openmrs created on Fri Mar 16 22:24:29 2007
+[20:49:17] <-- sas (3df5ac08@gateway/web/freenode/ip.61.245.172.8) has quit (Ping timeout: 245 seconds)
+[20:54:52] <-- Anuruddha (~Anuruddha@175.157.60.131) has quit (Read error: Connection reset by peer)
+[21:03:51] --> evmw (~evmw@c-24-60-83-188.hsd1.ma.comcast.net) has joined #openmrs
+[21:04:14] <-- evmw (~evmw@c-24-60-83-188.hsd1.ma.comcast.net) has left #openmrs
+[21:16:23] <-- k-joseph (~quassel@41.223.84.37) has quit (No Ping reply in 180 seconds.)
+[21:16:49] --> k-joseph (~quassel@41.223.84.37) has joined #openmrs
+[21:16:49] * Topic for #openmrs is "OpenMRS: open source medical record systems for the developing world - http://openmrs.org/ - IRC info & logs: http://go.openmrs.org/irc - GSoC info: http://go.openmrs.org/soc2013 - Can't find the answer here? Try http://answers.openmrs.org/"
+[21:16:49] * Topic set by downey on Wed Feb 13 19:05:52 2013
+[21:16:49] [ChanServ] Welcome to #OpenMRS. This channel is logged for your convenience. If you can't find an answer here, please use our wiki and mailing lists. More info: http://go.openmrs.org/irc
+[21:16:49] * Homepage for #openmrs is http://go.openmrs.org/irc
+[21:16:50] *** Mode #openmrs +ct by morgan.freenode.net
+[21:16:51] * Channel #openmrs created on Fri Mar 16 22:24:29 2007
+[22:08:08] --> k-joseph (~quassel@41.223.84.36) has joined #openmrs
+[22:08:08] * Topic for #openmrs is "OpenMRS: open source medical record systems for the developing world - http://openmrs.org/ - IRC info & logs: http://go.openmrs.org/irc - GSoC info: http://go.openmrs.org/soc2013 - Can't find the answer here? Try http://answers.openmrs.org/"
+[22:08:08] * Topic set by downey on Wed Feb 13 19:05:52 2013
+[22:08:09] [ChanServ] Welcome to #OpenMRS. This channel is logged for your convenience. If you can't find an answer here, please use our wiki and mailing lists. More info: http://go.openmrs.org/irc
+[22:08:09] * Homepage for #openmrs is http://go.openmrs.org/irc
+[22:08:10] *** Mode #openmrs +ct by hitchcock.freenode.net
+[22:08:10] * Channel #openmrs created on Fri Mar 16 22:24:29 2007
+[22:16:42] <-- djadmin2 (~djadmin@115.248.50.24) has quit (Ping timeout: 245 seconds)
+[22:29:49] <-- Hasintha_i (hasinthain@112.134.140.147) has quit (Quit: Leaving)
+[23:22:12] <-- k-joseph (~quassel@41.223.84.36) has quit (No Ping reply in 180 seconds.)
+[23:22:44] --> k-joseph (~quassel@41.223.84.38) has joined #openmrs
+[23:22:44] * Topic for #openmrs is "OpenMRS: open source medical record systems for the developing world - http://openmrs.org/ - IRC info & logs: http://go.openmrs.org/irc - GSoC info: http://go.openmrs.org/soc2013 - Can't find the answer here? Try http://answers.openmrs.org/"
+[23:22:44] * Topic set by downey on Wed Feb 13 19:05:52 2013
+[23:22:44] [ChanServ] Welcome to #OpenMRS. This channel is logged for your convenience. If you can't find an answer here, please use our wiki and mailing lists. More info: http://go.openmrs.org/irc
+[23:22:44] * Homepage for #openmrs is http://go.openmrs.org/irc
+[23:22:48] *** Mode #openmrs +ct by morgan.freenode.net
+[23:22:48] * Channel #openmrs created on Fri Mar 16 22:24:29 2007
+[23:30:07] --> diadara (~diadara@devtest-server.24-7xs.com) has joined #openmrs
+[23:36:47] <-- k-joseph (~quassel@41.223.84.38) has quit (No Ping reply in 180 seconds.)
+[23:37:45] --> k-joseph (~quassel@41.223.84.37) has joined #openmrs
+[23:37:45] * Topic for #openmrs is "OpenMRS: open source medical record systems for the developing world - http://openmrs.org/ - IRC info & logs: http://go.openmrs.org/irc - GSoC info: http://go.openmrs.org/soc2013 - Can't find the answer here? Try http://answers.openmrs.org/"
+[23:37:45] * Topic set by downey on Wed Feb 13 19:05:52 2013
+[23:37:47] [ChanServ] Welcome to #OpenMRS. This channel is logged for your convenience. If you can't find an answer here, please use our wiki and mailing lists. More info: http://go.openmrs.org/irc
+[23:37:47] * Homepage for #openmrs is http://go.openmrs.org/irc
+[23:38:00] *** Mode #openmrs +ct by morgan.freenode.net
+[23:38:00] * Channel #openmrs created on Fri Mar 16 22:24:29 2007
+[23:40:06] <k-joseph> hi, please signal me when you have some time, i have some thing am not yet sure how to address
+[23:40:53] <k-joseph> dkayiwa: hi, please signal me when you have some time, i have some thing am not yet sure how to address
+[23:47:07] --> evmw (~evmw@c-24-60-83-188.hsd1.ma.comcast.net) has joined #openmrs
+[23:47:16] <-- evmw (~evmw@c-24-60-83-188.hsd1.ma.comcast.net) has left #openmrs
+[00:00:00] - {Day changed to Sun Feb 17 00:00:00 2013}
+[00:07:29] --> dmulindwa (29dd5de5@gateway/web/freenode/ip.41.221.93.229) has joined #openmrs
+[00:16:30] <-- k-joseph (~quassel@41.223.84.37) has quit (No Ping reply in 180 seconds.)
+[00:21:54] --> k-joseph (~quassel@41.223.84.36) has joined #openmrs
+[00:21:54] * Topic for #openmrs is "OpenMRS: open source medical record systems for the developing world - http://openmrs.org/ - IRC info & logs: http://go.openmrs.org/irc - GSoC info: http://go.openmrs.org/soc2013 - Can't find the answer here? Try http://answers.openmrs.org/"
+[00:21:54] * Topic set by downey on Wed Feb 13 19:05:52 2013
+[00:21:54] [ChanServ] Welcome to #OpenMRS. This channel is logged for your convenience. If you can't find an answer here, please use our wiki and mailing lists. More info: http://go.openmrs.org/irc
+[00:21:54] * Homepage for #openmrs is http://go.openmrs.org/irc
+[00:21:56] *** Mode #openmrs +ct by morgan.freenode.net
+[00:21:56] * Channel #openmrs created on Fri Mar 16 22:24:29 2007
+[00:22:06] <dkayiwa> dmulindwa: did you install maven?
+[00:22:09] <dkayiwa> k-joseph:  now is good time
+[00:22:41] <dmulindwa> yes maven is installed..
+[00:25:56] <-- k-joseph (~quassel@41.223.84.36) has quit (No Ping reply in 180 seconds.)
+[00:26:37] --> k-joseph (~quassel@41.223.84.38) has joined #openmrs
+[00:26:37] * Topic for #openmrs is "OpenMRS: open source medical record systems for the developing world - http://openmrs.org/ - IRC info & logs: http://go.openmrs.org/irc - GSoC info: http://go.openmrs.org/soc2013 - Can't find the answer here? Try http://answers.openmrs.org/"
+[00:26:37] * Topic set by downey on Wed Feb 13 19:05:52 2013
+[00:26:37] [ChanServ] Welcome to #OpenMRS. This channel is logged for your convenience. If you can't find an answer here, please use our wiki and mailing lists. More info: http://go.openmrs.org/irc
+[00:26:37] * Homepage for #openmrs is http://go.openmrs.org/irc
+[00:26:39] *** Mode #openmrs +ct by leguin.freenode.net
+[00:26:39] * Channel #openmrs created on Fri Mar 16 22:24:29 2007
+[00:26:43] <k-joseph> dkayiwa: i upgraded maven as you had suggested, now when i run mvn3 clean install i run into the failure http://pastebin.com/2DyyV1jN 
+[00:26:43] <-- mstarling (18f614eb@gateway/web/freenode/ip.24.246.20.235) has quit (Client Quit)
+[00:29:18] <dkayiwa> k-joseph:  did you try google the error?
+[00:35:42] <k-joseph> dkayiwa: i actually google about The container 'Maven Dependencies' references non existing library '/home/k-joseph/.m2/repository/org/openmrs/api/openmrs-api/1.10.0-SNAPSHOT/openmrs-api-1.10.0-SNAPSHOT-tests.jar'    but i did not get google support to help me fix it!!!111
+[00:36:37] <dmulindwa> from pastebin http://pastebin.com/tdWHKKJ3 can you see that?
+[00:38:11] <dkayiwa> dmulindwa: ok checking
+[00:38:43] <dkayiwa> k-joseph:  you do not google that. you instead google the actual error cause
+[00:39:07] <dkayiwa> k-joseph:  and in your case it is this: java.lang.NoClassDefFoundError: org/codehaus/plexus/util/cli/CommandLineException
+[00:41:27] <dkayiwa> dmulindwa: which version of maven are you using?
+[00:44:15] <dmulindwa> dkayiwa: Apache Maven 3.0.4 (r1232337; 2012-01-17 11:44:56+0300) thats my maven version
+[00:44:36] <dkayiwa> dmulindwa: can you do mvn clean install again?
+[00:46:31] <dmulindwa> dkayiwa: same result..just done it one more time
+[00:47:05] <dkayiwa> dmulindwa: can you try with jdk 1.6?
+[00:49:49] <dkayiwa> dmulindwa: that looks like a jdk bug :)]
+[00:50:46] <dmulindwa> dkayiwa: downloading 1.6. will let you know how thqt goes..
+[00:50:54] <dkayiwa> dmulindwa: ok
+[00:57:33] <-- dmulindwa (29dd5de5@gateway/web/freenode/ip.41.221.93.229) has quit (Ping timeout: 245 seconds)
+[01:10:33] <-- dkayiwa (~dkayiwa@h164.n1.ips.mtn.co.ug) has quit (Quit: dkayiwa)
+[12:36:04] --> k-joseph (~quassel@41.223.84.37) has joined #openmrs
+[12:36:04] * Topic for #openmrs is "OpenMRS: open source medical record systems for the developing world - http://openmrs.org/ - IRC info & logs: http://go.openmrs.org/irc - GSoC info: http://go.openmrs.org/soc2013 - Can't find the answer here? Try http://answers.openmrs.org/"
+[12:36:04] * Topic set by downey on Wed Feb 13 19:05:52 2013
+[12:36:05] [ChanServ] Welcome to #OpenMRS. This channel is logged for your convenience. If you can't find an answer here, please use our wiki and mailing lists. More info: http://go.openmrs.org/irc
+[12:36:05] * Homepage for #openmrs is http://go.openmrs.org/irc
+[12:36:05] *** Mode #openmrs +ct by hubbard.freenode.net
+[12:36:05] * Channel #openmrs created on Fri Mar 16 22:24:29 2007
+[13:04:05] <-- k-joseph (~quassel@41.223.84.37) has quit (No Ping reply in 180 seconds.)
+[13:26:33] --> k-joseph (~quassel@41.223.84.38) has joined #openmrs
+[13:26:34] * Topic for #openmrs is "OpenMRS: open source medical record systems for the developing world - http://openmrs.org/ - IRC info & logs: http://go.openmrs.org/irc - GSoC info: http://go.openmrs.org/soc2013 - Can't find the answer here? Try http://answers.openmrs.org/"
+[13:26:34] * Topic set by downey on Wed Feb 13 19:05:52 2013
+[13:26:34] [ChanServ] Welcome to #OpenMRS. This channel is logged for your convenience. If you can't find an answer here, please use our wiki and mailing lists. More info: http://go.openmrs.org/irc
+[13:26:34] * Homepage for #openmrs is http://go.openmrs.org/irc
+[13:26:34] *** Mode #openmrs +ct by niven.freenode.net
+[13:26:34] * Channel #openmrs created on Fri Mar 16 22:24:29 2007
+[13:42:42] <-- kishoreyekkanti (~kishoreye@41.190.209.92) has quit (Quit: Will be back..)
+[14:05:51] --> diadara (~diadara@devtest-server.24-7xs.com) has joined #openmrs
+[14:15:06] --> Hasintha_i (hasinthain@112.134.140.138) has joined #openmrs
+[15:05:45] <-- k-joseph (~quassel@41.223.84.38) has quit (No Ping reply in 180 seconds.)
+[15:06:07] --> k-joseph (~quassel@41.223.84.38) has joined #openmrs
+[15:06:08] * Topic for #openmrs is "OpenMRS: open source medical record systems for the developing world - http://openmrs.org/ - IRC info & logs: http://go.openmrs.org/irc - GSoC info: http://go.openmrs.org/soc2013 - Can't find the answer here? Try http://answers.openmrs.org/"
+[15:06:08] * Topic set by downey on Wed Feb 13 19:05:52 2013
+[15:06:08] [ChanServ] Welcome to #OpenMRS. This channel is logged for your convenience. If you can't find an answer here, please use our wiki and mailing lists. More info: http://go.openmrs.org/irc
+[15:06:08] * Homepage for #openmrs is http://go.openmrs.org/irc
+[15:06:09] *** Mode #openmrs +ct by morgan.freenode.net
+[15:06:09] * Channel #openmrs created on Fri Mar 16 22:24:29 2007
+[15:20:08] <-- k-joseph (~quassel@41.223.84.38) has quit (No Ping reply in 180 seconds.)
+[15:20:36] --> k_joseph (~quassel@41.223.84.37) has joined #openmrs
+[15:20:37] * Topic for #openmrs is "OpenMRS: open source medical record systems for the developing world - http://openmrs.org/ - IRC info & logs: http://go.openmrs.org/irc - GSoC info: http://go.openmrs.org/soc2013 - Can't find the answer here? Try http://answers.openmrs.org/"
+[15:20:37] * Topic set by downey on Wed Feb 13 19:05:52 2013
+[15:20:37] [ChanServ] Welcome to #OpenMRS. This channel is logged for your convenience. If you can't find an answer here, please use our wiki and mailing lists. More info: http://go.openmrs.org/irc
+[15:20:37] * Homepage for #openmrs is http://go.openmrs.org/irc
+[15:20:37] *** Mode #openmrs +ct by morgan.freenode.net
+[15:20:37] * Channel #openmrs created on Fri Mar 16 22:24:29 2007
+[15:21:23] <-- k-joseph (~quassel@41.223.84.38) has quit (Ping timeout: 248 seconds)
+[15:23:43] <-> You are now known as k-joseph
+[15:48:10] <-- k-joseph (~quassel@41.223.84.37) has quit (No Ping reply in 180 seconds.)
+[15:48:26] --> k_joseph (~quassel@41.223.84.36) has joined #openmrs
+[15:48:27] * Topic for #openmrs is "OpenMRS: open source medical record systems for the developing world - http://openmrs.org/ - IRC info & logs: http://go.openmrs.org/irc - GSoC info: http://go.openmrs.org/soc2013 - Can't find the answer here? Try http://answers.openmrs.org/"
+[15:48:27] * Topic set by downey on Wed Feb 13 19:05:52 2013
+[15:48:27] [ChanServ] Welcome to #OpenMRS. This channel is logged for your convenience. If you can't find an answer here, please use our wiki and mailing lists. More info: http://go.openmrs.org/irc
+[15:48:27] * Homepage for #openmrs is http://go.openmrs.org/irc
+[15:48:28] *** Mode #openmrs +ct by morgan.freenode.net
+[15:48:28] * Channel #openmrs created on Fri Mar 16 22:24:29 2007
+[15:49:07] <-- k-joseph (~quassel@41.223.84.37) has quit (Ping timeout: 248 seconds)
+[15:50:40] <k_joseph>  /msg NickServ identify jesus
+[15:51:14] <-> You are now known as k-joseph
+[16:08:24] --> kishoreyekkanti (~kishoreye@41.190.209.92) has joined #openmrs
+[16:29:03] --> mseaton (~mseaton@c-75-68-176-112.hsd1.ma.comcast.net) has joined #openmrs
+[16:29:03] *** Mode #openmrs +v mseaton by ChanServ
+[16:35:31] <-- k-joseph (~quassel@41.223.84.36) has quit (No Ping reply in 180 seconds.)
+[16:35:51] --> k_joseph (~quassel@41.223.84.36) has joined #openmrs
+[16:35:51] * Topic for #openmrs is "OpenMRS: open source medical record systems for the developing world - http://openmrs.org/ - IRC info & logs: http://go.openmrs.org/irc - GSoC info: http://go.openmrs.org/soc2013 - Can't find the answer here? Try http://answers.openmrs.org/"
+[16:35:51] * Topic set by downey on Wed Feb 13 19:05:52 2013
+[16:35:51] [ChanServ] Welcome to #OpenMRS. This channel is logged for your convenience. If you can't find an answer here, please use our wiki and mailing lists. More info: http://go.openmrs.org/irc
+[16:35:51] * Homepage for #openmrs is http://go.openmrs.org/irc
+[16:35:51] *** Mode #openmrs +ct by kornbluth.freenode.net
+[16:35:51] * Channel #openmrs created on Fri Mar 16 22:24:29 2007
+[16:36:06] <-- k-joseph (~quassel@41.223.84.36) has quit (Ping timeout: 248 seconds)
+[16:39:55] <-- k_joseph (~quassel@41.223.84.36) has quit (No Ping reply in 180 seconds.)
+[16:40:11] --> k-joseph (~quassel@41.223.84.36) has joined #openmrs
+[16:40:12] * Topic for #openmrs is "OpenMRS: open source medical record systems for the developing world - http://openmrs.org/ - IRC info & logs: http://go.openmrs.org/irc - GSoC info: http://go.openmrs.org/soc2013 - Can't find the answer here? Try http://answers.openmrs.org/"
+[16:40:12] * Topic set by downey on Wed Feb 13 19:05:52 2013
+[16:40:12] [ChanServ] Welcome to #OpenMRS. This channel is logged for your convenience. If you can't find an answer here, please use our wiki and mailing lists. More info: http://go.openmrs.org/irc
+[16:40:12] * Homepage for #openmrs is http://go.openmrs.org/irc
+[16:40:12] *** Mode #openmrs +ct by morgan.freenode.net
+[16:40:12] * Channel #openmrs created on Fri Mar 16 22:24:29 2007
+[16:40:50] <-- k_joseph (~quassel@41.223.84.36) has quit (Ping timeout: 248 seconds)
+[16:47:30] --> dmulindwa (29dd5de5@gateway/web/freenode/ip.41.221.93.229) has joined #openmrs
+[17:27:34] <-- dmulindwa (29dd5de5@gateway/web/freenode/ip.41.221.93.229) has quit (Ping timeout: 245 seconds)
+[17:42:08] --> dkayiwa (~dkayiwa@h160.n1.ips.mtn.co.ug) has joined #openmrs
+[17:53:47] <k-joseph> dkayiwa: hi
+[17:58:51] --> sajini_de_silva (~sajini@175.157.36.12) has joined #openmrs
+[18:01:29] --> pulasthi7 (~pulasthi7@101.2.181.60) has joined #openmrs
+[18:09:31] <dkayiwa> k-joseph: hi
+[18:14:33] <k-joseph> dkayiwa: please inform when you are okay to join me om the current issue? :)
+[18:18:55] <dkayiwa> k-joseph: where did we stop at yesterday?
+[18:21:11] <k-joseph> dkayiwa: http://pastebin.com/nZVp6Het  i have not seen info on google to solve the failure
+[18:21:44] <dkayiwa> k-joseph:  what had i told you to do yesterday?
+[18:22:17] <k-joseph> dkayiwa: research about the error java.lang.NoClassDefFoundError: org/codehaus/plexus/util/cli/CommandLineException
+[18:22:26] <dkayiwa> k-joseph: ok
+[18:22:30] <dkayiwa> k-joseph: let me also google about it
+[18:35:51] <-- sajini_de_silva (~sajini@175.157.36.12) has quit (Quit: Leaving)
+[18:46:50] --> djadmin (~djadmin@115.248.50.24) has joined #openmrs
+[18:55:42] <-- djadmin (~djadmin@115.248.50.24) has quit (Ping timeout: 252 seconds)
+[20:48:24] --> k-joseph (~quassel@41.223.84.38) has joined #openmrs
+[20:48:25] * Topic for #openmrs is "OpenMRS: open source medical record systems for the developing world - http://openmrs.org/ - IRC info & logs: http://go.openmrs.org/irc - GSoC info: http://go.openmrs.org/soc2013 - Can't find the answer here? Try http://answers.openmrs.org/"
+[20:48:25] * Topic set by downey on Wed Feb 13 19:05:52 2013
+[20:48:25] [ChanServ] Welcome to #OpenMRS. This channel is logged for your convenience. If you can't find an answer here, please use our wiki and mailing lists. More info: http://go.openmrs.org/irc
+[20:48:25] * Homepage for #openmrs is http://go.openmrs.org/irc
+[20:48:25] *** Mode #openmrs +ct by morgan.freenode.net
+[20:48:25] * Channel #openmrs created on Fri Mar 16 22:24:29 2007
+[20:52:36] <k-joseph> dkayiwa: hi
+[20:52:51] <dkayiwa> k-joseph: hi
+[21:01:15] <-- diadara (~diadara@devtest-server.24-7xs.com) has quit (Remote host closed the connection)
+[21:09:08] <k-joseph> dkayiwa: ready :)
+[21:10:17] --> dmulinwa (29dd5de5@gateway/web/freenode/ip.41.221.93.229) has joined #openmrs
+[21:33:28] <dkayiwa> k-joseph: hi
+[21:33:36] <dkayiwa> k-joseph: can you do mvn --version
+[21:34:32] <-- djadmin (~djadmin@115.248.50.24) has quit (Ping timeout: 255 seconds)
+[21:35:03] <k-joseph> dkayiwa: http://pastebin.com/Gb9zPms2
+[21:40:53] <k-joseph> dkayiwa: under markers in eclipse, i have copied all the error stacks, here http://pastebin.com/PXJS192f
+[21:41:07] <dkayiwa> k-joseph: ok
+[21:41:16] <-- Hasintha_i (hasinthain@112.134.140.138) has quit (Quit: Leaving)
+[21:43:29] <dkayiwa> k-joseph: did you try mvn clean install from eclipse
+[21:43:40] <-- mseaton (~mseaton@c-75-68-176-112.hsd1.ma.comcast.net) has quit (Quit: Leaving.)
+[21:49:51] <k-joseph> dkayiwa: yes, i tried it also and mvn install fails
+[21:50:08] <dkayiwa> k-joseph: with what error
+[21:53:31] <k-joseph> dkayiwa: api fails with http://pastebin.com/tXui64JD
+[21:56:58] <-- k-joseph (~quassel@41.223.84.38) has quit (No Ping reply in 180 seconds.)
+[21:59:17] --> k-joseph (~quassel@41.223.84.38) has joined #openmrs
+[21:59:18] * Topic for #openmrs is "OpenMRS: open source medical record systems for the developing world - http://openmrs.org/ - IRC info & logs: http://go.openmrs.org/irc - GSoC info: http://go.openmrs.org/soc2013 - Can't find the answer here? Try http://answers.openmrs.org/"
+[21:59:18] * Topic set by downey on Wed Feb 13 19:05:52 2013
+[21:59:18] [ChanServ] Welcome to #OpenMRS. This channel is logged for your convenience. If you can't find an answer here, please use our wiki and mailing lists. More info: http://go.openmrs.org/irc
+[21:59:18] * Homepage for #openmrs is http://go.openmrs.org/irc
+[21:59:18] *** Mode #openmrs +ct by morgan.freenode.net
+[21:59:18] * Channel #openmrs created on Fri Mar 16 22:24:29 2007
+[22:03:36] <k-joseph> dkayiwa: hi
+[22:03:54] <dkayiwa> k-joseph: hi
+[22:04:26] <k-joseph> dkayiwa: did you see this  http://pastebin.com/tXui64JD
+[22:06:57] --> djadmin (~djadmin@223.177.164.146) has joined #openmrs
+[22:14:14] <dkayiwa> k-joseph: hi
+[22:14:44] <k-joseph> dkayiwa: hi
+[22:15:53] <dkayiwa> k-joseph: do you get the same error when u try again
+[22:17:34] <k-joseph> dkayiwa: i have run mvn install again on release test, and it is downloading from eclipse
+[22:31:55] <k-joseph> dkayiwa: api still fails installing with the same previous error
+[22:33:21] <-- k-joseph (~quassel@41.223.84.38) has quit (No Ping reply in 180 seconds.)
+[00:00:00] - {Day changed to Mon Feb 18 00:00:00 2013}
+[14:11:04] --> k-joseph (~quassel@196.0.9.68) has joined #openmrs
+[14:11:06] * Topic for #openmrs is "OpenMRS: open source medical record systems for the developing world - http://openmrs.org/ - IRC info & logs: http://go.openmrs.org/irc - GSoC info: http://go.openmrs.org/soc2013 - Can't find the answer here? Try http://answers.openmrs.org/"
+[14:11:06] * Topic set by downey on Wed Feb 13 19:05:52 2013
+[14:11:06] [ChanServ] Welcome to #OpenMRS. This channel is logged for your convenience. If you can't find an answer here, please use our wiki and mailing lists. More info: http://go.openmrs.org/irc
+[14:11:06] * Homepage for #openmrs is http://go.openmrs.org/irc
+[14:11:07] *** Mode #openmrs +ct by holmes.freenode.net
+[14:11:07] * Channel #openmrs created on Fri Mar 16 22:24:29 2007
+[14:11:43] <-- dmulinwa (c5dd9401@gateway/web/freenode/ip.197.221.148.1) has quit (Ping timeout: 245 seconds)
+[14:16:14] <-- djadmin (~djadmin@115.248.50.24) has quit (Ping timeout: 255 seconds)
+[14:35:47] <-- kishoreyekkanti (~kishoreye@41.77.72.206) has quit (Quit: Will be back..)
+[14:47:45] <-- Tuti (29dc7d86@gateway/web/freenode/ip.41.220.125.134) has quit
+[14:48:22] <k-joseph> dkayiwa: hi
+[14:48:28] <dkayiwa> k-joseph:  hi
+[14:49:34] <k-joseph> dkayiwa: am now to continue :)
+[14:49:48] <k-joseph> ready
+[14:49:58] <dkayiwa> k-joseph:  ok good
+[14:50:10] <dkayiwa> k-joseph:  can you got to your maven local repository
+[14:50:10] --> djadmin (~djadmin@115.248.50.24) has joined #openmrs
+[14:50:18] <dkayiwa> k-joseph:  on the file system
+[14:50:38] <dkayiwa> k-joseph:  into this folder: /home/k-joseph/.m2/repository/org/codehaus/plexus/plexus-utils
+[14:51:43] <k-joseph> dkayiwa: am there 
+[14:52:00] <dkayiwa> k-joseph:  by the way, how many versions of maven do you have installed?
+[14:52:28] <k-joseph> dkayiwa: 14
+[14:52:45] <dkayiwa> k-joseph:  14 different versions of maven?
+[14:53:55] <dkayiwa> k-joseph:  different versions of maven is not the same as the number of folders you see in there :)
+[14:55:04] <k-joseph> dkayiwa: ok, how of then can i tell the number versions from there?
+[14:55:21] <dkayiwa> k-joseph:  ok pause that for a moment and do this
+[14:55:32] <dkayiwa> k-joseph:  can you delete all those folder you have listed and try again
+[14:55:40] <dkayiwa> k-joseph:  then tell me what happens
+[14:56:00] <k-joseph> dkayiwa: try mvn clean install?
+[14:56:51] <k-joseph> dkayiwa: i have deleted all of them 
+[14:57:03] <dkayiwa> k-joseph:  yes
+[14:57:09] <k-joseph> dkayiwa: ok
+[14:57:11] <dkayiwa> hi rafa
+[14:57:12] <rafa> dkayiwa: hi
+[14:57:58] <dkayiwa> rafa: do you why git pull --rebase upstream 1.9.x would result into conflicts after i have done git reset --hard?
+[14:58:06] <rafa> dkayiwa: git reset --hard resets to your latest local commit
+[14:58:51] <dkayiwa> rafa: as in when i do git pull --rebase upstream 1.9.x, i get conflicts
+[14:58:51] <rafa> dkayiwa: probably you committed something that is in conflict with what you can find in upstream 1.9.x
+[14:58:51] <rafa> dkayiwa: you can do hard reset to upstream 1.9.x
+[14:58:51] <dkayiwa> rafa:  ok thanks
+[14:59:04] <rafa> dkayiwa: np
+[15:04:09] <k-joseph> dkayiwa: running currently, again how would i tell the version number from there, besides just determining  them by how many i have installed or setup?
+[15:04:39] <dkayiwa> k-joseph:  did you uninstall the previous one before you installed the new one?
+[15:05:19] <k-joseph> dkayiwa: i actually uninstalled the previous after installing the current one
+[15:05:29] <dkayiwa> k-joseph:  ok
+[15:08:29] <-- djadmin (~djadmin@115.248.50.24) has quit (Ping timeout: 252 seconds)
+[15:16:31] --> GitHub54 (~GitHub54@sh3.rs.github.com) has joined #openmrs
+[15:16:34] <GitHub54> [openmrs-core] dkayiwa pushed 1 new commit to 1.9.x: http://git.io/yGqoyQ
+[15:16:34] <GitHub54> openmrs-core/1.9.x 0df51b4 lluismf: TRUNK-3658: FormService.saveFormResouce doesn't effectively replace...
+[15:16:34] <-- GitHub54 (~GitHub54@sh3.rs.github.com) has left #openmrs
+[15:17:21] <k-joseph> dkayiwa: http://pastebin.com/sxkTsnud after mvn clean install
+[15:19:10] --> owais (7dd15e96@gateway/web/freenode/ip.125.209.94.150) has joined #openmrs
+[15:20:00] <dkayiwa> k-joseph:  did you configure everything well
+[15:20:13] <dkayiwa> k-joseph:  as in java home, maven stuff, etc?
+[15:20:16] <dkayiwa> k-joseph:  can you cross check?
+[15:20:50] <owais> hi all, I need some help regarding REST module
+[15:20:57] <dkayiwa> k-joseph:  in otherwards did you set JAVA_HOME
+[15:20:57] <k-joseph> dkayiwa: yes
+[15:21:08] <dkayiwa> k-joseph:  whats the value of your JAVA_HOME?
+[15:22:38] <-- owais (7dd15e96@gateway/web/freenode/ip.125.209.94.150) has quit (Client Quit)
+[15:23:18] <k-joseph> dkayiwa: i added that in .bashrc
+[15:23:28] <k-joseph> dkayiwa: and it works fine
+[15:23:53] <dkayiwa> k-joseph:  can you query for the value for your JAVA_HOME from command line?
+[15:25:06] --> mseaton (~mseaton@c-75-68-176-112.hsd1.ma.comcast.net) has joined #openmrs
+[15:25:07] *** Mode #openmrs +v mseaton by ChanServ
+[15:25:53] <dkayiwa> k-joseph:  i have seen may links by google addressing your current problem
+[15:25:53] <dkayiwa> k-joseph:  can you google with this text? Unable to locate the Javac Compiler in:
+[15:25:53] <dkayiwa>   /usr/lib/jvm/java-6-openjdk/jre/../lib/tools.jar
+[15:25:53] <-- mseaton (~mseaton@c-75-68-176-112.hsd1.ma.comcast.net) has quit (Read error: Connection reset by peer)
+[15:25:59] <dkayiwa> k-joseph:  Unable to locate the Javac Compiler in:  /usr/lib/jvm/java-6-openjdk/jre/../lib/tools.jar
+[15:27:39] --> mseaton (~mseaton@c-75-68-176-112.hsd1.ma.comcast.net) has joined #openmrs
+[15:27:40] *** Mode #openmrs +v mseaton by ChanServ
+[15:28:10] <k-joseph> dkayiwa: am checking that out,  java-hoe ==  /home $ echo $JAVA_HOME/usr/lib/jvm/java-6-openjdk
+[15:28:41] <dkayiwa> k-joseph:  google with this to get the answer: Unable to locate the Javac Compiler in:  /usr/lib/jvm/java-6-openjdk/jre/../lib/tools.jar
+[15:28:45] <dkayiwa> Unable to locate the Javac Compiler in:  /usr/lib/jvm/java-6-openjdk/jre/../lib/tools.jar
+[15:42:12] <-- mseaton (~mseaton@c-75-68-176-112.hsd1.ma.comcast.net) has quit (Quit: Leaving.)
+[16:34:20] <-- wyclif (~wyclif@c-98-220-74-158.hsd1.in.comcast.net) has quit (Remote host closed the connection)
+[16:36:49] <-- Hasintha_i (hasinthain@112.134.228.239) has quit (Ping timeout: 256 seconds)
+[16:37:41] --> wyclif (~wyclif@c-98-220-74-158.hsd1.in.comcast.net) has joined #openmrs
+[16:37:43] --> Hasintha_i (hasinthain@112.134.228.239) has joined #openmrs
+[16:47:21] <-- wyclif (~wyclif@c-98-220-74-158.hsd1.in.comcast.net) has quit (Ping timeout: 248 seconds)
+[16:51:06] --> djadmin (~djadmin@115.248.50.24) has joined #openmrs
+[16:57:48] <-- djadmin (~djadmin@115.248.50.24) has quit (Ping timeout: 255 seconds)
+[16:57:54] <-- jkeiper (~jkeiper@c-69-136-184-37.hsd1.in.comcast.net) has quit (Ping timeout: 272 seconds)
+[16:59:08] --> djadmin (~djadmin@115.248.50.24) has joined #openmrs
+[17:03:32] <dkayiwa> k-joseph:  hi
+[17:03:43] <k-joseph> dkayiwa: hi
+[17:03:46] <k-joseph> dkayiwa: my network is slow, but i have installed {sudo apt-get install sun-java6-jdk} and 
+[17:03:56] <dkayiwa> k-joseph:  ok great
+[17:05:22] <k-joseph> dkayiwa: {sudo update-alternatives --config java} then chosen option ==/usr/lib/jvm/java-6-sun/jre/bin/java,  i run mvn clean install again and it is still running, 
+[17:05:31] <dkayiwa> k-joseph:  ok
+[17:10:27] <k-joseph> dkayiwa: now mvn clean install == http://pastebin.com/dAechTk7
+[17:11:38] <dkayiwa> k-joseph:  do you have any local changes in there
+[17:11:49] <dkayiwa> k-joseph:  can you do a hard reset
+[17:12:10] <dkayiwa> k-joseph:  the unmodified one should succeed when you do mvn clean install
+[17:12:32] <k-joseph> dkayiwa: am not having any changes, i just recloned that one the other time
+[17:12:50] <dkayiwa> k-joseph:  can you do a hard reset?
+[17:25:46] --> suranga (suranga@175.157.130.152) has joined #openmrs
+[17:25:50] *** Mode #openmrs +v suranga by ChanServ
+[17:26:03] <suranga> hi rafa , i added those time logs that you wanted to my 5 tickets :-)
+[17:26:17] <rafa> suranga: thank you
+[17:30:46] --> GitHub123 (~GitHub123@sh4.rs.github.com) has joined #openmrs
+[17:30:47] <GitHub123> [openmrs-core] dkayiwa pushed 1 new commit to 1.9.x: http://git.io/kld4Hg
+[17:30:47] <GitHub123> openmrs-core/1.9.x 8d39599 Daniel Kayiwa: Back porting to 1.9.x: Encounter autocomplete should filter results by...
+[17:30:47] <-- GitHub123 (~GitHub123@sh4.rs.github.com) has left #openmrs
+[17:33:29] <-- jb360 (~jeffblack@99.122.1.57) has quit (Ping timeout: 245 seconds)
+[17:35:05] --> wyclif (~wyclif@rgnout.regenstrief.org) has joined #openmrs
+[17:35:50] <-- suranga (suranga@175.157.130.152) has quit (Read error: Connection reset by peer)
+[17:36:43] --> harsha (~harsha@112.135.72.88) has joined #openmrs
+[17:41:33] <k-joseph> dkayiwa: now reset2 two more == http://pastebin.com/pdyMpUYj
+[17:42:01] <k-joseph> dkayiwa: i think i need to pull from upstream
+[17:42:08] <k-joseph> !!! :)
+[17:44:38] <-- k-joseph (~quassel@196.0.9.68) has quit (No Ping reply in 180 seconds.)
+[17:48:18] --> k-joseph (~quassel@196.0.9.67) has joined #openmrs
+[17:48:19] * Topic for #openmrs is "OpenMRS: open source medical record systems for the developing world - http://openmrs.org/ - IRC info & logs: http://go.openmrs.org/irc - GSoC info: http://go.openmrs.org/soc2013 - Can't find the answer here? Try http://answers.openmrs.org/"
+[17:48:19] * Topic set by downey on Wed Feb 13 19:05:52 2013
+[17:48:19] [ChanServ] Welcome to #OpenMRS. This channel is logged for your convenience. If you can't find an answer here, please use our wiki and mailing lists. More info: http://go.openmrs.org/irc
+[17:48:19] * Homepage for #openmrs is http://go.openmrs.org/irc
+[17:48:20] *** Mode #openmrs +ct by morgan.freenode.net
+[17:48:20] * Channel #openmrs created on Fri Mar 16 22:24:29 2007
+[17:50:39] <k-joseph> dkayiwa: hi
+[17:50:47] <dkayiwa> k-joseph:  hi
+[18:00:54] <k-joseph> dkayiwa: all other projects are error free
+[18:01:12] <dkayiwa> k-joseph:  can you pastebin the entire stack trace?
+[18:01:37] --> cpower (~IceChat9@rgnout.regenstrief.org) has joined #openmrs
+[18:01:58] <cpower> Hello, ready to scrum?
+[18:02:24] *** Mode #openmrs +v cpower by ChanServ
+[18:02:33] <k-joseph> dkayiwa: previously mvn clean install failed with http://pastebin.com/pdyMpUYj
+[18:02:36] <cpower> silence is golden, let's go!
+[18:02:42] --> andrea_ (~andrea@2602:306:cefe:49f0:5dbc:22ef:a5a2:d952) has joined #openmrs
+[18:02:46] <cpower> !scrumon cpower
+[18:02:46] -*- OpenMRSBot says the DAILY SCRUM MEETING is STARTING. This meeting should not last longer than 15 minutes. Please hold other comments until the end of the meeting, or message someone privately. Thank you! ScrumMaster cpower- you may begin when ready.
+[18:03:06] --> evmw (~evmw@c-24-60-83-188.hsd1.ma.comcast.net) has joined #openmrs
+[18:03:27] <cpower> Order: wyclif, dkayiwa, andrea_, rafa, and anyone else that would like to share their status
+[18:04:02] <wyclif> Friday
+[18:04:03] <wyclif>         Edit Serachable interface and update subclasses as suggested for RESTWS-267
+[18:04:03] <wyclif>         RESTWS-282 - Add 1.9 RESTWS resources to wiki page
+[18:04:03] <wyclif>         Added support for partial searches for concept sources and map types
+[18:04:03] <wyclif>         Review code for RESTWS-309 - Merge webservices.rest and webservices.rest19ext modules into one
+[18:04:06] <wyclif> Monday:
+[18:04:08] <wyclif>         Add support to look up reference terms by code+concept+Source
+[18:04:10] <wyclif>         Add support to look up concepts by concept mappings
+[18:04:12] <wyclif>         pick another ticket
+[18:04:16] <wyclif> Blockers: None
+[18:04:22] <dkayiwa> Back ported and closed: FormService.saveFormResouce doesn't effectively replace existing resources - TRUNK-3658
+[18:04:23] <dkayiwa> Reviewed and closed: Send email notification when error in uploading xform - XFRM-33
+[18:04:23] <dkayiwa> Now reviewing: Add ProviderByPersonNameComparator - TRUNK-3900
+[18:04:23] <dkayiwa> No Blocker
+[18:05:16] <andrea_> Friday
+[18:05:17] <andrea_> Paired with Rafal
+[18:05:17] <andrea_>   REST-322 Fix ConceptClassControllerTest
+[18:05:17] <andrea_>    Fixed remaining test needed to be replaced with new ones.
+[18:05:17] <andrea_>    Committed code, created pull request:
+[18:05:17] <andrea_>    https://github.com/openmrs/openmrs-module-webservices.rest/pull/13
+[18:05:18] <andrea_> Picked new REST ticket
+[18:05:19] <andrea_>  REST-WS 333 Fix ObsControllerTest
+[18:05:21] <OpenMRSBot> <http://ln-s.net/+ed:> (at github.com)
+[18:05:22] <andrea_>  Most test working - a few remaing
+[18:05:23] <andrea_> Monday
+[18:05:25] <andrea_>   Finish REST-WS 333 Fix ObsControllerTest
+[18:05:32] <andrea_>   Pick another ticket
+[18:05:47] <andrea_>  No blockers - may need discussion re remaining tests
+[18:06:15] <rafa> Today:
+[18:06:18] <rafa> * Reviewed sprint tickets
+[18:06:18] <rafa> * Committed RESTWS-359: Deadlock while loading resources
+[18:06:18] <rafa> https://tickets.openmrs.org/browse/RESTWS-359
+[18:06:18] <rafa> * Now wrapping up RESTWS-267: Need to expose concept mappings and related domain objects
+[18:06:18] <rafa> https://tickets.openmrs.org/browse/RESTWS-267
+[18:06:18] <rafa> No blockers.
+[18:06:22] <cpower> Anyone else?
+[18:06:45] <cpower> Ok, no blockers...
+[18:07:23] <cpower> Annoucements: This sprint will go on for an additional week to complete some necessary items and assist with planning of a future sprint.
+[18:07:45] <cpower> Discussion topic: Andrea would like to have a discussion on Tests.
+[18:07:48] <rafa> cpower: you mean by when exactly?
+[18:08:29] <cpower> rafa: we are just adding a week so it should have ended 20th, it will end on the 27th instead
+[18:08:58] <rafa> cpower: ok, thanks
+[18:09:02] <andrea_> rafa, saw your comment on RESTWS-322 - it would not let me select SPRINT-201302 - said select sprint-201302 as the base when sending a pull request.
+[18:09:20] <rafa> andrea_: not possible
+[18:09:26] <rafa> andrea_: everyone else does it
+[18:09:41] <andrea_> rafa , sorry not what I meant - said both branches were the same
+[18:10:08] <rafa> andrea_: let me do it ;)
+[18:10:27] <andrea_> rafa, ok but have some questions
+[18:10:50] <k-joseph> dkayiwa: still running
+[18:10:53] <k-joseph> ........
+[18:11:01] <andrea_> rafa usually, just do push after commit like your instrauctions for last sprint
+[18:11:10] <dkayiwa> k-joseph:  ok
+[18:11:33] <andrea_> rafa, had to push to origin speint-201302 this time - why is it different?
+[18:11:51] <andrea_> rafa, sorry for typos
+[18:12:17] <-- harsha (~harsha@112.135.72.88) has quit (Ping timeout: 252 seconds)
+[18:14:12] <cpower> !scrumoff
+[18:14:22] -*- OpenMRSBot says the DAILY SCRUM MEETING has ENDED. This channel is now returned to normal hacking operations. Post-scrum meeting follow-up conversations may now begin.
+[18:15:49] --> downey (~downey@unaffiliated/downey) has joined #openmrs
+[18:15:50] *** Mode #openmrs +o downey by OpenMRSBot
+[18:15:50] *** Mode #openmrs +o downey by ChanServ
+[18:16:15] <rafa> andrea_: you should be able to just do git push
+[18:16:24] <rafa> andrea_: did you get some error doing this?
+[18:16:38] <k-joseph> dkayiwa: current one ==http://pastebin.com/kPT61Zgm
+[18:18:31] <andrea_> yes, it's on irc from Friday - talked with Wyclif about it - let me look
+[18:18:57] <rafa> andrea_: I've attached a screenshot with how you should have setup a pull request to RESTWS-322
+[18:19:20] <rafa> !ticket RESTWS-322
+[18:19:21] <OpenMRSBot> rafa: [#RESTWS-322] Fix ConceptClassControllerTest - OpenMRS JIRA - https://tickets.openmrs.org/browse/RESTWS-322
+[18:19:41] <andrea_> rafa,  thanks
+[18:20:34] <andrea_> rafa, yes, error is on irc from Friday - talked with Wyclif about it
+[18:21:08] --> jkeiper (~jkeiper@rgnout.regenstrief.org) has joined #openmrs
+[18:21:09] *** Mode #openmrs +v jkeiper by ChanServ
+[18:22:18] <andrea_> rafam I see screenshot - that's just what I tried to do - probaly to do with error from push
+[18:22:33] <rafa> andrea_: I think you created a branch off master and then pulled from sprint-201302
+[18:22:42] <andrea_> rafa: I see screenshot - that's just what I tried to do - probaly to do with error from push
+[18:22:59] <rafa> andrea_: so there was no reference between your local spring-201302 branch and the remote branch
+[18:23:18] <rafa> andrea_: typically you just checkout a remote branch
+[18:23:25] <andrea_> rafa, I understand
+[18:23:33] <rafa> andrea_: and the reference is created for you automatically
+[18:23:45] <rafa> andrea_: anyway, you should be able to do just push now
+[18:24:01] <rafa> andrea_: I think git push origin sprint-201302 added the reference
+[18:24:11] <rafa> andrea_: not 100& sure though
+[18:24:40] <andrea_> rafa, will you be on irc later?
+[18:24:53] --> harsha (~harsha@112.135.72.141) has joined #openmrs
+[18:24:55] <wyclif> hi rafa
+[18:24:58] <rafa> andrea_: if later is < 4 hours then yes
+[18:25:08] <andrea_> rafa, ok good
+[18:25:16] <rafa> wyclif: present
+[18:25:20] <rafa> ;)
+[18:25:26] <wyclif> rafa, ha ha ha
+[18:26:30] <wyclif> rafa, do you mean you will do looking up reference terms by code+source and concepts by mapping?
+[18:26:42] <rafa> wyclif: yes, I'll take care of that too
+[18:26:53] <rafa> wyclif: need to test the whole thing anyway
+[18:26:54] <wyclif> rafa, ok so i can work on other tickets?
+[18:26:59] <rafa> wyclif: yes
+[18:27:10] <wyclif> rafa, cool
+[18:27:15] <k-joseph> dkayiwa: hi
+[18:27:17] <rafa> wyclif: I didn't go too far with RESTWS-350
+[18:27:32] <rafa> wyclif: you may want to try with that
+[18:28:13] <wyclif> rafa, ok
+[18:29:12] <wyclif> rafa, are there no more tickets in the sprint?
+[18:29:42] <rafa> wyclif: I will probably need to add more as it's extended
+[18:30:24] <rafa> wyclif: but not until tomorrow or Wednesday
+[18:30:49] <dkayiwa> k-joseph:  hi
+[18:30:56] <wyclif> rafa, ok
+[18:33:11] <k-joseph> dkayiwa: did you see the previous and current paste link :) 
+[18:33:21] <dkayiwa> k-joseph:  yes :)
+[18:33:31] <k-joseph> dkayiwa: ok:)
+[18:33:50] <cpower> Who's our community Dev this week?
+[18:34:02] <dkayiwa> cpower:  :)
+[18:34:11] <dkayiwa> k-joseph:  can you look at this folder? /home/k-joseph/.m2/repository/org/apache/maven/plugins/maven-antrun-plugin/1.4/
+[18:34:37] <dkayiwa> cpower:  :) means me
+[18:35:03] <cpower> dkayiwa, yeah I was working on a smart and funny line but nothing came to me
+[18:35:04] <cpower> ;-)
+[18:35:21] <dkayiwa> cpower:   :D
+[18:35:22] <cpower> dkayiwa, too early for me I guess
+[18:35:26] <k-joseph> dkayiwa: am there
+[18:35:38] <dkayiwa> cpower:  oh yes
+[18:35:57] <cpower> dkayiwa, do you mind if I send a OpenMRS newbie your email address, she needs some 1 on 1 help
+[18:36:22] <dkayiwa> cpower:  please do
+[18:36:40] <dkayiwa> cpower:  you should drag her to IRC :)
+[18:37:11] <dkayiwa> k-joseph:  how many folders do you have there?
+[18:37:13] <downey> thanks cpower & dkayiwa
+[18:38:06] --> Hasintha_i (hasinthain@124.43.145.220) has joined #openmrs
+[18:38:20] <-- Hasintha_i (hasinthain@124.43.145.220) has quit (Client Quit)
+[18:41:15] <wyclif> hi rafa
+[18:41:33] <wyclif> rafa, you fix as to why the module couldn't start?
+[18:42:00] <rafa> wyclif: yes, it should be fixed now
+[18:42:00] <wyclif> rafa, thanks
+[18:42:10] <rafa> wyclif: but it will still fail for jetty
+[18:42:34] <rafa> wyclif: use standalone
+[18:42:45] <wyclif> rafa, i mean the freezing
+[18:42:50] <rafa> wyclif: the freezing is resolved
+[18:42:56] <wyclif> rafa, ok
+[18:43:05] <rafa> wyclif: we need to fix OpenmrsConstaints.OPENMRS_VERSION for jetty
+[18:43:06] <wyclif> rafa, i know how to get around the jetty issue
+[18:43:06] <rafa> wyclif: but that is in core
+[18:43:30] <dkayiwa> rafa:  didn't you fix OpenmrsConstaints.OPENMRS_VERSION in some ticket?
+[18:43:49] <rafa> dkayiwa: I've seen a ticket about it
+[18:43:57] <rafa> dkayiwa: I don't think it was me who fixed it
+[18:44:03] <dkayiwa> rafa: :)
+[18:44:04] <rafa> dkayiwa: and apparently the fix doesn't work
+[18:44:11] <dkayiwa> rafa:  oh
+[18:44:23] <rafa> dkayiwa: can you investigate please?
+[18:44:29] <dkayiwa> rafa: ok
+[18:44:35] <rafa> dkayiwa: thanks
+[18:44:38] <dkayiwa> rafa:  from the same ticket?
+[18:45:09] <dkayiwa> rafa: can you remind me of the ticket number?
+[18:45:24] <rafa> dkayiwa: I'd love, but I don't remember :)
+[18:45:32] <dkayiwa> rafa:  :D
+[18:52:00] --> lh (~lhawthor@p4FE0FA6B.dip.t-dialin.net) has joined #openmrs
+[18:52:01] <-- lh (~lhawthor@p4FE0FA6B.dip.t-dialin.net) has quit (Changing host)
+[18:52:01] --> lh (~lhawthor@osuosl/staff/lh) has joined #openmrs
+[18:59:05] <-- hybridivy (hybridivy@183.82.232.129) has quit
+[19:12:20] <-- lh (~lhawthor@osuosl/staff/lh) has quit (Ping timeout: 255 seconds)
+[20:15:21] <-- k-joseph (~quassel@196.0.9.67) has quit (No Ping reply in 180 seconds.)

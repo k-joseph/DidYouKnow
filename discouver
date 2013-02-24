@@ -1,5 +1,5 @@
 	  
-	LINUX-PHPMYADMIN
+	LINUX-PHPMYADMIN/error
 
 hi every one, i have installed phpmyadmin, when i put localhost/phpmyadmin in  a browser i get error,  Not Found The requested URL /phpmyadmin was not found on this server. Apache/2.2.20 (Ubuntu) Server at localhost Port 80  please help me fix this, thanks a lot 
 
@@ -8,3 +8,54 @@ ok, that is quite very easy to solve, hope you have correctly installed all the 
 2)  k-joseph, ok, open a terminal and run : sudo ln -s /etc/phpmyadmin/apache.conf /etc/apache2/conf.d/phpmyadmin.conf &&     
     sudo service apache2 reload
 3)   that's fine, you should be able to load phpmyadmin now
+
+
+		INSTALLING MAVEN 3 IN LINUX UBUNTU, MINTI 
+$ sudo add-apt-repository ppa:natecarlson/maven3
+
+And press Enter key one more time for confirmation of adding PPA. Then all we need is run this command:
+
+$ sudo apt-get update &&
+$ sudo apt-get install maven3
+
+That’s all. Check it:
+
+$ mvn3 --version
+Apache Maven 3.0.3 (r1075438; 2011-02-28 22:31:09+0500)
+Maven home: /usr/share/maven3
+Java version: 1.7.0, vendor: Oracle Corporation
+Java home: /usr/lib/jvm/jdk1.7.0/jre
+Default locale: en_US, platform encoding: UTF-8
+OS name: "linux", version: "3.0.0-14-generic-pae", arch: "i386", family: "unix"
+
+k-joseph@k-joseph-Notebook ~ $ export M2_HOME=/home/k-joseph/myProgs/maven/apache-maven-3.0.4
+k-joseph@k-joseph-Notebook ~ $ export M2=$M2_HOME/bin
+k-joseph@k-joseph-Notebook ~ $ export MAVEN_OPTS="-Xms256m -Xmx512m"
+k-joseph@k-joseph-Notebook ~ $ export PATH=$M2:$PATH
+k-joseph@k-joseph-Notebook ~ $ export JAVA_HOME=/usr/lib/jvm/java-6-openjdk
+k-joseph@k-joseph-Notebook ~ $ mvn --version
+Apache Maven 3.0.4 (r1232337; 2012-01-17 11:44:56+0300)
+Maven home: /home/k-joseph/myProgs/maven/apache-maven-3.0.4
+Java version: 1.6.0_24, vendor: Sun Microsystems Inc.
+Java home: /usr/lib/jvm/java-6-openjdk/jre
+Default locale: en_US, platform encoding: UTF-8
+OS name: "linux", version: "3.0.0-12-generic", arch: "i386", family: "unix"
+k-joseph@k-joseph-Notebook ~ $ 
+
+#definitions of maven3
+ export JAVA_HOME=/usr/lib/jvm/java-6-sun
+ export M2_HOME=/home/k-joseph/myProgs/maven/apache-maven-3.0.4
+ export M2=$M2_HOME/bin
+ export MAVEN_OPTS="-Xms256m -Xmx512m"
+ export PATH=$M2:$PATH
+
+ Unable to locate the Javac Compiler in:  /usr/lib/jvm/java-6-openjdk/jre/../lib/tools.jar
+Ubuntu: Fix for Unable to locate tools.jar. Expected to find it in /usr/lib/jvm/java-6-openjdk/lib/tools.jar
+
+Ran into this nasty error today while trying to build irccat.  Perhaps you’ll see something like this at the end of the output as well:
+
+BUILD FAILED /home/lucas/irccat/build.xml:22: Unable to find a javac compiler; com.sun.tools.javac.Main is not on the classpath. Perhaps JAVA_HOME does not point to the JDK. It is currently set to "/usr/lib/jvm/java-6-openjdk/jre"
+
+Get the Sun JDK sudo apt-get install sun-java6-jdk then run sudo update-alternatives --config java and select the option that has the path /usr/lib/jvm/java-6-sun/jre/bin/java
+
+No more errors.
