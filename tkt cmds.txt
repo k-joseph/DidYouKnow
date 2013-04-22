@@ -1,3 +1,21 @@
+whole summerly;
+  Download and install Git
+  git config --global user.name "Your Name"
+  git config --global user.email tirengarfio@gmail.com
+  Add your public key
+
+
+Next steps:
+
+  mkdir tirengarfio
+  cd tirengarfio
+  git init
+  touch README
+  git add README
+  git commit -m 'first commit'
+  git remote add origin git@github.com:tirengarfio/tirengarfio.git
+  git push origin master
+
 
 git remote add upstream https://github.com/openmrs/openmrs-core.git
  git branch TRUNK-3814
@@ -14,6 +32,17 @@ git commit -m "Missing Validators for relationship_type-TRUNK-3814"
 
 
 ssh-keygen -t rsa -C "joseph.kaweesi2012@gmail.com"
+
+$ git checkout experiment
+$ git rebase master
+$ git rebase --onto master server client
+$ git checkout master
+$ git merge client
+$ git rebase master server
+$ git checkout master
+$ git merge server
+$ git branch -d client
+$ git branch -d server
 
 
 
@@ -48,6 +77,8 @@ rm -rf .git/refs/original/
 git filter-branch --tree-filter 'rm filename' HEAD
 
 git filter-branch --index-filter 'git rm --cached --ignore-unmatch filename' HEAD
+
+git remote set-url origin git@github.com:k-joseph/openmrs-module........
 
 git push origin master --force
 __________________________________________________________________________________
