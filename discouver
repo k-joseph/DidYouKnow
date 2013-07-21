@@ -1,4 +1,9 @@
-	  
+installing .deb packages
+sudo dpkg -i virtualbox-4.2_4.2.6-82870~Ubuntu~natty_i386.deb 
+	 
+LINUX Command for deleting a non empty directory
+rm -rf directory
+
 	LINUX-PHPMYADMIN/error
 
 hi every one, i have installed phpmyadmin, when i put localhost/phpmyadmin in  a browser i get error,  Not Found The requested URL /phpmyadmin was not found on this server. Apache/2.2.20 (Ubuntu) Server at localhost Port 80  please help me fix this, thanks a lot 
@@ -63,3 +68,8 @@ No more errors.
 
 nautilus /path/to/that/folder
 or nautilus .
+
+
+
+Stopping tomcat6
+sudo /etc/init.d/tomcat6 stop
